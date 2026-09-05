@@ -287,6 +287,14 @@
     filter: drop-shadow(0 2px 6px rgba(0,0,0,0.5));
     transform: translateX(0);
   }
+  #scroll-taxi{
+    position: static;
+    display: inline-block;
+    top: auto;
+    left: auto;
+    width: 50px;
+    height: 50px;
+  }
   @media (max-width: 980px){
     .stats-bar{ grid-template-columns: repeat(2, 1fr); }
   }
@@ -539,7 +547,7 @@
 <header style="position:relative;">
   <button id="about-btn" class="info-btn" aria-label="What this page is about">ⓘ</button>
   <p class="eyebrow">OSINT-BASED EXPANSION &amp; MONETIZATION TRACKER</p>
-  <h1><img src="cyber_3x.png" alt="Cyber" class="logo-swap"><span>watch.club</span></h1>
+  <h1><img src="cyber_3x.png" alt="Cyber" class="logo-swap"><span>watch.club</span><span class="scroll-taxi" id="scroll-taxi"></span></h1>
   <p class="sub">Live TSLA price, the US robotaxi race across Tesla, Waymo, and Zoox, and the emerging in-car advertising market — tracked side by side, from public sources, with each claim labeled verified or speculative.</p>
 </header>
 
@@ -756,7 +764,8 @@
   </section>
 </section>
 
-<section class="panel standalone">
+<section class="panel standalone" id="fleet-panel" style="position:relative;">
+  <div class="scroll-taxi" id="scroll-taxi-2"></div>
   <h2>Tesla robotaxi fleet — the trend, not just today's number</h2>
   <p class="panel-note">Circles are confirmed; faded diamonds are auto-detected from a headline and not yet human-verified; the orange triangle marks a disputed figure — hover any point for details. The dashed line marks Musk's own end-of-2026 target.</p>
   <div class="fleet-chart-wrap">
@@ -877,6 +886,14 @@
 
   lottie.loadAnimation({
     container: document.getElementById('scroll-taxi'),
+    renderer: 'svg',
+    loop: true,
+    autoplay: true,
+    animationData: CAR_ICON_DATA
+  });
+
+  lottie.loadAnimation({
+    container: document.getElementById('scroll-taxi-2'),
     renderer: 'svg',
     loop: true,
     autoplay: true,
@@ -1109,17 +1126,16 @@
 
   document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
 
-  // A little taxi drives across the stats row as you scroll past it.
-  (function() {
-    const bar = document.querySelector('.stats-bar');
-    const taxi = document.getElementById('scroll-taxi');
+  // A little taxi drives across a container as you scroll past it — reusable for any box.
+  function setupScrollTaxi(barSelector, taxiId) {
+    const bar = document.querySelector(barSelector);
+    const taxi = document.getElementById(taxiId);
     if (!bar || !taxi) return;
     let ticking = false;
 
     function updateTaxi() {
       const rect = bar.getBoundingClientRect();
       const vh = window.innerHeight;
-      // progress: 0 when the bar's top just enters the viewport bottom, 1 when its bottom leaves the top
       const total = rect.height + vh;
       const traveled = vh - rect.top;
       const progress = Math.min(1, Math.max(0, traveled / total));
@@ -1136,7 +1152,10 @@
     }, { passive: true });
     window.addEventListener('resize', updateTaxi);
     updateTaxi();
-  })();
+  }
+
+  setupScrollTaxi('header', 'scroll-taxi');
+  setupScrollTaxi('#fleet-panel', 'scroll-taxi-2');
 
   // Single source of truth for every "last verified" stamp on the page.
   // Update this one line whenever the underlying facts are re-checked.
