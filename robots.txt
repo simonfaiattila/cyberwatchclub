@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cyberwatchclub.netlify.app/sitemap.xml
