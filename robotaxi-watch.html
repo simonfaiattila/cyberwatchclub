@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Robotaxi Watch — Tesla, Waymo & Zoox expansion, live TSLA price, and the in-car ad market</title>
-<meta name="description" content="An OSINT-built tracker of the US robotaxi race (Tesla, Waymo, Zoox), live TSLA price, and the emerging in-car advertising / monetization market — with sources labeled verified or speculative.">
+<meta name="description" content="Tesla robotaxi vs Waymo vs Zoox, compared side by side with live TSLA stock price and the emerging in-car advertising market — sources labeled verified or speculative.">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <style>
   :root{
@@ -587,6 +587,13 @@
       public metrics (rides, fleet size, city count) — the comparison table below spells out the gap rather
       than assuming Tesla is ahead by default.
     </p>
+    <p class="panel-note" style="font-size:13.5px; line-height:1.6;">
+      This is not a spotting app — it won't tell you where to catch a ride or log a sighting. For that,
+      <a href="https://robotaxitracker.com" target="_blank" rel="noopener">robotaxitracker.com</a> (community license-plate
+      and ride-receipt tracking) and <a href="https://www.basenor.com" target="_blank" rel="noopener">basenor.com</a>
+      (Tesla accessories with a robotaxi news blog) both do that well. This page exists for the angle they don't
+      cover as a primary focus: the stock, the multi-operator scale gap, and the monetization story, in one place.
+    </p>
   </div>
 </div>
 
@@ -623,6 +630,34 @@
       <li><div class="t-date">Sep 2026</div><div class="t-title">Cybercab launch event in Austin</div></li>
     </ul>
   </section>
+</section>
+
+<section class="panel" style="border-top:1px solid var(--panel-line)">
+  <h2>Tesla robotaxi fleet — the trend, not just today's number</h2>
+  <p class="panel-note">A single headline number hides the shape of the ramp. Solid dots are confirmed points; faded diamonds are numbers the news watcher auto-detected in a headline and hasn't been human-verified yet — hover a point to see its source. This chart updates automatically as the GitHub Action finds new mentions.</p>
+  <canvas id="fleet-trend-chart" height="90"></canvas>
+  <p class="source-note">Confirmed points so far: Jun 2025 (~10 vehicles, Austin launch), May 2026 (25 cumulative, independent Robotaxi Tracker via betsports.it.com), Jun 2026 (59, Bloomberg).</p>
+</section>
+
+<section class="panel" style="border-top:1px solid var(--panel-line)">
+  <h2>Common questions</h2>
+  <p class="panel-note" style="font-size:13.5px; line-height:1.6;">
+    <strong style="color:#fff;">Is Tesla's robotaxi bigger than Waymo's?</strong><br>
+    No — not yet, by any public metric. Waymo runs in 11 cities with roughly 3,500 vehicles and about
+    500,000 paid rides a week; Tesla's reported fleet was 59 vehicles across 3 cities as of June 2026.
+  </p>
+  <p class="panel-note" style="font-size:13.5px; line-height:1.6; margin-top:14px;">
+    <strong style="color:#fff;">Does TSLA stock move on robotaxi news?</strong><br>
+    It can — expansion announcements, safety-monitor removal, and analyst notes on monetization have all
+    coincided with price moves. This page pairs the live TSLA chart with a dated list of robotaxi events
+    so you can check that for yourself, rather than take a headline's word for it.
+  </p>
+  <p class="panel-note" style="font-size:13.5px; line-height:1.6; margin-top:14px;">
+    <strong style="color:#fff;">What is "in-car advertising" for robotaxis?</strong><br>
+    The idea that ads or sponsorships shown on a robotaxi's screen could subsidize or replace the fare.
+    No operator has an official program as of this writing — the $472B-by-2030 figure above is a UBS
+    market estimate, not a product announcement.
+  </p>
 </section>
 
 <section class="panel" style="border-top:1px solid var(--panel-line)">
@@ -690,12 +725,15 @@
 
 <footer>
   Data sources: public news and official statements. Last updated by hand: September 2026.
-  To wire up the news panel with cybercab_watcher.py: have the script write a <code>news.json</code> file
-  instead of (or alongside) Telegram, which this page can load with <code>fetch()</code> — let me know if you want that too.
   <br><br>
   Telegram and Twitter channels are planned and will connect to this page later.
+  <br><br>
+  <strong style="color:#fff;">For developers:</strong> the live feed above is powered by a plain JSON file at
+  <code>/news.json</code>, refreshed automatically by a scheduled GitHub Action — feel free to fetch it yourself
+  (title, link, source, category, published) if you want to build something on top of it.
 </footer>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
 <script>
   const carIconEl = document.getElementById('car-icon');
@@ -762,6 +800,52 @@
   });
   ridesIconEl.addEventListener('mouseenter', () => ridesAnim.play());
   ridesIconEl.addEventListener('mouseleave', () => ridesAnim.stop());
+
+  fetch('fleet-history.json')
+    .then(r => { if (!r.ok) throw new Error('not found'); return r.json(); })
+    .then(points => {
+      if (!points || !points.length) throw new Error('empty');
+      new Chart(document.getElementById('fleet-trend-chart'), {
+        type: 'line',
+        data: {
+          labels: points.map(p => p.label),
+          datasets: [{
+            label: 'Tesla robotaxi fleet (reported)',
+            data: points.map(p => p.count),
+            borderColor: '#ffd23f',
+            backgroundColor: 'rgba(255,210,63,0.15)',
+            tension: 0.25,
+            fill: true,
+            pointRadius: points.map(p => p.confirmed ? 5 : 4),
+            pointStyle: points.map(p => p.confirmed ? 'circle' : 'rectRot'),
+            pointBackgroundColor: points.map(p => p.confirmed ? '#ffd23f' : 'rgba(255,210,63,0.35)'),
+            pointBorderColor: points.map(p => p.confirmed ? '#ffd23f' : '#8b939b')
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: { labels: { color: '#e8e6e1' } },
+            tooltip: {
+              callbacks: {
+                afterLabel: (ctx) => {
+                  const p = points[ctx.dataIndex];
+                  return p.confirmed ? `Source: ${p.source}` : `Unconfirmed — auto-detected from: "${p.source}"`;
+                }
+              }
+            }
+          },
+          scales: {
+            x: { ticks: { color: '#8b939b' }, grid: { color: '#2a2f36' } },
+            y: { ticks: { color: '#8b939b' }, grid: { color: '#2a2f36' }, beginAtZero: true }
+          }
+        }
+      });
+    })
+    .catch(() => {
+      document.getElementById('fleet-trend-chart').outerHTML =
+        '<p class="panel-note">Fleet history not available yet — this loads from fleet-history.json once the site is deployed and the Action has run.</p>';
+    });
 
   const aboutBtn = document.getElementById('about-btn');
   const aboutOverlay = document.getElementById('about-modal-overlay');

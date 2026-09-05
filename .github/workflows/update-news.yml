@@ -32,6 +32,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add news.json seen_links.json
-          git diff --staged --quiet && echo "No changes to commit" || git commit -m "Auto-update news feed"
+          git add news.json seen_links.json fleet-history.json
+          git diff --staged --quiet && echo "No changes to commit" || git commit -m "Auto-update news feed and fleet history"
           git push
