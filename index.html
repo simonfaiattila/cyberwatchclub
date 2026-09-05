@@ -124,23 +124,24 @@
     margin: 16px 24px 0;
   }
   .panel h2{
-    font-size: 13.5px;
+    font-size: 22px;
     text-transform: none;
-    letter-spacing: 0.03em;
-    font-weight: 700;
-    margin: 0 0 4px;
+    letter-spacing: -0.005em;
+    font-weight: 800;
+    margin: 0 0 6px;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
   }
   .panel h2::before{
     content: "";
-    width: 6px;
-    height: 6px;
+    width: 8px;
+    height: 8px;
     border-radius: 50%;
     background: var(--live);
-    box-shadow: 0 0 8px var(--glow-live);
+    box-shadow: 0 0 10px var(--glow-live);
     display: inline-block;
+    flex-shrink: 0;
   }
   .panel .panel-note{
     font-size: 12.5px;
@@ -542,6 +543,64 @@
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
+  .safety-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 20px;
+  }
+  @media (max-width: 700px){
+    .safety-grid{ grid-template-columns: 1fr; }
+  }
+  .safety-card{
+    background: var(--panel);
+    border: 1px solid var(--panel-line);
+    border-radius: 12px;
+    padding: 16px 18px;
+  }
+  .safety-card-label{
+    font-size: 11.5px;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-bottom: 10px;
+  }
+  .safety-card-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 0;
+    border-bottom: 1px solid var(--panel-line);
+    font-size: 13.5px;
+    color: #fff;
+  }
+  .safety-card-row:last-of-type{ border-bottom: none; }
+  .callout-box{
+    background: rgba(255,93,108,0.06);
+    border: 1px solid rgba(255,93,108,0.25);
+    border-radius: 12px;
+    padding: 16px 18px;
+    margin-top: 20px;
+  }
+  .map-panel-watermark{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    padding: 40px 0 20px;
+    opacity: 0.16;
+  }
+  .map-panel-watermark img{
+    height: 150px;
+    width: auto;
+  }
+  .map-panel-watermark span{
+    font-size: 52px;
+    font-weight: 800;
+    color: var(--live);
+    letter-spacing: -0.01em;
+  }
   .fleet-chart-wrap{
     height: 160px;
     position: relative;
@@ -675,6 +734,10 @@
         <span class="item"><span class="dot faded"></span>Testing / announced, not yet live to the public</span>
       </div>
     </div>
+    <div class="map-panel-watermark">
+      <img src="cyber_3x.png" alt="Cyber watch.club">
+      <span>watch.club</span>
+    </div>
   </section>
 
   <section class="panel">
@@ -754,6 +817,24 @@
       (Tesla accessories with a robotaxi news blog) both do that well. This page exists for the angle they don't
       cover as a primary focus: the stock, the multi-operator scale gap, and the monetization story, in one place.
     </p>
+    <p class="panel-note" style="font-size:13.5px; line-height:1.6;">
+      Everything on this page comes from one of four places: (1) a live TSLA price feed, (2) a GitHub Action that
+      checks the news every 6 hours and drops fresh headlines into the "Live feed," (3) a small number of hand-verified
+      figures (fleet size, city status) that get updated when a new number is confirmed, and (4) federal safety
+      filings — every US operator of a self-driving system is legally required to report crashes to NHTSA, which is
+      the single most credible data source used here. Nothing is scraped from social media or presented as fact
+      without a link back to where it came from.
+    </p>
+    <p class="panel-note" style="font-size:13.5px; line-height:1.6;">
+      Global context (Apollo Go's footprint in China and the Gulf) and a broader AI/robotics stock watchlist are
+      included too, on the idea that the robotaxi race doesn't move in isolation from the chips, compute, and
+      automation companies underneath it.
+    </p>
+    <div style="margin-top:20px; padding-top:18px; border-top:1px solid var(--panel-line); display:flex; justify-content:center;">
+      <a href="https://www.buymeacoffee.com/pzhvkfw2cby" target="_blank" rel="noopener" style="display:inline-flex; align-items:center; gap:8px; background:#FFDD00; color:#101215; font-weight:800; padding:10px 20px; border-radius:999px; text-decoration:none; font-size:14px;">
+        ☕ Buy me a coffee
+      </a>
+    </div>
   </div>
 </div>
 
@@ -802,6 +883,22 @@
   </div>
   <p id="fleet-growth-note" class="panel-note" style="margin:10px 0 0; color:#fff; font-weight:600;"></p>
   <ul id="fleet-source-list" class="source-note" style="list-style:none; padding:0; margin-top:10px;"></ul>
+</section>
+
+<section class="panel standalone">
+  <h2>Safety incident tracker — NHTSA-mandated crash reports</h2>
+  <p class="panel-note">Every company operating an Automated Driving System (ADS) on US public roads is legally required to report crashes to NHTSA under Standing General Order 2021-01, within 1–10 days of the event. This is the highest-credibility data source available — a mandatory federal filing, not a press release.</p>
+
+  <div class="table-scroll">
+    <canvas id="safety-incidents-chart" height="70"></canvas>
+  </div>
+
+  <div class="safety-grid" id="safety-grid"></div>
+
+  <div class="callout-box" id="safety-callout"></div>
+
+  <ul class="source-note" id="safety-sources" style="list-style:none; padding:0; margin-top:14px;"></ul>
+  <p class="verified-stamp" style="margin-top:10px;"><span class="dot-ok"></span>Figures last verified: <span class="js-last-verified"></span></p>
 </section>
 
 <section class="panel standalone">
@@ -1116,6 +1213,67 @@
   monetizationIconEl.addEventListener('mouseenter', () => monetizationAnim.play());
   monetizationIconEl.addEventListener('mouseleave', () => monetizationAnim.stop());
 
+  fetch('safety-incidents.json')
+    .then(r => { if (!r.ok) throw new Error('not found'); return r.json(); })
+    .then(safety => {
+      new Chart(document.getElementById('safety-incidents-chart'), {
+        type: 'bar',
+        data: {
+          labels: safety.operatorCounts.map(o => o.operator),
+          datasets: [{
+            label: 'NHTSA-reported ADS incidents (cumulative)',
+            data: safety.operatorCounts.map(o => o.count),
+            backgroundColor: safety.operatorCounts.map(o => o.color),
+            borderRadius: 4
+          }]
+        },
+        options: {
+          indexAxis: 'y',
+          responsive: true,
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { ticks: { color: '#8b939b' }, grid: { color: '#2a2f36' } },
+            y: { ticks: { color: '#fff', font: { weight: 600 } }, grid: { display: false } }
+          }
+        }
+      });
+
+      const rate = safety.crashRatePerMile;
+      const severityRows = safety.teslaSeverityBreakdown.map(r =>
+        `<div class="safety-card-row"><span>${r.label}</span><span style="color:#fff; font-weight:700;">${r.count}</span></div>`
+      ).join('');
+      document.getElementById('safety-grid').innerHTML = `
+        <div class="safety-card">
+          <div class="safety-card-label">Crash rate, early pilot period</div>
+          <div class="safety-card-row"><span class="tag cybercab">TESLA</span><span>${rate.tesla}</span></div>
+          <div class="safety-card-row"><span class="tag" style="background:rgba(90,169,230,0.12); color:var(--planned); border-color:rgba(90,169,230,0.3);">WAYMO</span><span>${rate.waymo}</span></div>
+          <p class="source-note" style="margin-top:8px;">${rate.note}</p>
+        </div>
+        <div class="safety-card">
+          <div class="safety-card-label">Tesla's reported incidents, by outcome</div>
+          ${severityRows}
+          <p class="source-note" style="margin-top:8px;">Zero high-speed impacts. Every incident occurred with a human safety monitor onboard.</p>
+        </div>
+      `;
+
+      document.getElementById('safety-callout').innerHTML = `
+        <div class="tag-row" style="margin-bottom:8px;">
+          <span class="tag verified">VERIFIED</span>
+          <span class="tag speculation" style="background:rgba(255,93,108,0.12); color:var(--down); border-color:rgba(255,93,108,0.3);">TRANSPARENCY GAP</span>
+        </div>
+        <p class="news-title" style="margin-bottom:6px;">Tesla redacted its crash narratives for months, citing "financial harm" — then reversed course</p>
+        <p class="news-meta">${safety.transparencyNote}</p>
+      `;
+
+      document.getElementById('safety-sources').innerHTML = safety.sources.map(s =>
+        `<li style="margin-bottom:6px;"><a href="${s.link}" target="_blank" rel="noopener">${s.label}</a> — ${s.domain}</li>`
+      ).join('');
+    })
+    .catch(() => {
+      document.getElementById('safety-incidents-chart').outerHTML =
+        '<p class="panel-note">Safety data not available yet — this loads from safety-incidents.json once the site is deployed.</p>';
+    });
+
   const aboutBtn = document.getElementById('about-btn');
   const aboutOverlay = document.getElementById('about-modal-overlay');
   const aboutClose = document.getElementById('about-modal-close');
@@ -1265,7 +1423,7 @@
       list.innerHTML = items.slice(0, 10).map(item => `
         <div class="news-item">
           <div class="tag-row">
-            <span class="tag ${item.category === 'MONETIZATION' ? 'ad' : 'cybercab'}">${item.category}</span>
+            <span class="tag ${item.category === 'MONETIZATION' ? 'ad' : (item.category === 'SAFETY' ? 'zoox' : 'cybercab')}">${item.category}</span>
             <span class="tag auto">AUTO</span>
           </div>
           <p class="news-title"><a href="${item.link}" target="_blank" rel="noopener">${item.title}</a></p>
@@ -1379,7 +1537,7 @@
   });
 </script>
 
-<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="pzhvkfw2cby" data-description="Support me on Buy me a coffee!" data-message="Fuel my next big idea ☕🚀Your support helps me turn ideas into real things." data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="110"></script>
+<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="pzhvkfw2cby" data-description="Support me on Buy me a coffee!" data-message="Fuel my next big idea ☕🚀Your support helps me turn ideas into real things." data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="70"></script>
 
 </body>
 </html>

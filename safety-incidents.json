@@ -1,0 +1,26 @@
+{
+  "operatorCounts": [
+    { "operator": "Waymo", "count": 697, "color": "#5aa9e6" },
+    { "operator": "Avride", "count": 41, "color": "#c084fc" },
+    { "operator": "Zoox", "count": 32, "color": "#4de8a8" },
+    { "operator": "Tesla", "count": 18, "color": "#ffd23f" }
+  ],
+  "crashRatePerMile": {
+    "tesla": "1 crash per 62,500 mi",
+    "waymo": "1 crash per 98,600 mi",
+    "note": "Tesla: ~250,000 mi / 4 crashes since Jun 2025 launch. Waymo: ~125M driverless mi / 1,267 crashes. Small early sample for Tesla — treat the gap as directional, not definitive."
+  },
+  "teslaSeverityBreakdown": [
+    { "label": "Property damage only", "count": 13 },
+    { "label": "No injury reported", "count": 4 },
+    { "label": "Minor injury, no hospitalization", "count": 1 },
+    { "label": "Minor injury, hospitalized", "count": 1 }
+  ],
+  "transparencyNote": "Waymo, Zoox, and Avride published detailed, multi-paragraph accounts of every incident from the start. Tesla argued disclosure would let competitors assess its progress, and kept narratives confidential — until May 2026, when it re-filed every report with the redactions removed.",
+  "sources": [
+    { "label": "Aggregate incident counts (825 total, by operator)", "domain": "notateslaapp.com", "link": "https://www.notateslaapp.com/news/3999/nhtsa-releases-crash-data-on-robotaxi-and-teslas-competitors" },
+    { "label": "Per-mile crash rate comparison", "domain": "automotiveworld.com", "link": "https://www.automotiveworld.com/news/tesla-robotaxis-are-logging-higher-crash-rates-than-waymo/" },
+    { "label": "Tesla un-redacts crash narratives", "domain": "electrek.co, May 2026", "link": "https://electrek.co/2026/05/15/tesla-unredacts-robotaxi-crash-narratives-nhtsa/" },
+    { "label": "Full severity breakdown of Tesla's 19 incidents", "domain": "notateslaapp.com", "link": "https://notateslaapp.com/news/4165/tesla-releases-unredacted-robotaxi-crash-reports" }
+  ]
+}
