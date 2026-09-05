@@ -1,1 +1,242 @@
-[]
+[
+  {
+    "title": "Tesla robotaxis crashed twice while being remotely controlled - NewsBytes",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRGtoTVo0QktQblI5XzRYdFNUb2VJLVdyWVFkNWpKWDY3YTBlLUd0RW1tUEFhUkV4NTdMLTVWcDlZOTBZTGE1a2pleVBiZ0xWQU9oZFdQYTBsMDZNbnNhVTNoM185bFo4UWttQ1VrRmNvYVdCMmg0akJ2SXpCUnVrRjM0VDNnR1hBSGYwZ1NVN2F5TmtONzBwUUtaTm5XUzVnYURQeA?oc=5",
+    "source": "NewsBytes",
+    "category": "SAFETY",
+    "published": "Sat, 16 May 2026 07:00:00 GMT",
+    "fetched_at": "2026-09-05T20:47:02.961125+00:00"
+  },
+  {
+    "title": "'Boycott Tesla' Super Bowl attack ad gets cease and desist letter from wronged federal agency - Notebookcheck",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMVpmY1RKZ0xmNHlNZjNBcDlJS3o4RUlaVFpPbHQyUUdNWlluM1l3NjBEd2Z1MjFPcXNrUzVFMVQtVE1ISTJsMmpob294R0Z0X1Y0NktfS0VsNS1nNjlEYzJiTnE1OTYzOTdSd3lHbF9Hc1RxUnJIeUNVcFprb1lhb2ZoTlFJTTg2bDhZR2l0cVh4RnAxUWxrQUZxZS1ZaGRzOXJNSDNiNUNzYklPdVFCMWw2N1FjZ1ZkQWJjNzR4d1VqNW5oS0pfNUpLTUNDMjA0?oc=5",
+    "source": "Notebookcheck",
+    "category": "SAFETY",
+    "published": "Tue, 13 Feb 2024 08:00:00 GMT",
+    "fetched_at": "2026-09-05T20:47:02.961112+00:00"
+  },
+  {
+    "title": "Tesla’s Autopilot Trouble, a Mercedes Hypercar, and More Car News - WIRED",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBGWE93cFNXbl9ac1VTakJ2SzB5V2h1T2VuOXlRWlh5MGg4N3RzZ0RxSE9rQnA5V1JYQ3FDdnctTm4tdXhvbUtHUFpLODdtUjRQOGU4YTZheXJJenViQVU2Y1Z4dHZKUQ?oc=5",
+    "source": "WIRED",
+    "category": "SAFETY",
+    "published": "Fri, 15 Sep 2017 07:00:00 GMT",
+    "fetched_at": "2026-09-05T20:47:02.961100+00:00"
+  },
+  {
+    "title": "Tesla, Honda And Waymo Lead NHTSA Reporting On Crashes Involving Automated Driving Systems - carscoops.com",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOM2VpdURuQ01JMUhDbHd5eFpUYnYzdnlaZFZOTEN2aTlKTXRTaWJ0ZGpmbmdDWUVuLUQ1U25tLVNERkZNamU2RzdJeEhDWGFqSHdabEdHd2xUeE5CTHVJS3BySUpJX2JvUUd2cWI2eWUwcWZXZUUydGJfWThpMktRc213TzM2LWNXOTFlUTFJZ1AzNjNMd1NJNEM5NDA0UmY5NTNlMi16eTM5Wmg1MG5KVWJrbTVOb0JzcUpYSDdEMDdaZw?oc=5",
+    "source": "carscoops.com",
+    "category": "SAFETY",
+    "published": "Thu, 16 Jun 2022 07:00:00 GMT",
+    "fetched_at": "2026-09-05T20:47:02.961086+00:00"
+  },
+  {
+    "title": "Elon Musk defends calling Tesla's software 'Autopilot' and says criticism that the name is misleading is 'idiotic' - Business Insider",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPajFtdE1tZ1JrcWxmaXUzd3NnVllLRkZsSHEtMjV1a1lxVkRfQjZrelpNc0tYcVNsektuajlTTU5hMnpFSXZzWkg2MVJuZ1Z5aDdlb3ZlM3NFRDhKM1BkQTlzN1hVU1dyT3pBNS1Td25INExkR2lnZzFzZnF5TWppQmctXzRtMHdFMGdhX0dkaS1RRDltQjBjOGFYUWU4QkU5NUNiRjZaSjhQME1KdzRSRDln?oc=5",
+    "source": "Business Insider",
+    "category": "SAFETY",
+    "published": "Mon, 03 Aug 2020 07:00:00 GMT",
+    "fetched_at": "2026-09-05T20:47:02.961073+00:00"
+  },
+  {
+    "title": "New NHTSA driverless car rules allows for cars without steering wheels and pedals - Shacknews",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQVZBWGF1NUplay02ZG5DaGQ1aE55R0h0UFpfSVZzQkxhS0JyTmc5c092RmZYSjMydXpSNXZrbVR6aEJ1TS1hNFVUOFVLM0NqSFRaRFF1X0dxamVfcTBoOXBScV9jT0ZhMktuTW8zcWlGVnFPOVJfMThsZmhnWHFFSEYwRlZwdFRGQWROQkFyUl9fVVJxaGRMczRIcVBCaUdYS0N6VGpHeUpSWGEzR3pDR1pfU0tYajZVV3RpYWlB0gHLAUFVX3lxTE5CdEFWbGl6VmZHczZsa1U2ZTE3dmhsUjJIbEtGMTNXMEpEMy0wZTJCUFpBUGJMYlZlN0xEd2dRRU4yN21jWkFONmRRQlJtTUVONkVwdUlwdVhOMDhMMXZqaTNYWThjVVNxUXJfNEdCSktoTXpaZ092ZVlmYjE0ZFlEaUxiMEJBTFdFSVpxbkJ3U1RJRnU0cU5JWDJ2S3MwajZIY1llSlo5TVkycndCckFUNkVFRW41ZnVfTTJCc0lKQlp4WXhidk9MV1VB?oc=5",
+    "source": "Shacknews",
+    "category": "SAFETY",
+    "published": "Fri, 11 Mar 2022 08:00:00 GMT",
+    "fetched_at": "2026-09-05T20:47:02.961060+00:00"
+  },
+  {
+    "title": "Tesla Model 3’s stellar safety ratings highlighted in fan-made commercial - Teslarati",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBSTm9qaXlGX2dMd0pXT2ZSTWNCVUlpT0x0RUJibUJ4NGxfOTk0elI3Q3I3SWREeWdfTGwtdlhYekpkeDJTdXFnVDdRcXczQkpLcWpjVHRjQUVBUG9NTzJkczAyVkRyeHR6ak1IN0xyNFh6WllVQm14LQ?oc=5",
+    "source": "Teslarati",
+    "category": "SAFETY",
+    "published": "Sun, 22 Sep 2019 07:00:00 GMT",
+    "fetched_at": "2026-09-05T20:47:02.961038+00:00"
+  },
+  {
+    "title": "Tesla accused of false Autopilot advertising by California DMV - The Detroit News",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZ09IR3AxVUVTMzhvWHZfTjVXS3ZjRWszM0hxOWRNQXhpU2FsUzNtWlVrVUpyY0NVczZiWkZkNlF5b3YyQ3FMTm9haF9md2owamhQQXd1RjNnY005UkZObndXMzlsTEZWdmRMY1dKVHlaQ1ljUWQyN1E5bmVoNTlJX0t2ZVlzT0liM3MwUGdzMl84ejlxMVNzZHNCci1mQVZhdHdOQXI2ZWhkQl9Vc3RxTlJlR2hRR2lCckV4OGF0Um5BTFo3TXIxWA?oc=5",
+    "source": "The Detroit News",
+    "category": "SAFETY",
+    "published": "Fri, 05 Aug 2022 07:00:00 GMT",
+    "fetched_at": "2026-09-05T20:47:02.961032+00:00"
+  },
+  {
+    "title": "Tesla reports two new fatal crashes involving Autopilot or FSD Beta - Electrek",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdWZxaEVwQlFVV1gyckZCbjZmS2t1VmVfWi02UVo0VzBNbUpBc3ZEMl9uY3FuaWlwREpfek03aUNZTlR2NXpYR05jVnVLa0VPRjBoaFBRYXNkTlNfbE16ZlJtSkZEcENPaXN0aEhjVnlzN0tNSEphZ2JUYkNSdlF6bDlBX0Vta00?oc=5",
+    "source": "Electrek",
+    "category": "SAFETY",
+    "published": "Wed, 16 Nov 2022 08:00:00 GMT",
+    "fetched_at": "2026-09-05T20:47:02.961025+00:00"
+  },
+  {
+    "title": "‘Boycott Tesla’: The story behind that anti-Tesla Super Bowl ad - drive.com.au",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8tVGNkRUNYd1BaaTR1RkxDWmNpVkRvM2EwdFVyYkZxVEY1QktyVEFRV0Y4N2VuWmY2M3FPM2M0RExNRURlbHBua1lITmk3Wnpya0xCal84aU9SNkNXNXJXRlBacjVQNTR0Rk5UUw?oc=5",
+    "source": "drive.com.au",
+    "category": "SAFETY",
+    "published": "Mon, 12 Feb 2024 08:00:00 GMT",
+    "fetched_at": "2026-09-05T20:47:02.961019+00:00"
+  },
+  {
+    "title": "Super Bowl 2023 Ad Features Campaign to Ban Tesla’s Full Self-Driving System - Tech Times",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPeHF6QkZzSUpjbDNHYjVSTWRRQ2pHbVdXUzZwbVF1NkFURHNQS1JCaFZQY1BsakVnT0ZyYk1XaUFSQ0wwZURtd0FQZl93Yk5rR2trR2dxN1pBbGxhejZmWHFac2ZOemV1U3dnQ0t6VFotZ01IVTNjcXdSYTV3ZWZSR2tFdkRIYVJhYW0xMFhUSG5lazJZNjBBZVpkRldiRURLa2VJRzNTQXNENkRLZ3JQbG1hLXhYMFZscHBER3djQjNqTWlT?oc=5",
+    "source": "Tech Times",
+    "category": "SAFETY",
+    "published": "Mon, 13 Feb 2023 08:00:00 GMT",
+    "fetched_at": "2026-09-05T20:47:02.961012+00:00"
+  },
+  {
+    "title": "Tesla's Favorite Autopilot Safety Stat Just Doesn't Hold Up - WIRED",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1TVlFjSzJUX1c5NUhQaWtUWU9DMUo1VldlT0lUYnNKbTFFVUEzQmhJZ0k1dDRBVGdxZnM4dEpjVkhEeUZZWS1ZTE9jOGExUi1oZ2FIV3M3WmJZQU1IRU83alZ0MU12RnE5QU42VXZ2Zw?oc=5",
+    "source": "WIRED",
+    "category": "SAFETY",
+    "published": "Fri, 04 May 2018 07:00:00 GMT",
+    "fetched_at": "2026-09-05T20:47:02.961006+00:00"
+  },
+  {
+    "title": "NTSB blasts Tesla, CalTrans, and NHTSA for Autopilot death - Ars Technica",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQU9wT1pqcmNpdzlmeXRTelJjV1VLMWRuMUt3MHFLZF9wdEVhcWFSUjVrOEkwNmMzR2JqczhyaXpvNkZ3RkVmTkY0RkRva0JrcXZlNjdHaFRJRjFqQTdFNjRrZ0l3ckUyOE8td05hQzhhakwtdXFHWWwtaHlENjd5S2dPSjJYd1JhUmpiM19JMlNmeWdVcjNVeExn?oc=5",
+    "source": "Ars Technica",
+    "category": "SAFETY",
+    "published": "Wed, 26 Feb 2020 08:00:00 GMT",
+    "fetched_at": "2026-09-05T20:47:02.961000+00:00"
+  },
+  {
+    "title": "Tesla's 2023 Recall of Full Self-Driving Targets a 'Fundamental' Flaw - WIRED",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTGd4TEhRUkxBdm9fR2dtSlZ5bjNmc0FXcVZJOXQwZlE3Vm8xSThxZzdFSC1RUllfRGE3cnNQLTByMFRPTUhRb2xUaHpLakF6UE1tQTJ3RmlrLWxBWDJDRnJYQkJ0VXNua2RsTTJSUUxVWmloSGFnRmFXbzF2VjRET2FidkVzWUwtc0FaTE96V2Y?oc=5",
+    "source": "WIRED",
+    "category": "SAFETY",
+    "published": "Thu, 16 Feb 2023 08:00:00 GMT",
+    "fetched_at": "2026-09-05T20:47:02.960993+00:00"
+  },
+  {
+    "title": "Tesla’s “Mad Max” mode is now under federal scrutiny - Ars Technica",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMmZ6ck5JbVlGSTBNOTBoMnhULVUyeWg0S3hLNVJQTnVkUldFdlY2eFZ2U0ZIeFNUaEJneEhoNzNSY2g5d0NMdEFvUEM0cDRCNlBic1NuN3M5NEVKWEFGZEQ2QWg0a1RFcWxsWVR4TUV1NVU4cWhwTFRDY0dtR1Fva29SOA?oc=5",
+    "source": "Ars Technica",
+    "category": "SAFETY",
+    "published": "Fri, 24 Oct 2025 07:00:00 GMT",
+    "fetched_at": "2026-09-05T20:47:02.960987+00:00"
+  },
+  {
+    "title": "Feds open criminal investigation into Tesla Autopilot claims - Ars Technica",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNmtyeV8wbDhrbVJQNVd1aldPbUI1SnY1NG52TE11Tm43ekpYbzN0V3o4dkFjWHpFZG9UUjRKSmxKU1AtME5XZ1ZpcklyOUhCRGZ0aFJvRGt5LU1zZUE3QS1jcGFiOGdxcDlhTkRPeWhTUFpEanNnaDg2R3JUUVlLRy1oOVRjN2lQU1ZRdGFQTVdxX2JSWWdreGpWUEd0RXVuTDVfRzRfT2s?oc=5",
+    "source": "Ars Technica",
+    "category": "SAFETY",
+    "published": "Wed, 26 Oct 2022 07:00:00 GMT",
+    "fetched_at": "2026-09-05T20:47:02.960981+00:00"
+  },
+  {
+    "title": "Judge orders Tesla to make major change or halt sales in California - thestreet.com",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMVRRengtbzJ1eHVhTWFmcFhTOG5jNXlNVUFuclpLaXREcnVkWW5GZndGUU9zNDdoYkNVVUpwd0l2cVYwUXFDdWpXdEJ2NjZNSGw2ZVIzQXhNM1lYcEVfLWJuMXQtUUdmZXZpenpOTjhEZXpXWVVPTldTV2V6ZEQ5Q20xRmJ6QmROWldudEM2a0lvamlMeVF0SVNlbjBmSm1XS3RNZVhqRQ?oc=5",
+    "source": "thestreet.com",
+    "category": "SAFETY",
+    "published": "Wed, 17 Dec 2025 08:00:00 GMT",
+    "fetched_at": "2026-09-05T20:47:02.960975+00:00"
+  },
+  {
+    "title": "USA: NHTSA releases crash data for vehicles equipped with ADS or ADAS Level 2 systems - ActuIA",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSUtjM0swTmh5X2xrYkpTZmZHWW96OThQQllGS21UQUI5d3FKU2J4V0ZvTU5IamloUURSS0VhazFzR29zb3A1VlN5XzJuZEJ1blVobzhLQ3JvMjNQdTRqT2FqN3pTckhrOVBKMzZFVWpNUlFhNzNDc0xNemlGWlBwY1VmNnBLWmFjRi1hMENoOVFvQnM3UXRETUtLODYxelJDMExWSklxdXpsblFxZE1mLTdWazRhV1k?oc=5",
+    "source": "ActuIA",
+    "category": "SAFETY",
+    "published": "Wed, 24 Aug 2022 07:00:00 GMT",
+    "fetched_at": "2026-09-05T20:47:02.960968+00:00"
+  },
+  {
+    "title": "NHTSA requests info after Tesla crashes into fire truck - TechCrunch",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMUNUSU9fam9YQ0lrQ2I2YWgtejNMOWhZWWFTdnY3X29rcFlLTlJMSzUtU3E5VFpNZnVOdVFhXzB1YXNmR1BPN3F3WEc4SHpoak9nVHREbEFLemZGMmc5VlNWNHhfOWQ3UGk0YVlXVXAzdDRWZHlqa25fazI0cjhDOFo2aDFTZ3lSWW1tZW85QWNxZUhi?oc=5",
+    "source": "TechCrunch",
+    "category": "SAFETY",
+    "published": "Mon, 20 Feb 2023 08:00:00 GMT",
+    "fetched_at": "2026-09-05T20:47:02.960961+00:00"
+  },
+  {
+    "title": "Tesla Full Self-Driving Beta smear campaign is getting turned into a Super Bowl ad - Electrek",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSEt4Wm9rVldEdV9CekdSX2ZXV241Q2d2ZHJLbURqd01aRDVzeGJ5WEIzUER2Ql9RMW5IUFRDZjNfa0ZSZ3lFN0VoZXkxM1N4SFdmb0hnTlZ6LVhQc2NRdjVDQ0lLT0F3bklZNE4xbFpHdnplZ3NpSjNza3pfMjc2NDZrWHlWdm15cDZtZTZRczdhUGs?oc=5",
+    "source": "Electrek",
+    "category": "SAFETY",
+    "published": "Sat, 11 Feb 2023 08:00:00 GMT",
+    "fetched_at": "2026-09-05T20:47:02.960954+00:00"
+  },
+  {
+    "title": "Tesla FSD Gets Grok Voice Commands by Fall: Australia Joins Rollout, NHTSA Probes Crash - Tech Times",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZndDb3ZGWXBHTTlnTzZ1Q1NSSnF2Z01EcmF1X0FqMzlGQXdoaUN2ejlnOUttZnJpZTR4Qy03VE5qQkNyVm5zZHJBU1BYQ2NrNW5oNmR5aEUteW03ck5PU0tFR21Vdlh2Zy04U0ZTOTk3S05NU1JGcUIwMUx1LWVKNTZZYVZtZmhMYVlTd2ZtVnNaWEd6VDNZMjloWFV2T0ttaTBlMG5rT0JwekJkQzBrRHpiVzlXeklpVWJjVGJKQnZndkI1T2lZcGNGeVdzOGRpNDVB?oc=5",
+    "source": "Tech Times",
+    "category": "SAFETY",
+    "published": "Wed, 24 Jun 2026 07:00:00 GMT",
+    "fetched_at": "2026-09-05T20:47:02.960948+00:00"
+  },
+  {
+    "title": "Tesla’s radar-less cars investigated by NHTSA after complaints spike - Ars Technica",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONk9zb2YyUVR0RDBaM3ZyYUdOR1U5d1JkY05mTFdGd3BIV3V5QVN0VkVNTUxsZHhJV25pdUhlQ2tvUGkzMGVwcDFsN2hSYU1TR2NzU001WV84OGpVb2xiVVIxWnVuZjNzTmZTeHdmTUJZRTRzRFNFaEYtVlg1V0I3R2tfczQxZU50d3BicTROQU9nTGgyODlWeXR1SmdUUkZXSnRaQmNZRlM?oc=5",
+    "source": "Ars Technica",
+    "category": "SAFETY",
+    "published": "Fri, 18 Feb 2022 08:00:00 GMT",
+    "fetched_at": "2026-09-05T20:47:02.960941+00:00"
+  },
+  {
+    "title": "Tesla Autopilot Was Uniquely Risky—and May Still Be - WIRED",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZ3BJRVdoZWxZRi1GWWpSa1owdE50LWxMcUIyQ2xOa1RBQ1I1LUU5Yi1tY3dHSF9sLUhLcXA4ZmRRdjEyNmdWVjNMc182bjdjNHhxZUx6eWNpcXNzZXNxR2kzbThJYUVsOFp3d1JORWd5eUk5UTQwQmlZYUJoRmp5SzhHLVRLVk5kS0NDQ1pB?oc=5",
+    "source": "WIRED",
+    "category": "SAFETY",
+    "published": "Fri, 26 Apr 2024 07:00:00 GMT",
+    "fetched_at": "2026-09-05T20:47:02.960934+00:00"
+  },
+  {
+    "title": "Why Is NHTSA’s New Braking Rule Under Fire? - Automotive Fleet",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdXAtZ1Rjbkk3alpUVjFpM0swUFBfSVlNa0xOQUc0SGFZaUFhVEF4MFpGUTV1NUxFZ2J4U2RRakJfN2Zyd0I2WDIwUjB4SDY0clUxYTNUVEZCUWNYMUw1cVRWcFBPU2hCRG9xQk92MzgtMEUzMUhaYlhaZjFRTHNCMG9uNXo2Zw?oc=5",
+    "source": "Automotive Fleet",
+    "category": "SAFETY",
+    "published": "Wed, 03 Jul 2024 07:00:00 GMT",
+    "fetched_at": "2026-09-05T20:47:02.960927+00:00"
+  },
+  {
+    "title": "Tesla accused of falsely advertising Autopilot & Full Self-Driving ADAS features - repairerdrivennews.com",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONE5oR3ZwLWNtcGw3ME1iVU9PZFNmS0h2ZUNtQVhzeDE0OTY3YmNycU9FMUt6VkRCSGdScS1oVE1aS0dzTk16cUdGYUU3ZzhtWVdQZEZ1MnFtcWZxODdWOTRkem4xejFYeXZ0SU9Uckk2b0ppd3VMZXBrZ2c5bjR2cVhnaE1NeWwwbjlmemVtUklyV3ZLUzRSaWNKT3YzalNtR2RFcWFVSVpHaTR6WUhWd09kRHp5bG1YZzJaUDFFbGo3YkU?oc=5",
+    "source": "repairerdrivennews.com",
+    "category": "SAFETY",
+    "published": "Thu, 11 Aug 2022 07:00:00 GMT",
+    "fetched_at": "2026-09-05T20:47:02.960912+00:00"
+  },
+  {
+    "title": "Senators Call for Investigation of Tesla’s Marketing Claims of Its Autopilot and 'Full Self-Driving' Features - Consumer Reports",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWlhHcnpKaHF1NEs1QW9ZbUFjdnZlNEdqZGVMbDBXSndwQTQ4b19BdEV4bFdDVDJSSnloWDlYc2JERzEwbzQxYlVodjdLVF8xN3FndkdtVGFmYk9LSjdTNTE1Z0RzY2pOTnpwWkxUVnMxZGYtZHZtVVNaS3VjV1ZpZUpYYUFZLTl0V0JrcUtfdlE1Rnl3OWJ2Y0s3WW0wOHZ5NGYyVUFRVTJfdkJDV0pFR1NrV2dlZ0E0SDdjTw?oc=5",
+    "source": "Consumer Reports",
+    "category": "SAFETY",
+    "published": "Wed, 18 Aug 2021 07:00:00 GMT",
+    "fetched_at": "2026-09-05T20:47:02.960898+00:00"
+  },
+  {
+    "title": "Tesla’s touchscreen trouble: NHTSA asks for recall of Models S and X - Ars Technica",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPajk4WUEwb1Nud0lUME1NbXFtb0RoUkFWRkdRQWZyMlg1TWVia25pV3EwZkoxQkZobjh6MWJSQXo1VS1KbWJNd3Mybm9ZaVBhYTB0U3pmYkhobTVKNU5fR3RsaDZzNWNZRExXb1d0czBtN3VVRE1EZWgtTkxTY3NvYThRSW9tQjJtZ0tsUUhJeXJ4b2JxWURvMUVSdzdyT0tleGFKb1g1N19rOTE1?oc=5",
+    "source": "Ars Technica",
+    "category": "SAFETY",
+    "published": "Thu, 14 Jan 2021 08:00:00 GMT",
+    "fetched_at": "2026-09-05T20:47:02.960885+00:00"
+  },
+  {
+    "title": "Tesla’s week gets worse: Fines, safety investigation, and massive recall - Ars Technica",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMXY5OUpOVnNEbzNieHliT0Z5LVBXaUZtcW11eXZOc2RTOEllcDJRdFY1enllUmVBZWpqQ282alFBMjNrRkxBWG5kMmNrSjJaT2daU2RtaFk5eTk0MjBnaVV3eF9rcnZ2ZEdNbTBnREJlWWpKeVNtdWNJcERvT202Tl9Db1lRUjFOb1FWOWlTZ09rSTQzZEsyZEh1MU90Rlh5V2c3QUZB?oc=5",
+    "source": "Ars Technica",
+    "category": "SAFETY",
+    "published": "Fri, 02 Feb 2024 08:00:00 GMT",
+    "fetched_at": "2026-09-05T20:47:02.960872+00:00"
+  },
+  {
+    "title": "NHTSA to Tesla: Stop claiming your cars are the safest - KTVL",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNS2U0WDZiZm13VU5UZ0x4NUNRbjhsbFZaVTEtZThMSVMxNFUyT1lYTV81NldTOTBYbXpmeGEwRzhpSEtNcmQ5ak5TeFIwMXNWVUg2b0RaTmdSdDlsd1JTMUloYVhaNlM0RENzRC1obnRVUzhzSDFNVTRheGk2YWJXZ2VpZ2VRSEEzcWgtVVEza0NQUQ?oc=5",
+    "source": "KTVL",
+    "category": "SAFETY",
+    "published": "Wed, 07 Aug 2019 07:00:00 GMT",
+    "fetched_at": "2026-09-05T20:47:02.960861+00:00"
+  },
+  {
+    "title": "Regional SB Ads Attack Tesla Self-Driving Software 02/14/2023 - MediaPost",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWGVMa2R0Mk10OGl4Z2JtSTBKQWhjT2I0QWhsWE9ya3VLYzZvVTh6YXlPRncweGdSdERfd1NhY29SRTAtYnM1RG1VN1dkMUlKTDRkU3RXSVZtMDJWaklYamRLWFlTQk92dEdwdGRrbEFjNnNCN3VWQWhGQjFzdVpzM1Vid19PR1oxOEJJQlVwY3hkU1ZCZHdocEVLNkRJOUpPeUN1dnJ0Z28xZWxKM3c?oc=5",
+    "source": "MediaPost",
+    "category": "SAFETY",
+    "published": "Tue, 14 Feb 2023 08:00:00 GMT",
+    "fetched_at": "2026-09-05T20:47:02.960849+00:00"
+  }
+]
