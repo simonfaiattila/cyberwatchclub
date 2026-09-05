@@ -1158,7 +1158,29 @@
     updateTaxi();
   }
 
-  setupScrollTaxi('header', 'scroll-taxi');
+  function setupHeaderTaxi(taxiId) {
+    const taxi = document.getElementById(taxiId);
+    if (!taxi) return;
+    let ticking = false;
+    const travelRange = 350; // px of page scroll to complete the drive-away
+    const maxX = 240; // how far right it travels, in px
+
+    function update() {
+      const progress = Math.min(1, Math.max(0, window.scrollY / travelRange));
+      taxi.style.transform = `translateX(${progress * maxX}px)`;
+      ticking = false;
+    }
+
+    window.addEventListener('scroll', () => {
+      if (!ticking) {
+        requestAnimationFrame(update);
+        ticking = true;
+      }
+    }, { passive: true });
+    update();
+  }
+
+  setupHeaderTaxi('scroll-taxi');
   setupScrollTaxi('#fleet-panel', 'scroll-taxi-2');
 
   // Single source of truth for every "last verified" stamp on the page.
