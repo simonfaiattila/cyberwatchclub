@@ -582,6 +582,21 @@
     padding: 16px 18px;
     margin-top: 20px;
   }
+  .live-feed-toggle{
+    display: block;
+    width: 100%;
+    margin-top: 12px;
+    padding: 10px;
+    background: var(--panel);
+    border: 1px solid var(--panel-line);
+    color: var(--live);
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+  }
+  .live-feed-toggle:hover{ border-color: var(--live); }
   .map-panel-watermark{
     display: flex;
     flex-direction: column;
@@ -1420,7 +1435,7 @@
         list.innerHTML = '<p class="panel-note">No auto-collected items yet — the Action hasn\'t run, or hasn\'t found anything new.</p>';
         return;
       }
-      list.innerHTML = items.slice(0, 10).map(item => `
+      const renderItem = item => `
         <div class="news-item">
           <div class="tag-row">
             <span class="tag ${item.category === 'MONETIZATION' ? 'ad' : (item.category === 'SAFETY' ? 'zoox' : 'cybercab')}">${item.category}</span>
@@ -1429,7 +1444,24 @@
           <p class="news-title"><a href="${item.link}" target="_blank" rel="noopener">${item.title}</a></p>
           <p class="news-meta">${item.source || 'Unknown source'}${item.published ? ' — ' + item.published : ''}</p>
         </div>
-      `).join('');
+      `;
+      const visible = items.slice(0, 5);
+      const rest = items.slice(5, 10);
+      let html = visible.map(renderItem).join('');
+      if (rest.length) {
+        html += `<div id="live-feed-rest" style="display:none;">${rest.map(renderItem).join('')}</div>`;
+        html += `<button id="live-feed-toggle" class="live-feed-toggle">Show ${rest.length} more ▾</button>`;
+      }
+      list.innerHTML = html;
+      const toggleBtn = document.getElementById('live-feed-toggle');
+      if (toggleBtn) {
+        toggleBtn.addEventListener('click', () => {
+          const restEl = document.getElementById('live-feed-rest');
+          const expanded = restEl.style.display !== 'none';
+          restEl.style.display = expanded ? 'none' : 'block';
+          toggleBtn.textContent = expanded ? `Show ${rest.length} more ▾` : 'Show less ▴';
+        });
+      }
     })
     .catch(() => {
       document.getElementById('live-feed-list').innerHTML =
