@@ -193,6 +193,7 @@
   .tag.zoox{ background: rgba(77,232,168,0.12); color: var(--zoox); border-color: rgba(77,232,168,0.3); }
   .tag.verified{ background: rgba(76,175,125,0.12); color: var(--verified); border-color: rgba(76,175,125,0.3); }
   .tag.speculation{ background: rgba(226,162,63,0.12); color: var(--speculation); border-color: rgba(226,162,63,0.3); }
+  .tag.disputed{ background: rgba(226,162,63,0.12); color: var(--speculation); border-color: rgba(226,162,63,0.3); }
   .news-title{
     font-size: 14.5px;
     font-weight: 600;
@@ -271,6 +272,19 @@
     grid-template-columns: repeat(7, 1fr);
     gap: 12px;
     padding: 16px 24px 4px;
+    position: relative;
+    overflow: visible;
+  }
+  .scroll-taxi{
+    position: absolute;
+    top: -6px;
+    left: 24px;
+    font-size: 26px;
+    pointer-events: none;
+    z-index: 50;
+    will-change: transform;
+    filter: drop-shadow(0 2px 6px rgba(0,0,0,0.5));
+    transform: translateX(0) scaleX(1);
   }
   @media (max-width: 980px){
     .stats-bar{ grid-template-columns: repeat(2, 1fr); }
@@ -559,6 +573,7 @@
   <span class="verified-stamp"><span class="dot-ok"></span>Figures last verified: <span class="js-last-verified"></span></span>
 </div>
 <div class="stats-bar">
+  <div class="scroll-taxi" id="scroll-taxi">🚕</div>
   <div class="stat">
     <div class="icon lottie" id="car-icon"></div>
     <div class="num">3</div>
@@ -736,7 +751,7 @@
 
 <section class="panel standalone">
   <h2>Tesla robotaxi fleet — the trend, not just today's number</h2>
-  <p class="panel-note">Solid dots are confirmed; faded diamonds are auto-detected from a headline and not yet human-verified — hover a point for its source. The dashed line marks Musk's own end-of-2026 target.</p>
+  <p class="panel-note">Circles are confirmed; faded diamonds are auto-detected from a headline and not yet human-verified; the orange triangle marks a disputed figure — hover any point for details. The dashed line marks Musk's own end-of-2026 target.</p>
   <div class="fleet-chart-wrap">
     <canvas id="fleet-trend-chart"></canvas>
   </div>
@@ -964,8 +979,8 @@
             tension: 0.35,
             fill: true,
             pointRadius: points.map(p => p.confirmed ? 6 : 5),
-            pointStyle: points.map(p => p.confirmed ? 'circle' : 'rectRot'),
-            pointBackgroundColor: points.map(p => p.confirmed ? '#ffd23f' : 'rgba(255,210,63,0.35)'),
+            pointStyle: points.map(p => p.disputed ? 'triangle' : (p.confirmed ? 'circle' : 'rectRot')),
+            pointBackgroundColor: points.map(p => p.disputed ? '#e2a23f' : (p.confirmed ? '#ffd23f' : 'rgba(255,210,63,0.35)')),
             pointBorderColor: '#101215',
             pointBorderWidth: 2
           }]
@@ -980,7 +995,9 @@
               callbacks: {
                 afterLabel: (ctx) => {
                   const p = points[ctx.dataIndex];
-                  return p.confirmed ? `Source: ${p.source}` : `Unconfirmed — auto-detected from: "${p.source}"`;
+                  const lines = [p.confirmed ? `Source: ${p.source}` : `Unconfirmed — auto-detected from: "${p.source}"`];
+                  if (p.disputed) lines.push('', '⚠ Disputed: ' + p.disputeNote);
+                  return lines;
                 }
               }
             }
@@ -1005,8 +1022,12 @@
       const sourceList = document.getElementById('fleet-source-list');
       sourceList.innerHTML = points.map(p => {
         const tag = p.confirmed ? '<span class="tag verified" style="margin-right:6px;">VERIFIED</span>' : '<span class="tag auto" style="margin-right:6px;">AUTO</span>';
+        const disputedTag = p.disputed ? '<span class="tag disputed" style="margin-right:6px;">DISPUTED</span>' : '';
         const label = `${p.label}: ${p.count} vehicles`;
-        return `<li style="margin-bottom:6px;">${tag}${p.link ? `<a href="${p.link}" target="_blank" rel="noopener">${label}</a>` : label} — ${p.source}</li>`;
+        const disputeLine = p.disputed
+          ? `<br><span style="color:var(--speculation);">⚠ ${p.disputeNote}</span>${p.disputeLink ? ` <a href="${p.disputeLink}" target="_blank" rel="noopener">Details →</a>` : ''}`
+          : '';
+        return `<li style="margin-bottom:8px;">${tag}${disputedTag}${p.link ? `<a href="${p.link}" target="_blank" rel="noopener">${label}</a>` : label} — ${p.source}${disputeLine}</li>`;
       }).join('');
     })
     .catch(() => {
@@ -1070,6 +1091,35 @@
   }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
 
   document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+  // A little taxi drives across the stats row as you scroll past it.
+  (function() {
+    const bar = document.querySelector('.stats-bar');
+    const taxi = document.getElementById('scroll-taxi');
+    if (!bar || !taxi) return;
+    let ticking = false;
+
+    function updateTaxi() {
+      const rect = bar.getBoundingClientRect();
+      const vh = window.innerHeight;
+      // progress: 0 when the bar's top just enters the viewport bottom, 1 when its bottom leaves the top
+      const total = rect.height + vh;
+      const traveled = vh - rect.top;
+      const progress = Math.min(1, Math.max(0, traveled / total));
+      const maxX = bar.clientWidth - 34;
+      taxi.style.transform = `translateX(${progress * maxX}px) scaleX(1)`;
+      ticking = false;
+    }
+
+    window.addEventListener('scroll', () => {
+      if (!ticking) {
+        requestAnimationFrame(updateTaxi);
+        ticking = true;
+      }
+    }, { passive: true });
+    window.addEventListener('resize', updateTaxi);
+    updateTaxi();
+  })();
 
   // Single source of truth for every "last verified" stamp on the page.
   // Update this one line whenever the underlying facts are re-checked.

@@ -1,5 +1,8 @@
 [
   { "date": "2025-06", "label": "Jun 2025", "count": 10, "confirmed": true, "source": "Tesla / Musk: 10-20 vehicles on day one", "link": "https://techcrunch.com/snippet/2997437/teslas-robotaxi-fleet-will-be-small-to-start" },
-  { "date": "2026-05", "label": "May 2026", "count": 25, "confirmed": true, "source": "Independent Robotaxi Tracker", "link": "https://betsports.it.com/a/2968.html" },
+  { "date": "2026-05", "label": "May 2026", "count": 25, "confirmed": true, "source": "Independent Robotaxi Tracker", "link": "https://betsports.it.com/a/2968.html",
+    "disputed": true,
+    "disputeNote": "Other outlets reported anywhere from 20 to 700 vehicles the same week, depending on whether supervised units were counted — later coverage described the fleet as \"shrinking\" from this figure.",
+    "disputeLink": "https://basenor.com/blogs/news/teslas-unsupervised-robotaxi-fleet-is-shrinking-what-the-numbers-show" },
   { "date": "2026-06", "label": "Jun 2026", "count": 59, "confirmed": true, "source": "Bloomberg", "link": "https://www.golem.de/news/transportation-tesla-s-robotaxi-falls-short-with-long-waits-stalled-rides-2606-209716.html" }
 ]
