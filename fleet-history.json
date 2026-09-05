@@ -1,5 +1,5 @@
 [
-  { "date": "2025-06", "label": "Jun 2025", "count": 10, "confirmed": true, "source": "Tesla / press reports at Austin launch" },
-  { "date": "2026-05", "label": "May 2026", "count": 25, "confirmed": true, "source": "Independent Robotaxi Tracker, via betsports.it.com" },
-  { "date": "2026-06", "label": "Jun 2026", "count": 59, "confirmed": true, "source": "Bloomberg" }
+  { "date": "2025-06", "label": "Jun 2025", "count": 10, "confirmed": true, "source": "Tesla / Musk: 10-20 vehicles on day one", "link": "https://techcrunch.com/snippet/2997437/teslas-robotaxi-fleet-will-be-small-to-start" },
+  { "date": "2026-05", "label": "May 2026", "count": 25, "confirmed": true, "source": "Independent Robotaxi Tracker", "link": "https://betsports.it.com/a/2968.html" },
+  { "date": "2026-06", "label": "Jun 2026", "count": 59, "confirmed": true, "source": "Bloomberg", "link": "https://www.golem.de/news/transportation-tesla-s-robotaxi-falls-short-with-long-waits-stalled-rides-2606-209716.html" }
 ]
