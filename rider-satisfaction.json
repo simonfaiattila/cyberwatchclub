@@ -1,0 +1,5 @@
+[
+  { "operator": "Waymo", "color": "#5aa9e6", "rating": 5.0, "reviewCount": "187,827", "asOf": "Mar 2026", "link": "https://apps.apple.com/us/app/waymo/id1343524838" },
+  { "operator": "Zoox", "color": "#4de8a8", "rating": 5.0, "reviewCount": "11,329", "asOf": "Apr 2026", "link": "https://apps.apple.com/us/app/zoox/id1588801295" },
+  { "operator": "Tesla Robotaxi", "color": "#ffd23f", "rating": 4.9, "reviewCount": "~5,198", "asOf": "Aug 2026", "link": "https://apps.apple.com/us/app/tesla-robotaxi/id6744257048" }
+]
