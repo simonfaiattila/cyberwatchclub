@@ -54,6 +54,25 @@
   header{
     padding: 32px 32px 20px;
     position: relative;
+    overflow: hidden;
+  }
+  .header-car-bg{
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    width: 460px;
+    max-width: 55%;
+    height: auto;
+    opacity: 0.16;
+    filter: grayscale(0.4) brightness(0.85);
+    -webkit-mask-image: radial-gradient(ellipse at 65% 35%, rgba(0,0,0,1) 35%, rgba(0,0,0,0) 72%);
+    mask-image: radial-gradient(ellipse at 65% 35%, rgba(0,0,0,1) 35%, rgba(0,0,0,0) 72%);
+    pointer-events: none;
+    z-index: 0;
+  }
+  .eyebrow, header h1, .sub, .info-btn{
+    position: relative;
+    z-index: 2;
   }
   .eyebrow{
     font-family: ui-monospace, "SF Mono", Menlo, monospace;
@@ -312,13 +331,6 @@
     width: 50px;
     height: 50px;
     flex-shrink: 0;
-  }
-  #scroll-taxi-2{
-    position: sticky;
-    top: 20px;
-    display: block;
-    margin-left: auto;
-    margin-bottom: 12px;
   }
   @media (max-width: 700px){
     #scroll-taxi{ display: none; }
@@ -742,6 +754,7 @@
 <body>
 
 <header style="position:relative;">
+  <img src="futurecab.png" alt="" class="header-car-bg">
   <button id="about-btn" class="info-btn" aria-label="What this page is about">ⓘ</button>
   <p class="eyebrow">OSINT-BASED EXPANSION &amp; MONETIZATION TRACKER</p>
   <h1><img src="cyber_3x.png" alt="Cyber" class="logo-swap"><span>watch.club</span><span class="scroll-taxi" id="scroll-taxi"></span></h1>
@@ -782,46 +795,46 @@
 </div>
 
 <div class="verified-strip" style="padding-top:8px;">
-  <span class="verified-stamp"><span class="dot-ok"></span>Figures last verified: <span class="js-last-verified"></span></span>
+  <span class="verified-stamp"><span class="dot-ok"></span>Figures last verified: <span id="stats-last-verified" class="js-last-verified"></span></span>
 </div>
 <div class="stats-bar">
   <div class="stat">
     <div class="icon lottie" id="car-icon"></div>
-    <div class="num">3</div>
-    <div class="label">live US cities for Tesla — Austin, Dallas, Houston</div>
+    <div class="num" id="stat-cities-num">3</div>
+    <div class="label" id="stat-cities-label">live US cities for Tesla — Austin, Dallas, Houston</div>
   </div>
   <div class="stat">
     <div class="icon-cluster">
       <div class="icon lottie" id="fleet-icon-small" style="width:32px;height:32px;"></div>
       <div class="icon lottie" id="fleet-icon-big" style="width:48px;height:48px;"></div>
     </div>
-    <div class="num">59</div>
-    <div class="label">reported Tesla robotaxi fleet (Bloomberg, Jun 2026) — vs. an earlier promise of 500+ in Austin alone</div>
+    <div class="num" id="stat-fleet-num">59</div>
+    <div class="label" id="stat-fleet-label">reported Tesla robotaxi fleet (Bloomberg, Jun 2026) — vs. an earlier promise of 500+ in Austin alone</div>
   </div>
   <div class="stat">
     <div class="icon lottie" id="monetization-icon"></div>
-    <div class="num mono-accent">$472B</div>
-    <div class="label">UBS projection for the "in-car monetization" market by 2030 — speculative, not a Tesla plan</div>
+    <div class="num mono-accent" id="stat-monetization-num">$472B</div>
+    <div class="label" id="stat-monetization-label">UBS projection for the "in-car monetization" market by 2030 — speculative, not a Tesla plan</div>
   </div>
   <div class="stat">
     <div class="icon lottie" id="waymo-icon"></div>
-    <div class="num">11</div>
-    <div class="label">active Waymo cities — operating at a much larger scale</div>
+    <div class="num" id="stat-waymo-num">11</div>
+    <div class="label" id="stat-waymo-label">active Waymo cities — operating at a much larger scale</div>
   </div>
   <div class="stat">
     <div class="icon lottie" id="rides-icon"></div>
-    <div class="num">~500K</div>
-    <div class="label">Waymo paid rides / week (Mar 2026) — for comparison</div>
+    <div class="num" id="stat-rides-num">~500K</div>
+    <div class="label" id="stat-rides-label">Waymo paid rides / week (Mar 2026) — for comparison</div>
   </div>
   <div class="stat">
     <div class="icon lottie" id="zoox-icon"></div>
-    <div class="num">500K+</div>
-    <div class="label">Zoox free riders in Las Vegas (Jun 2026) — no fares yet, still expanding</div>
+    <div class="num" id="stat-zoox-num">500K+</div>
+    <div class="label" id="stat-zoox-label">Zoox free riders in Las Vegas (Jun 2026) — no fares yet, still expanding</div>
   </div>
   <div class="stat">
     <div class="icon lottie" id="tsla-icon"></div>
     <div class="num num-pulse" id="tsla-live-pct">—</div>
-    <div class="label">TSLA change since Sep 1, 2026 close ($356.09) — live via Finnhub</div>
+    <div class="label" id="stat-tsla-label">TSLA change since Sep 1, 2026 close ($356.09) — live via Finnhub</div>
   </div>
 </div>
 
@@ -858,7 +871,7 @@
   <section class="panel">
     <h2>Latest findings</h2>
     <p class="panel-note">Collected by the cybercab_watcher.py script — every item is labeled verified (traceable to an official statement) or speculation (analyst/press estimate).</p>
-    <p class="verified-stamp" style="margin-bottom:14px;"><span class="dot-ok"></span>Feed last checked: <span class="js-last-verified"></span></p>
+    <p class="verified-stamp" style="margin-bottom:14px;"><span class="dot-ok"></span>Feed last checked: <span id="feed-last-checked" class="js-last-verified"></span></p>
 
     <div class="news-item">
       <div class="tag-row">
@@ -998,6 +1011,7 @@
   </div>
   <p id="fleet-growth-note" class="panel-note" style="margin:10px 0 0; color:#fff; font-weight:600;"></p>
   <ul id="fleet-source-list" class="source-note" style="list-style:none; padding:0; margin-top:10px;"></ul>
+  <p class="verified-stamp" style="margin-top:10px;"><span class="dot-ok"></span>Auto-checked by the GitHub Action: <span id="fleet-last-checked"></span></p>
 </section>
 
 <section class="panel standalone">
@@ -1013,14 +1027,14 @@
   <div class="callout-box" id="safety-callout"></div>
 
   <ul class="source-note" id="safety-sources" style="list-style:none; padding:0; margin-top:14px;"></ul>
-  <p class="verified-stamp" style="margin-top:10px;"><span class="dot-ok"></span>Figures last verified: <span class="js-last-verified"></span></p>
+  <p class="verified-stamp" style="margin-top:10px;"><span class="dot-ok"></span>Figures last verified: <span id="safety-last-verified" class="js-last-verified"></span></p>
 </section>
 
 <section class="panel standalone">
   <h2>Rider satisfaction — App Store ratings</h2>
   <p class="panel-note">Every operator with a public rider app has a star rating and review count on the App Store. Take these with a grain of salt: app reviews skew heavily toward enthusiastic early adopters, and quiet dissatisfaction rarely gets typed out — a near-perfect score says more about who bothers to review than about the ride itself.</p>
   <div class="rider-grid" id="rider-grid"></div>
-  <p class="verified-stamp" style="margin-top:14px;"><span class="dot-ok"></span>Figures last verified: <span class="js-last-verified"></span></p>
+  <p class="verified-stamp" style="margin-top:14px;"><span class="dot-ok"></span>Figures last verified: <span id="rider-last-verified" class="js-last-verified"></span></p>
 </section>
 
 <section class="panel standalone">
@@ -1201,8 +1215,11 @@
 
   fetch('fleet-history.json')
     .then(r => { if (!r.ok) throw new Error('not found'); return r.json(); })
-    .then(points => {
+    .then(fleetData => {
+      const points = fleetData.points;
       if (!points || !points.length) throw new Error('empty');
+      const stamp = document.getElementById('fleet-last-checked');
+      if (stamp) stamp.textContent = fleetData.lastChecked || 'unknown';
       document.getElementById('fleet-chart-loading').remove();
       const ctx2d = document.getElementById('fleet-trend-chart').getContext('2d');
       const glowFill = ctx2d.createLinearGradient(0, 0, 0, 160);
@@ -1390,6 +1407,9 @@
       document.getElementById('safety-sources').innerHTML = safety.sources.map(s =>
         `<li style="margin-bottom:6px;"><a href="${s.link}" target="_blank" rel="noopener">${s.label}</a> — ${s.domain}</li>`
       ).join('');
+
+      const stamp = document.getElementById('safety-last-verified');
+      if (stamp) stamp.textContent = safety.lastVerified;
     })
     .catch(() => {
       document.getElementById('safety-incidents-chart').outerHTML =
@@ -1398,7 +1418,8 @@
 
   fetch('rider-satisfaction.json')
     .then(r => { if (!r.ok) throw new Error('not found'); return r.json(); })
-    .then(rows => {
+    .then(data => {
+      const rows = data.items;
       document.getElementById('rider-grid').innerHTML = rows.map(r => `
         <div class="rider-card">
           <div class="rider-operator" style="color:${r.color};">${r.operator}</div>
@@ -1408,6 +1429,8 @@
           <a href="${r.link}" target="_blank" rel="noopener">View on App Store →</a>
         </div>
       `).join('');
+      const stamp = document.getElementById('rider-last-verified');
+      if (stamp) stamp.textContent = data.lastVerified;
     })
     .catch(() => {
       document.getElementById('rider-grid').innerHTML =
@@ -1517,8 +1540,26 @@
 
   // Single source of truth for every "last verified" stamp on the page.
   // Update this one line whenever the underlying facts are re-checked.
-  const LAST_VERIFIED = "September 5, 2026";
+  const LAST_VERIFIED = "September 7, 2026";
   document.querySelectorAll('.js-last-verified').forEach(el => { el.textContent = LAST_VERIFIED; });
+
+  fetch('stats.json')
+    .then(r => { if (!r.ok) throw new Error('not found'); return r.json(); })
+    .then(data => {
+      data.stats.forEach(s => {
+        const numEl = document.getElementById(s.id + '-num');
+        const labelEl = document.getElementById(s.id + '-label');
+        if (labelEl) labelEl.textContent = s.label;
+        if (numEl && s.value !== null) {
+          numEl.textContent = s.value;
+          animateNum(numEl);
+        }
+        // stat-tsla has no static value (num) — it's the live TSLA card, handled separately below.
+      });
+      const stamp = document.getElementById('stats-last-verified');
+      if (stamp) stamp.textContent = data.lastVerified;
+    })
+    .catch(() => { /* falls back to the static HTML values already in the page */ });
 
   const FINNHUB_API_KEY = "dadvidhr01qtj63r2b10dadvidhr01qtj63r2b1g"; // free key: finnhub.io/register
   const TSLA_BASELINE = 356.09; // TSLA close, Sep 1, 2026 — last verified close before the Cybercab event
@@ -1560,6 +1601,17 @@
       if (!items || !items.length) {
         list.innerHTML = '<p class="panel-note">No auto-collected items yet — the Action hasn\'t run, or hasn\'t found anything new.</p>';
         return;
+      }
+      const mostRecent = items.reduce((max, it) => {
+        const t = it.fetched_at ? new Date(it.fetched_at) : null;
+        return (t && (!max || t > max)) ? t : max;
+      }, null);
+      const feedStamp = document.getElementById('feed-last-checked');
+      if (feedStamp) {
+        feedStamp.textContent = mostRecent
+          ? mostRecent.toLocaleString('en-US', { month: 'long', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit' }) + ' UTC'
+          : 'unknown';
+        feedStamp.classList.remove('js-last-verified');
       }
       const renderItem = item => `
         <div class="news-item">

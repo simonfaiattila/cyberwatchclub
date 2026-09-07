@@ -116,7 +116,10 @@ def try_extract_fleet_size(title, link, fleet_history):
 def main():
     seen = set(load_json(SEEN_FILE, []))
     news = load_json(NEWS_FILE, [])
-    fleet_history = load_json(FLEET_FILE, [])
+    fleet_raw = load_json(FLEET_FILE, {"lastChecked": "", "points": []})
+    # Self-migrate the old plain-array format to the new {lastChecked, points} shape,
+    # so this works whether the live file was created before or after this change.
+    fleet_history = fleet_raw if isinstance(fleet_raw, list) else fleet_raw.get("points", [])
     new_count = 0
 
     for kw in KEYWORDS:
@@ -148,7 +151,12 @@ def main():
     news = news[:MAX_ITEMS]
     save_json(NEWS_FILE, news)
     save_json(SEEN_FILE, list(seen))
-    save_json(FLEET_FILE, fleet_history)
+    # lastChecked always updates to this run's date, even if no new fleet points were found —
+    # this is what lets the site show a genuinely live "auto-checked" timestamp.
+    save_json(FLEET_FILE, {
+        "lastChecked": datetime.now(timezone.utc).strftime("%B %-d, %Y"),
+        "points": fleet_history
+    })
     print(f"Done. {new_count} new item(s). {len(news)} total in news.json. {len(fleet_history)} points in fleet-history.json.")
 
 

@@ -1,0 +1,12 @@
+{
+  "lastVerified": "September 7, 2026",
+  "stats": [
+    { "id": "stat-cities", "value": "3", "label": "live US cities for Tesla — Austin, Dallas, Houston" },
+    { "id": "stat-fleet", "value": "59", "label": "reported Tesla robotaxi fleet (Bloomberg, Jun 2026) — vs. an earlier promise of 500+ in Austin alone" },
+    { "id": "stat-monetization", "value": "$472B", "label": "UBS projection for the \"in-car monetization\" market by 2030 — speculative, not a Tesla plan" },
+    { "id": "stat-waymo", "value": "11", "label": "active Waymo cities — operating at a much larger scale" },
+    { "id": "stat-rides", "value": "~500K", "label": "Waymo paid rides / week (Mar 2026) — for comparison" },
+    { "id": "stat-zoox", "value": "500K+", "label": "Zoox free riders in Las Vegas (Jun 2026) — no fares yet, still expanding" },
+    { "id": "stat-tsla", "value": null, "label": "TSLA change since Sep 1, 2026 close ($356.09) — live via Finnhub" }
+  ]
+}
