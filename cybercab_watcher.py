@@ -40,10 +40,14 @@ KEYWORDS = [
     "robotaxi monetization",
     "NHTSA robotaxi crash",
     "NHTSA Tesla ADS",
+    "autonomous vehicle regulation",
+    "robotaxi state law",
+    "self-driving car DMV permit",
 ]
 
 MONETIZATION_KEYWORDS = ("ad", "monetiz")
 SAFETY_KEYWORDS = ("nhtsa", "crash")
+REGULATION_KEYWORDS = ("regulation", "state law", "dmv permit")
 
 # Matches things like "59 vehicles", "a fleet of 25 robotaxis", "25 Model Y robotaxis"
 FLEET_SIZE_PATTERN = re.compile(
@@ -116,7 +120,7 @@ def main():
     new_count = 0
 
     for kw in KEYWORDS:
-        category = "SAFETY" if any(k in kw.lower() for k in SAFETY_KEYWORDS) else ("MONETIZATION" if any(k in kw.lower() for k in MONETIZATION_KEYWORDS) else "CYBERCAB")
+        category = "SAFETY" if any(k in kw.lower() for k in SAFETY_KEYWORDS) else ("REGULATION" if any(k in kw.lower() for k in REGULATION_KEYWORDS) else ("MONETIZATION" if any(k in kw.lower() for k in MONETIZATION_KEYWORDS) else "CYBERCAB"))
         for entry in fetch_news(kw):
             link = entry.link
             if link in seen:

@@ -1,0 +1,66 @@
+[
+  {
+    "state": "Texas",
+    "framework": "Permit-based (formalized 2025)",
+    "detail": "SB 2807 took effect Sep 1, 2025; rules finalized Feb 2026, enforcement began May 28, 2026. Tesla holds a statewide TDLR transportation-network-company permit (valid to Aug 6, 2026), covering supervised and unsupervised operation.",
+    "status": "live",
+    "sources": [
+      {
+        "label": "SB 2807 signed",
+        "link": "https://driveteslacanada.ca/?p=105423"
+      },
+      {
+        "label": "Tesla statewide TNC permit",
+        "link": "https://www.cbtnews.com/texas-clears-tesla-for-statewide-robotaxi-ride-hailing/"
+      }
+    ]
+  },
+  {
+    "state": "California",
+    "framework": "Two-agency permit system (strictest)",
+    "detail": "Requires DMV permits for testing/deployment (with and without a safety driver) plus a separate CPUC permit to actually charge for rides. Tesla holds a testing permit and a CPUC charter-party carrier permit, but not yet a full driverless deployment permit as of mid-2026.",
+    "status": "planned",
+    "sources": [
+      {
+        "label": "CA's dual DMV + CPUC permit structure",
+        "link": "https://www.notebookcheck.net/Tesla-ride-service-can-now-hit-public-roads-in-California-but-not-with-the-Cybercab.982086.0.html"
+      }
+    ]
+  },
+  {
+    "state": "Arizona",
+    "framework": "Light-touch, no AV-specific permit regime found",
+    "detail": "Uses a lighter self-certification process for testing (granted Sep 2025) plus a statewide Transportation Network Company permit for paid rides (granted Nov 2025, approved in 4 days) \u2014 unlike California's city-by-city geofenced permits, Arizona's TNC authorization covers the entire state at once.",
+    "status": "live",
+    "sources": [
+      {
+        "label": "Statewide TNC permit approved in 4 days",
+        "link": "https://www.notateslaapp.com/news/3349/tesla-gains-statewide-approval-to-launch-robotaxi-service-in-arizona"
+      }
+    ]
+  },
+  {
+    "state": "Florida",
+    "framework": "No state permit identified",
+    "detail": "Reporting describes Florida as not requiring a specific AV permit, though this is lower-confidence (sourced to community/forum discussion rather than a regulatory filing) and worth treating as provisional.",
+    "status": "unclear",
+    "sources": [
+      {
+        "label": "Community discussion of FL/IL permit-free status",
+        "link": "https://www.techspot.com/community/topics/tesla-working-to-expand-robotaxi-to-top-9-10-cities-in-us.294834/"
+      }
+    ]
+  },
+  {
+    "state": "Nevada",
+    "framework": "Permit-based (pioneer state)",
+    "detail": "AB 69 (2017) authorized both testing and commercial deployment of fully autonomous vehicles, years ahead of most states \u2014 Nevada was an early mover specifically to attract AV companies.",
+    "status": "live",
+    "sources": [
+      {
+        "label": "AB69 signed into law",
+        "link": "https://lasvegassun.com/news/2017/jun/20/autonomous-vehicles-in-nevada-roll-forward-with-ne/"
+      }
+    ]
+  }
+]
