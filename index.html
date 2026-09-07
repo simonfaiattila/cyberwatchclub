@@ -819,7 +819,7 @@
 <main>
   <section class="panel">
     <h2>Where each robotaxi operator is available</h2>
-    <p class="panel-note">City-level status from public announcements, covering Tesla, Waymo, and Zoox together. Exact street-level geofence boundaries aren't officially published — this is the most detailed level that can be sourced and verified. Colors mark the operator; solid markers are live service, faded/dashed markers are testing or announced.</p>
+    <p class="panel-note">City-level status from public announcements, covering Tesla, Waymo, and Zoox together. Exact street-level geofence boundaries aren't officially published — this is the most detailed level that can be sourced and verified. Colors mark the operator; solid markers are live service, faded/dashed markers are testing or announced. Shaded states have a sourced regulatory framework — click a state for details.</p>
     <div id="map"></div>
     <div class="legend">
       <div class="legend-row">
@@ -832,6 +832,12 @@
         <span class="legend-label">STATUS</span>
         <span class="item"><span class="dot solid"></span>Live service</span>
         <span class="item"><span class="dot faded"></span>Testing / announced, not yet live to the public</span>
+      </div>
+      <div class="legend-row">
+        <span class="legend-label">STATE REGULATION</span>
+        <span class="item"><span class="dot" style="background:#4caf7d;"></span>Live framework</span>
+        <span class="item"><span class="dot" style="background:#5aa9e6;"></span>Planned / partial</span>
+        <span class="item"><span class="dot" style="background:#8b939b;"></span>Unclear / low-confidence</span>
       </div>
     </div>
     <div class="map-panel-watermark">
@@ -1005,13 +1011,6 @@
   <h2>Rider satisfaction — App Store ratings</h2>
   <p class="panel-note">Every operator with a public rider app has a star rating and review count on the App Store. Take these with a grain of salt: app reviews skew heavily toward enthusiastic early adopters, and quiet dissatisfaction rarely gets typed out — a near-perfect score says more about who bothers to review than about the ride itself.</p>
   <div class="rider-grid" id="rider-grid"></div>
-  <p class="verified-stamp" style="margin-top:14px;"><span class="dot-ok"></span>Figures last verified: <span class="js-last-verified"></span></p>
-</section>
-
-<section class="panel standalone">
-  <h2>Regulatory landscape, by state</h2>
-  <p class="panel-note">A full 50-state legal survey isn't something that can be sourced reliably in one pass — this covers the states where an operator is actually live or targeted today, each backed by a specific filing or news report rather than a general claim.</p>
-  <div id="regulatory-list"></div>
   <p class="verified-stamp" style="margin-top:14px;"><span class="dot-ok"></span>Figures last verified: <span class="js-last-verified"></span></p>
 </section>
 
@@ -1406,25 +1405,6 @@
         '<p class="panel-note">Ratings not available yet — this loads from rider-satisfaction.json once the site is deployed.</p>';
     });
 
-  fetch('regulatory-landscape.json')
-    .then(r => { if (!r.ok) throw new Error('not found'); return r.json(); })
-    .then(states => {
-      document.getElementById('regulatory-list').innerHTML = states.map(s => `
-        <div class="reg-card">
-          <div class="reg-card-head">
-            <span class="reg-status-dot ${s.status}"></span>
-            <span class="reg-card-state">${s.state}</span>
-          </div>
-          <div class="reg-framework">${s.framework}</div>
-          <div class="reg-detail">${s.detail}</div>
-          <div class="reg-sources">${s.sources.map(src => `<a href="${src.link}" target="_blank" rel="noopener">${src.label} →</a>`).join('')}</div>
-        </div>
-      `).join('');
-    })
-    .catch(() => {
-      document.getElementById('regulatory-list').innerHTML =
-        '<p class="panel-note">Regulatory data not available yet — this loads from regulatory-landscape.json once the site is deployed.</p>';
-    });
 
   const aboutBtn = document.getElementById('about-btn');
   const aboutOverlay = document.getElementById('about-modal-overlay');
@@ -1627,15 +1607,38 @@
   map.createPane('markersPane');
   map.getPane('markersPane').style.zIndex = 750;
 
-  // Vector state-border overlay (thicker, adjustable stroke — the raster reference layer's lines can't be thickened directly)
-  fetch('https://raw.githubusercontent.com/PublicaMundi/MappingAPI/master/data/geojson/us-states.json')
-    .then(r => r.json())
-    .then(geo => {
-      L.geoJSON(geo, {
-        style: { color: '#1b1e22', weight: 1.8, opacity: 0.9, fill: false }
-      }).addTo(map);
-    })
-    .catch(() => { /* falls back to the reference layer's own (thinner) borders */ });
+  // Vector state-border overlay + regulatory-status choropleth fill, combined on the same map
+  const regStatusColor = { live: "#4caf7d", planned: "#5aa9e6", unclear: "#8b939b" };
+
+  Promise.all([
+    fetch('https://raw.githubusercontent.com/PublicaMundi/MappingAPI/master/data/geojson/us-states.json').then(r => r.json()),
+    fetch('regulatory-landscape.json').then(r => r.ok ? r.json() : []).catch(() => [])
+  ]).then(([geo, regStates]) => {
+    const regByName = {};
+    regStates.forEach(s => { regByName[s.state] = s; });
+
+    L.geoJSON(geo, {
+      style: feature => {
+        const reg = regByName[feature.properties.name];
+        return {
+          color: '#1b1e22',
+          weight: 1.8,
+          opacity: 0.9,
+          fill: !!reg,
+          fillColor: reg ? regStatusColor[reg.status] : undefined,
+          fillOpacity: reg ? 0.35 : 0
+        };
+      },
+      onEachFeature: (feature, layer) => {
+        const reg = regByName[feature.properties.name];
+        if (!reg) return;
+        const sourceLinks = reg.sources.map(src => `<a href="${src.link}" target="_blank" rel="noopener">${src.label}</a>`).join('<br>');
+        layer.bindPopup(`<strong>${reg.state}</strong> — ${reg.framework}<br><span style="font-size:12px;">${reg.detail}</span><br><br>${sourceLinks}`);
+        layer.on('mouseover', () => layer.setStyle({ fillOpacity: 0.55 }));
+        layer.on('mouseout', () => layer.setStyle({ fillOpacity: 0.35 }));
+      }
+    }).addTo(map);
+  }).catch(() => { /* falls back to the reference layer's own (thinner) borders, no regulatory fill */ });
 
   const colors = { tesla: "#ffd23f", waymo: "#5aa9e6", zoox: "#4de8a8" };
 
