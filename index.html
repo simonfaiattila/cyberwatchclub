@@ -154,6 +154,7 @@
     border: 1px solid var(--panel-line);
     background: #14171a;
   }
+  .leaflet-popup-pane{ z-index: 900 !important; }
   #world-map{
     height: 320px;
     border-radius: 12px;
@@ -312,8 +313,16 @@
     height: 50px;
     flex-shrink: 0;
   }
+  #scroll-taxi-2{
+    position: sticky;
+    top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-bottom: 12px;
+  }
   @media (max-width: 700px){
     #scroll-taxi{ display: none; }
+    #scroll-taxi-2{ display: none; }
   }
   @media (max-width: 980px){
     .stats-bar{ grid-template-columns: repeat(2, 1fr); }
