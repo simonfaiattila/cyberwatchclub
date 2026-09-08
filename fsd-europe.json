@@ -1,0 +1,25 @@
+{
+  "lastVerified": "September 8, 2026",
+  "euVoteContext": "A full EU-wide approval needs a Technical Committee on Motor Vehicles (TCMV) vote — passing requires member states representing 55% of countries and 65% of the EU population to say yes. Key votes are scheduled through the rest of 2026. Until then, Tesla is going country-by-country: once the Netherlands granted approval, other states can simply recognize it without re-testing.",
+  "countries": [
+    { "country": "Netherlands", "date": "Apr 10, 2026", "status": "First — full national type approval (RDW), after 18+ months of testing", "tier": "first" },
+    { "country": "Lithuania", "date": "May 20, 2026", "status": "Recognized the Dutch approval directly, no new testing", "tier": "recognized" },
+    { "country": "Estonia", "date": "May 29, 2026", "status": "Recognized the Dutch approval; rollout followed within days", "tier": "recognized" },
+    { "country": "Sweden", "date": "May 22, 2026", "status": "Subscription live — despite a Transport Agency investigator publicly flagging concern that FSD exceeds posted speed limits", "tier": "recognized" },
+    { "country": "Germany", "date": "May 22, 2026", "status": "Subscription live via software update, in parallel with Sweden", "tier": "recognized" },
+    { "country": "Denmark", "date": "Jun 9, 2026", "status": "Approved after its own technical review — one of the more skeptical regulators going in", "tier": "recognized" },
+    { "country": "Belgium", "date": "Jun 11, 2026", "status": "Flanders' mobility minister accepted the provisional approval region-wide", "tier": "recognized" },
+    { "country": "Finland", "date": "Not yet approved (as of late Jun 2026)", "status": "~6,500 FSD-equipped cars already on Finnish roads in regulatory limbo; considering approval ahead of the EU's October vote", "tier": "pending" }
+  ],
+  "skepticism": {
+    "title": "EU regulators are more skeptical than Tesla's messaging suggests",
+    "note": "Reuters obtained internal EU regulator correspondence showing sustained skepticism toward FSD's safety claims — including a Swedish Transport Agency investigator who said he was \"quite surprised\" FSD was allowed to exceed posted speed limits, and other regulators objecting to Tesla's strategy of encouraging owners to lobby their own governments. Musk's Q2–Q3 2026 EU-wide approval timeline now looks ambitious against that backdrop.",
+    "link": "https://thenextweb.com/news/tesla-fsd-eu-skepticism-regulator-records"
+  },
+  "sources": [
+    { "label": "Netherlands: first national FSD approval, Apr 10", "link": "https://electrek.co/?p=445084" },
+    { "label": "Country-by-country approval timeline (8 weeks, 5 countries)", "link": "https://eleport.com/tesla-fsd-europe/" },
+    { "label": "Cross-border FSD behavior between approved countries", "link": "https://www.basenor.com/blogs/news/tesla-fsd-now-works-across-european-borders-what-to-know" },
+    { "label": "Finland weighing approval ahead of EU vote", "link": "https://www.basenor.com/blogs/news/finland-may-approve-tesla-fsd-before-eus-october-decision" }
+  ]
+}

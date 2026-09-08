@@ -1047,6 +1047,18 @@
 </section>
 
 <section class="panel standalone">
+  <h2>FSD (Supervised) in Europe — country-by-country approval</h2>
+  <p class="panel-note">Not a robotaxi service, but the same underlying stack — and the fastest-moving regulatory story on this page. Once the Netherlands granted approval, other EU states could recognize it without re-testing, and five countries cleared it in eight weeks.</p>
+  <div class="table-scroll">
+    <table class="watchlist-table" id="fsd-europe-table"></table>
+  </div>
+  <div class="callout-box" id="fsd-skepticism-box" style="margin-top:16px;"></div>
+  <p class="panel-note" id="fsd-eu-vote-context" style="margin-top:16px;"></p>
+  <ul class="source-note" id="fsd-europe-sources" style="list-style:none; padding:0; margin-top:10px;"></ul>
+  <p class="verified-stamp" style="margin-top:10px;"><span class="dot-ok"></span>Figures last verified: <span id="fsd-last-verified" class="js-last-verified"></span></p>
+</section>
+
+<section class="panel standalone">
   <h2>Common questions</h2>
   <p class="panel-note" style="font-size:13.5px; line-height:1.6;">
     <strong style="color:#fff;">Is Tesla's robotaxi bigger than Waymo's?</strong><br>
@@ -1454,6 +1466,38 @@
         '<p class="panel-note">Ratings not available yet — this loads from rider-satisfaction.json once the site is deployed.</p>';
     });
 
+  fetch('fsd-europe.json')
+    .then(r => { if (!r.ok) throw new Error('not found'); return r.json(); })
+    .then(data => {
+      const rows = data.countries.map(c => {
+        const tierColor = c.tier === 'first' ? 'var(--live)' : (c.tier === 'pending' ? 'var(--muted)' : 'var(--verified)');
+        return `<tr><td class="ticker" style="color:${tierColor};">${c.country}</td><td>${c.date}</td><td class="cat" style="white-space:normal;">${c.status}</td></tr>`;
+      }).join('');
+      document.getElementById('fsd-europe-table').innerHTML =
+        `<tr><th>Country</th><th>Date</th><th>Status</th></tr>${rows}`;
+
+      document.getElementById('fsd-skepticism-box').innerHTML = `
+        <div class="tag-row" style="margin-bottom:8px;">
+          <span class="tag verified">VERIFIED</span>
+          <span class="tag speculation" style="background:rgba(255,93,108,0.12); color:var(--down); border-color:rgba(255,93,108,0.3);">REGULATOR SKEPTICISM</span>
+        </div>
+        <p class="news-title" style="margin-bottom:6px;">${data.skepticism.title}</p>
+        <p class="news-meta">${data.skepticism.note} <a href="${data.skepticism.link}" target="_blank" rel="noopener">Details →</a></p>
+      `;
+
+      document.getElementById('fsd-eu-vote-context').textContent = data.euVoteContext;
+
+      document.getElementById('fsd-europe-sources').innerHTML = data.sources.map(s =>
+        `<li style="margin-bottom:6px;"><a href="${s.link}" target="_blank" rel="noopener">${s.label}</a></li>`
+      ).join('');
+
+      const stamp = document.getElementById('fsd-last-verified');
+      if (stamp) stamp.textContent = data.lastVerified;
+    })
+    .catch(() => {
+      document.getElementById('fsd-europe-table').outerHTML =
+        '<p class="panel-note">FSD Europe data not available yet — this loads from fsd-europe.json once the site is deployed.</p>';
+    });
 
   const aboutBtn = document.getElementById('about-btn');
   const aboutOverlay = document.getElementById('about-modal-overlay');
