@@ -17,7 +17,7 @@
       "source": "Independent Robotaxi Tracker",
       "link": "https://betsports.it.com/a/2968.html",
       "disputed": true,
-      "disputeNote": "Other outlets reported anywhere from 20 to 700 vehicles the same week, depending on whether supervised units were counted — later coverage described the fleet as \"shrinking\" from this figure.",
+      "disputeNote": "Other outlets reported anywhere from 20 to 700 vehicles the same week, depending on whether supervised units were counted \u2014 later coverage described the fleet as \"shrinking\" from this figure.",
       "disputeLink": "https://basenor.com/blogs/news/teslas-unsupervised-robotaxi-fleet-is-shrinking-what-the-numbers-show"
     },
     {
@@ -27,6 +27,17 @@
       "confirmed": true,
       "source": "Bloomberg",
       "link": "https://www.golem.de/news/transportation-tesla-s-robotaxi-falls-short-with-long-waits-stalled-rides-2606-209716.html"
+    },
+    {
+      "date": "2026-09",
+      "label": "Sep 2026",
+      "count": 270,
+      "confirmed": true,
+      "source": "Texas TxDMV vehicle registrations (271 vs. 191 prior)",
+      "link": "https://www.elektroquatsch.de/artikel/tesla-robotaxi-texas-flotte-waechst-um-79-model-y",
+      "disputed": true,
+      "disputeNote": "This counts total TX robotaxi-program vehicle registrations, not necessarily active/unsupervised units. A separate tracker reported only 42 authorized and ~20 actively running driverless the same week \u2014 registered and operational fleet size are not the same number.",
+      "disputeLink": "https://thechargeport.com/robotaxi-tracker"
     }
   ]
 }
