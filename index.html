@@ -1575,24 +1575,17 @@
   tslaIconEl.addEventListener('mouseleave', () => tslaIconAnim.stop());
 
   const tslaLiveEl = document.getElementById('tsla-live-pct');
-  if (FINNHUB_API_KEY && FINNHUB_API_KEY !== "PASTE_YOUR_FINNHUB_API_KEY_HERE") {
-    fetch(`https://finnhub.io/api/v1/quote?symbol=TSLA&token=${FINNHUB_API_KEY}`)
-      .then(r => r.json())
-      .then(data => {
-        const current = data.c;
-        if (!current) throw new Error('no price');
-        const pct = ((current - TSLA_BASELINE) / TSLA_BASELINE) * 100;
-        tslaLiveEl.textContent = (pct >= 0 ? '+' : '') + pct.toFixed(1) + '%';
-        tslaLiveEl.style.color = pct >= 0 ? 'var(--verified)' : 'var(--down)';
-        tslaLiveEl.classList.remove('num-pulse');
-      })
-      .catch(() => { tslaLiveEl.textContent = 'N/A'; tslaLiveEl.classList.remove('num-pulse'); });
-  } else {
-    tslaLiveEl.textContent = 'Add API key';
-    tslaLiveEl.style.fontSize = '15px';
-    tslaLiveEl.style.color = 'var(--muted)';
-    tslaLiveEl.classList.remove('num-pulse');
-  }
+  fetch(`https://finnhub.io/api/v1/quote?symbol=TSLA&token=${FINNHUB_API_KEY}`)
+    .then(r => r.json())
+    .then(data => {
+      const current = data.c;
+      if (!current) throw new Error('no price');
+      const pct = ((current - TSLA_BASELINE) / TSLA_BASELINE) * 100;
+      tslaLiveEl.textContent = (pct >= 0 ? '+' : '') + pct.toFixed(1) + '%';
+      tslaLiveEl.style.color = pct >= 0 ? 'var(--verified)' : 'var(--down)';
+      tslaLiveEl.classList.remove('num-pulse');
+    })
+    .catch(() => { tslaLiveEl.textContent = 'N/A'; tslaLiveEl.classList.remove('num-pulse'); });
 
   fetch('news.json')
     .then(r => { if (!r.ok) throw new Error('not found'); return r.json(); })
