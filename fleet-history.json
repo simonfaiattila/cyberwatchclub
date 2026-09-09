@@ -1,5 +1,5 @@
 {
-  "lastChecked": "September 8, 2026",
+  "lastChecked": "September 9, 2026",
   "points": [
     {
       "date": "2025-06",
@@ -38,6 +38,14 @@
       "disputed": true,
       "disputeNote": "This counts total TX robotaxi-program vehicle registrations, not necessarily active/unsupervised units. A separate tracker reported only 42 authorized and ~20 actively running driverless the same week — registered and operational fleet size are not the same number.",
       "disputeLink": "https://thechargeport.com/robotaxi-tracker"
+    },
+    {
+      "date": "2026-09",
+      "label": "Sep 2026",
+      "count": 10,
+      "confirmed": false,
+      "source": "Tesla Gets Robotaxi Permit in Nevada … for 10 Vehicles - CleanTechnica",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVzdwYzdjaWhhVDRnZTIyVXJqR2EyazRMMmFYNXUzem5lb21fRVFqYkpyTW1MUjR4WFRZYWdOWlpEbVM0Rm1QVFBDcFFpb2NlaVA5ZUZZLVNqSlJBQ2w5VTlSS2lQMzBPZGJzcU8tN0xsZEl6WlFNWkQyWWVBeXFERlZHVmNvQnh1VkIxSnlOQjlDbFJY?oc=5"
     }
   ]
 }
