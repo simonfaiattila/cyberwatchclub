@@ -53,13 +53,17 @@
   },
   {
     "state": "Nevada",
-    "framework": "Permit-based (pioneer state)",
-    "detail": "AB 69 (2017) authorized both testing and commercial deployment of fully autonomous vehicles, years ahead of most states \u2014 Nevada was an early mover specifically to attract AV companies.",
+    "framework": "Two very different outcomes \u2014 Tesla capped hard, Zoox cleared federally",
+    "detail": "Tesla filed Jun 5, 2026 for an AVNC permit to run up to 5,000 vehicles across Clark County. The state granted it Jul 27 \u2014 but capped the fleet at just 10 vehicles, confined to the Strip, banned airport pickups, and set a 45 mph limit. Separately, on Jul 30, Zoox became the first company ever to win a federal NHTSA exemption for a robotaxi with no steering wheel or pedals \u2014 cleared to charge fares on up to 2,500 vehicles/year, starting in Las Vegas.",
     "status": "live",
     "sources": [
       {
-        "label": "AB69 signed into law",
-        "link": "https://lasvegassun.com/news/2017/jun/20/autonomous-vehicles-in-nevada-roll-forward-with-ne/"
+        "label": "Tesla's 5,000-vehicle filing, capped at 10",
+        "link": "https://electrek.co/2026/08/17/tesla-nevada-robotaxi-permit-10-vehicles-las-vegas/"
+      },
+      {
+        "label": "Zoox wins first federal no-controls exemption",
+        "link": "https://www.aljazeera.com/economy/2026/7/30/amazons-zoox-secures-us-federal-approval-for-steering-wheel-free-robotaxis"
       }
     ]
   }

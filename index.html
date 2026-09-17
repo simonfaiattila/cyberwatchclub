@@ -924,6 +924,22 @@
     </div>
     <div class="news-item">
       <div class="tag-row">
+        <span class="tag zoox">ZOOX</span>
+        <span class="tag verified">VERIFIED</span>
+      </div>
+      <p class="news-title">Zoox wins first-ever federal approval to charge fares with no steering wheel</p>
+      <p class="news-meta">NHTSA exemption, Jul 30, 2026 — capped at 2,500 vehicles/year for 2 years; fares start in Las Vegas first</p>
+    </div>
+    <div class="news-item">
+      <div class="tag-row">
+        <span class="tag cybercab">CYBERCAB</span>
+        <span class="tag verified">VERIFIED</span>
+      </div>
+      <p class="news-title">Nevada asked for 5,000, gave Tesla 10 — and banned the airport</p>
+      <p class="news-meta">Jul 27, 2026 — Strip-only corridor, 45 mph cap, no Harry Reid or Henderson pickups</p>
+    </div>
+    <div class="news-item">
+      <div class="tag-row">
         <span class="tag ad">MONETIZATION</span>
         <span class="tag speculation">SPECULATION</span>
       </div>
@@ -1081,10 +1097,10 @@
   <h2>Common questions</h2>
   <p class="panel-note" style="font-size:13.5px; line-height:1.6;">
     <strong style="color:#fff;">Is Tesla's robotaxi bigger than Waymo's?</strong><br>
-    No — not yet, by any public metric. Waymo runs in 11 cities with roughly 4,000 vehicles and about
+    No — not yet, by any public metric. Waymo runs in 14 cities with roughly 4,000 vehicles and about
     500,000 paid rides a week; Tesla now runs unsupervised in 6 cities (Austin, Dallas, Houston, Miami,
     Orlando, Tampa) plus a supervised pilot in the SF Bay Area — but fleet size is disputed: 270 TX
-    registrations vs. ~20-42 reported actively driverless nationwide in Jul 2026.
+    registrations vs. ~20-50 reported actively driverless nationwide.
   </p>
   <p class="panel-note" style="font-size:13.5px; line-height:1.6; margin-top:14px;">
     <strong style="color:#fff;">Does TSLA stock move on robotaxi news?</strong><br>
@@ -1129,10 +1145,10 @@
   <p class="panel-note">Tesla's robotaxi network is still operating at a much smaller scale than Waymo, and even behind Zoox's rider count in its one live market. Apollo Go is included for global context — it operates almost entirely outside the US.</p>
   <div class="table-scroll"><table class="compare-table">
     <tr><th></th><th>Tesla</th><th>Waymo</th><th>Zoox</th><th>Apollo Go</th></tr>
-    <tr><td>Active cities</td><td class="tesla">6 unsupervised (US)</td><td class="waymo">11 (US)</td><td class="zoox">1 live (Las Vegas) + SF testing</td><td class="apollo">27 (mostly China + Dubai, Abu Dhabi)</td></tr>
+    <tr><td>Active cities</td><td class="tesla">6 unsupervised (US)</td><td class="waymo">14 (US)</td><td class="zoox">1 live (Las Vegas) + SF testing</td><td class="apollo">27 (mostly China + Dubai, Abu Dhabi)</td></tr>
     <tr><td>Reported fleet</td><td class="tesla">270 registered (Sep 2026) / ~20-42 active</td><td class="waymo">~4,000 vehicles</td><td class="zoox">not publicly disclosed</td><td class="apollo">not publicly disclosed</td></tr>
     <tr><td>Rides / week</td><td class="tesla">no public data</td><td class="waymo">~500,000</td><td class="zoox">free service, no fare data</td><td class="apollo">no public weekly figure</td></tr>
-    <tr><td>Cumulative rides</td><td class="tesla">no public data</td><td class="waymo">20M+</td><td class="zoox">500,000+ riders (Jun 2026)</td><td class="apollo">22M+ (Apr 2026)</td></tr>
+    <tr><td>Cumulative rides</td><td class="tesla">1M+ unsupervised miles (not rides)</td><td class="waymo">20M+</td><td class="zoox">500,000+ riders (free, through Jul 2026)</td><td class="apollo">22M+ (Apr 2026)</td></tr>
     <tr><td>Sensors</td><td class="tesla">cameras only</td><td class="waymo">camera + lidar + radar</td><td class="zoox">camera + lidar + radar</td><td class="apollo">camera + lidar + radar</td></tr>
     <tr><td>Vehicle design</td><td class="tesla">Cybercab: 2 seats, no wheel/pedals</td><td class="waymo">retrofitted Jaguar I-Pace</td><td class="zoox">purpose-built, no wheel/pedals, seats 4</td><td class="apollo">retrofitted + purpose-built mix</td></tr>
     <tr><td>Latest funding</td><td class="tesla">—</td><td class="waymo">$16B (Feb 2026)</td><td class="zoox">— (Amazon-owned)</td><td class="apollo">— (Baidu subsidiary)</td></tr>
@@ -1792,11 +1808,14 @@
     { name: "Phoenix, AZ", op: "waymo", coords: [33.70, -112.0740], live: true, note: "Waymo — live paid service" },
     { name: "Austin, TX", op: "waymo", coords: [30.52, -97.7431], live: true, note: "Waymo — live paid service" },
     { name: "Atlanta, GA", op: "waymo", coords: [33.7490, -84.3880], live: true, note: "Waymo — live paid service" },
+    { name: "Denver, CO", op: "waymo", coords: [39.7392, -104.9903], live: true, note: "Waymo — live, added Sep 10, 2026" },
+    { name: "San Diego, CA", op: "waymo", coords: [32.7157, -117.1611], live: true, note: "Waymo — live, added Sep 10, 2026" },
+    { name: "Tampa, FL", op: "waymo", coords: [27.9006, -82.4272], live: true, note: "Waymo — live, added Sep 10, 2026 (offset from Tesla's Tampa marker)" },
     { name: "Miami, FL", op: "waymo", coords: [26.01, -80.1918], live: true, note: "Waymo — live paid service" },
     { name: "Dallas, TX", op: "waymo", coords: [33.03, -96.7970], live: false, note: "Waymo — testing, full service expected early 2026" },
     { name: "Houston, TX", op: "waymo", coords: [30.01, -95.3698], live: false, note: "Waymo — testing, full service expected early 2026" },
     // Zoox
-    { name: "Las Vegas, NV", op: "zoox", coords: [36.1699, -115.1398], live: true, note: "Zoox — live, free rides (Amazon-owned)" },
+    { name: "Las Vegas, NV", op: "zoox", coords: [36.1699, -115.1398], live: true, note: "Zoox — federal exemption for paid rides granted Jul 30, 2026 (up to 2,500 vehicles/yr); fares starting here first" },
     { name: "SF Bay Area, CA", op: "zoox", coords: [37.52, -122.4194], live: false, note: "Zoox — testing" }
   ];
 

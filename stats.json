@@ -1,12 +1,12 @@
 {
-  "lastVerified": "September 10, 2026",
+  "lastVerified": "September 17, 2026",
   "stats": [
     { "id": "stat-cities", "value": "6", "label": "unsupervised US cities for Tesla — Austin, Dallas, Houston, Miami, Orlando, Tampa (+ SF Bay Area, supervised)" },
-    { "id": "stat-fleet", "value": "270", "label": "TX robotaxi vehicle registrations (Sep 2026) — disputed: other trackers reported ~20-42 active nationwide in Jul 2026" },
+    { "id": "stat-fleet", "value": "270", "label": "TX robotaxi vehicle registrations (Sep 2026) — disputed: other trackers reported ~20-50 active nationwide" },
     { "id": "stat-monetization", "value": "$472B", "label": "UBS projection for the \"in-car monetization\" market by 2030 — speculative, not a Tesla plan" },
-    { "id": "stat-waymo", "value": "11", "label": "active Waymo cities — operating at a much larger scale" },
-    { "id": "stat-rides", "value": "~500K", "label": "Waymo paid rides / week (Sep 2026, reconfirmed) — for comparison" },
-    { "id": "stat-zoox", "value": "500K+", "label": "Zoox free riders in Las Vegas (Jun 2026) — no fares yet, still expanding" },
+    { "id": "stat-waymo", "value": "14", "label": "active Waymo cities (Sep 10, 2026) — added Denver, San Diego, Tampa; still operating at a much larger scale" },
+    { "id": "stat-rides", "value": "~500K", "label": "Waymo paid rides / week — for comparison" },
+    { "id": "stat-zoox", "value": "2,500/yr", "label": "Zoox's new federal cap on paid vehicles — first-ever NHTSA exemption for a no-controls robotaxi (Jul 30, 2026), fares starting in Las Vegas" },
     { "id": "stat-tsla", "value": null, "label": "TSLA change since Sep 1, 2026 close ($356.09) — live via Finnhub" }
   ]
 }
