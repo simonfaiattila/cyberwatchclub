@@ -1,8 +1,8 @@
 {
-  "lastVerified": "September 8, 2026",
+  "lastVerified": "September 10, 2026",
   "stats": [
-    { "id": "stat-cities", "value": "3", "label": "live US cities for Tesla — Austin, Dallas, Houston" },
-    { "id": "stat-fleet", "value": "270", "label": "TX robotaxi vehicle registrations (Sep 2026) — disputed: other trackers report only ~20-42 actively driverless the same week" },
+    { "id": "stat-cities", "value": "6", "label": "unsupervised US cities for Tesla — Austin, Dallas, Houston, Miami, Orlando, Tampa (+ SF Bay Area, supervised)" },
+    { "id": "stat-fleet", "value": "270", "label": "TX robotaxi vehicle registrations (Sep 2026) — disputed: other trackers reported ~20-42 active nationwide in Jul 2026" },
     { "id": "stat-monetization", "value": "$472B", "label": "UBS projection for the \"in-car monetization\" market by 2030 — speculative, not a Tesla plan" },
     { "id": "stat-waymo", "value": "11", "label": "active Waymo cities — operating at a much larger scale" },
     { "id": "stat-rides", "value": "~500K", "label": "Waymo paid rides / week (Sep 2026, reconfirmed) — for comparison" },

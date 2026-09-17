@@ -908,6 +908,22 @@
     </div>
     <div class="news-item">
       <div class="tag-row">
+        <span class="tag cybercab">CYBERCAB</span>
+        <span class="tag verified">VERIFIED</span>
+      </div>
+      <p class="news-title">Tesla quietly expanded to 6 unsupervised cities — Florida now bigger than Texas</p>
+      <p class="news-meta">Miami (Jul 3), then Orlando &amp; Tampa (Jul 21) — all driverless from day one, per Tesla's own AI lead Ashok Elluswamy</p>
+    </div>
+    <div class="news-item">
+      <div class="tag-row">
+        <span class="tag cybercab">CYBERCAB</span>
+        <span class="tag verified">VERIFIED</span>
+      </div>
+      <p class="news-title">Tesla Robotaxi passes 1 million unsupervised miles driven</p>
+      <p class="news-meta">Wikipedia, citing Tesla's Q2 2026 investor deck — a cumulative figure across all unsupervised cities</p>
+    </div>
+    <div class="news-item">
+      <div class="tag-row">
         <span class="tag ad">MONETIZATION</span>
         <span class="tag speculation">SPECULATION</span>
       </div>
@@ -943,7 +959,8 @@
     </p>
     <p class="panel-note" style="font-size:13.5px; line-height:1.6;">
       Tesla unveiled the Cybercab in October 2024 and launched a Model Y/Model 3-based robotaxi service in
-      Austin in June 2025, since expanded to Dallas and Houston. Waymo and Zoox are further along by most
+      Austin in June 2025, since expanded unsupervised to Dallas, Houston, Miami, Orlando, and Tampa, plus a
+      supervised pilot in the SF Bay Area. Waymo and Zoox are further along by most
       public metrics (rides, fleet size, city count) — the comparison table below spells out the gap rather
       than assuming Tesla is ahead by default.
     </p>
@@ -1005,6 +1022,8 @@
       <li><div class="t-date">Aug 2025</div><div class="t-title">Testing begins without a safety monitor in Texas</div></li>
       <li><div class="t-date">Late 2025 – early 2026</div><div class="t-title">Service expands to Dallas and Houston</div></li>
       <li><div class="t-date">H1 2026</div><div class="t-title">Sun Belt expansion announced: Phoenix, Miami</div></li>
+      <li><div class="t-date">Jul 3, 2026</div><div class="t-title">Miami goes live, unsupervised from day one</div></li>
+      <li><div class="t-date">Jul 21, 2026</div><div class="t-title">Orlando &amp; Tampa go live — 18 days after Miami</div></li>
       <li><div class="t-date">Sep 2026</div><div class="t-title">Cybercab launched publicly in Austin — rides began Sep 4</div><div class="news-meta" style="margin-top:2px;"><a href="https://kuwaittimes.com/article/49197/business/tesla-launches-driverless-cybercab-service-in-austin/" target="_blank" rel="noopener">AFP/Kuwait Times →</a></div></li>
     </ul>
   </section>
@@ -1063,8 +1082,9 @@
   <p class="panel-note" style="font-size:13.5px; line-height:1.6;">
     <strong style="color:#fff;">Is Tesla's robotaxi bigger than Waymo's?</strong><br>
     No — not yet, by any public metric. Waymo runs in 11 cities with roughly 4,000 vehicles and about
-    500,000 paid rides a week; Tesla had 270 TX vehicle registrations as of Sep 2026, though other trackers
-    put the actively driverless count closer to 20-42 across its 3 cities.
+    500,000 paid rides a week; Tesla now runs unsupervised in 6 cities (Austin, Dallas, Houston, Miami,
+    Orlando, Tampa) plus a supervised pilot in the SF Bay Area — but fleet size is disputed: 270 TX
+    registrations vs. ~20-42 reported actively driverless nationwide in Jul 2026.
   </p>
   <p class="panel-note" style="font-size:13.5px; line-height:1.6; margin-top:14px;">
     <strong style="color:#fff;">Does TSLA stock move on robotaxi news?</strong><br>
@@ -1109,7 +1129,7 @@
   <p class="panel-note">Tesla's robotaxi network is still operating at a much smaller scale than Waymo, and even behind Zoox's rider count in its one live market. Apollo Go is included for global context — it operates almost entirely outside the US.</p>
   <div class="table-scroll"><table class="compare-table">
     <tr><th></th><th>Tesla</th><th>Waymo</th><th>Zoox</th><th>Apollo Go</th></tr>
-    <tr><td>Active cities</td><td class="tesla">3 (US)</td><td class="waymo">11 (US)</td><td class="zoox">1 live (Las Vegas) + SF testing</td><td class="apollo">27 (mostly China + Dubai, Abu Dhabi)</td></tr>
+    <tr><td>Active cities</td><td class="tesla">6 unsupervised (US)</td><td class="waymo">11 (US)</td><td class="zoox">1 live (Las Vegas) + SF testing</td><td class="apollo">27 (mostly China + Dubai, Abu Dhabi)</td></tr>
     <tr><td>Reported fleet</td><td class="tesla">270 registered (Sep 2026) / ~20-42 active</td><td class="waymo">~4,000 vehicles</td><td class="zoox">not publicly disclosed</td><td class="apollo">not publicly disclosed</td></tr>
     <tr><td>Rides / week</td><td class="tesla">no public data</td><td class="waymo">~500,000</td><td class="zoox">free service, no fare data</td><td class="apollo">no public weekly figure</td></tr>
     <tr><td>Cumulative rides</td><td class="tesla">no public data</td><td class="waymo">20M+</td><td class="zoox">500,000+ riders (Jun 2026)</td><td class="apollo">22M+ (Apr 2026)</td></tr>
@@ -1758,13 +1778,14 @@
   const colors = { tesla: "#ffd23f", waymo: "#5aa9e6", zoox: "#4de8a8" };
 
   const sites = [
-    // Tesla
-    { name: "Austin, TX", op: "tesla", coords: [30.2672, -97.7431], live: true, note: "Tesla — live service, also tested without a safety monitor" },
-    { name: "Dallas, TX", op: "tesla", coords: [32.7767, -96.7970], live: true, note: "Tesla — live service" },
-    { name: "Houston, TX", op: "tesla", coords: [29.7604, -95.3698], live: true, note: "Tesla — live service" },
-    { name: "Phoenix, AZ", op: "tesla", coords: [33.4484, -112.0740], live: false, note: "Tesla — announced H1 2026 expansion" },
-    { name: "Miami, FL", op: "tesla", coords: [25.7617, -80.1918], live: false, note: "Tesla — announced H1 2026 expansion" },
-    { name: "SF Bay Area, CA", op: "tesla", coords: [37.7749, -122.4194], live: false, note: "Tesla — planned, no firm timeline due to regulation" },
+    // Tesla — unsupervised (live) cities: Austin, Dallas, Houston, Miami, Orlando, Tampa. SF Bay Area still has a safety monitor.
+    { name: "Austin, TX", op: "tesla", coords: [30.2672, -97.7431], live: true, note: "Tesla — live, unsupervised since Aug 2025" },
+    { name: "Dallas, TX", op: "tesla", coords: [32.7767, -96.7970], live: true, note: "Tesla — live, unsupervised" },
+    { name: "Houston, TX", op: "tesla", coords: [29.7604, -95.3698], live: true, note: "Tesla — live, unsupervised" },
+    { name: "Miami, FL", op: "tesla", coords: [25.7617, -80.1918], live: true, note: "Tesla — live, unsupervised since Jul 3, 2026" },
+    { name: "Orlando, FL", op: "tesla", coords: [28.5383, -81.3792], live: true, note: "Tesla — live, unsupervised since Jul 21, 2026" },
+    { name: "Tampa, FL", op: "tesla", coords: [27.9506, -82.4572], live: true, note: "Tesla — live, unsupervised since Jul 21, 2026" },
+    { name: "SF Bay Area, CA", op: "tesla", coords: [37.7749, -122.4194], live: false, note: "Tesla — live, but still with a safety monitor onboard" },
     // Waymo (offset north to separate from Tesla markers in the same metro)
     { name: "SF Bay Area, CA", op: "waymo", coords: [38.05, -122.4194], live: true, note: "Waymo — live paid service" },
     { name: "Los Angeles, CA", op: "waymo", coords: [34.0522, -118.2437], live: true, note: "Waymo — live paid service" },
