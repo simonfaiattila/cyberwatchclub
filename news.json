@@ -1,5 +1,109 @@
 [
   {
+    "title": "Cruise driverless taxi and testing permits suspended by DMV - KRON4",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOLWlISDZOSWplYWVZUkpvZ3FlbkdtYmthYi14eFd6U0c2WkZNRVhkTk1Fb29odl9iSFpRbF9OZVRUYUlvbTh5SV92VndHX1BKb1NTSFhSN1otalN6eEctZnNvbmstUVg3TjdtbW52WW4tMWp6U2t1VU1XYmNnUWdtWGU5YWozUHMzWHpfbVZmNnVFZ2xQd1FVVVdYcS3SAaIBQVVfeXFMT0QtR2NhX3BuMFJ6YjFwc1JacjE0dVFZVzBTNzFHN3FuaFIzcE81RnJ4REVGbmUxU3k4UVV3ZlVQeWdDdUQ2blhzS2xSYkxMRTN0aEN2WG1DcW1BSTlEZ2htZWY0N2pmTi10ODV2Tjh1MnU5SllVczh2Q0tuSllTTGtaVmd2eDFkcDQ0Z2ZxUk5EYVlLQk1EY1ZPVkxBY0c3ZmNB?oc=5",
+    "source": "KRON4",
+    "category": "REGULATION",
+    "published": "Tue, 24 Oct 2023 07:00:00 GMT",
+    "fetched_at": "2026-09-19T10:11:01.631443+00:00"
+  },
+  {
+    "title": "NHTSA Reviews Waymo Records After Robotaxi Strikes Nine-Year-Old Near California School - Межа. Новини України.",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Pck4xOThzN2JfMmp2cnV3VHFnX1lQSHZwY1cxc0JoczN2WlpyeUNod0F2Q2VvYVhzR3Mta0FEZXhGdUFsYWdqUlhNeFBEZ00xMzhkOHQ2TFBJUWZzenVkLTAwdkxjZTg?oc=5",
+    "source": "Межа. Новини України.",
+    "category": "SAFETY",
+    "published": "Fri, 21 Aug 2026 07:00:00 GMT",
+    "fetched_at": "2026-09-19T10:10:59.246723+00:00"
+  },
+  {
+    "title": "Zoox Can Start Charging For Steering Wheel-Free Robotaxis In Las Vegas - Motor1.com",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5KdXlvTWstMi11OWlnWXpFQzBDMllTTWtrVzJqTWM3XzdoeW1xU2s1Y0hDWEdwY1hwYzlwcVZBX2tRNmVRMGdpV0JSLVNVZ1ozVnRzcG11VXNpZ1FkNXRrc1B5TEFnWXFiN21jRFZkTGJueTJN?oc=5",
+    "source": "Motor1.com",
+    "category": "CYBERCAB",
+    "published": "Fri, 07 Aug 2026 07:00:00 GMT",
+    "fetched_at": "2026-09-19T10:10:57.772002+00:00"
+  },
+  {
+    "title": "Minneapolis weighs ban on driverless robotaxis to protect rideshare drivers - Minnesota Reformer",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRG55M1hGSmZjUFc1N2NNc2hDWEdUZGY0cHRQMmFyYUc1dVJBVUMzTV9UbENGcm9rOUFidXNkWDY2N0N2V2tkUHREMlpGQ0piUmlUWXJYZ3Z1R2xMTGh6Szh0NUlTbjFERXk0VEloa3c4dlJ1WjFCMUlidmw3QlNoS25OUkpkNjFhaWdxNVY2QV8tYmRQSFREQk1XQkNzcnA1NUY4SEZ5ei0xM3kwaFJSSUV1S21yZVhx?oc=5",
+    "source": "Minnesota Reformer",
+    "category": "CYBERCAB",
+    "published": "Thu, 17 Sep 2026 13:04:29 GMT",
+    "fetched_at": "2026-09-19T10:10:57.191195+00:00"
+  },
+  {
+    "title": "Waymo Is Doing So Much More Than Most Understand, Keeping Me Buying Alphabet Hand Over Fist - AOL.com",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAzSlVidUxjWXA3NHlQN01BUmkzMmZxM0RFY2NBSE9ycEdHWTBkOFo4T1pCV190bWNua0tqTVZwYzBZc3pTbUQwZ2dmTVNuMHVjRnRIQUpMdWgyTjdKcGpXSXpMM2tpTExXTmtTQ2U4NEFOM2Y1ckV6QTdB?oc=5",
+    "source": "AOL.com",
+    "category": "CYBERCAB",
+    "published": "Fri, 18 Sep 2026 15:32:30 GMT",
+    "fetched_at": "2026-09-19T10:10:57.191161+00:00"
+  },
+  {
+    "title": "Waymo’s autonomous vehicles now making their way around Pittsburgh - WPXI",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUFlpMVR2Tmczd1I2RW14ZEtfMGk1LTFxLWhsR1RWejlGQklic2xrVU1WZ0tkLU5Ud1AxRE00M3lmZUllZkk3WU5qTDNuZGVRaGRIMmpNcWNxNFBpNU8tQUlTMHBEX29UTWM4bUxnYmxmdDN2Rk1PODdQMFJFaUpGMS1FaGllQWx4a2dkdXNna0RwMUJtZ2oxM2tPRWdIWXJQeFVFd21PQjlteV8tQUZUYUtmbW8tVUh4bGN6OHR6bEVNZzTSAdcBQVVfeXFMUGtpc3liV2k0c3hpRWJUZ1lHZlp0WURHVlpxYTZGeENwY0l3QmFYV1VsTXpiMUtsTnJIV0tpcGVWVFRMSkJnTGl6X0FWMlo2STEtRF9rYUVFQ3dvSlpNa0Z0OXVhbFlLYW5XOERnVEhzcENoZ1RvQXQyQ24xbnFHaGZsU09NcVJJeTNWOUU1dEx3YWJEVldfRXh1UHR6Q2RwRXNDTlZhVVNGSHlFWC1uaDJrN3Y2UHhFeWFZdFAtSTRsRW0xUVJGZkxGZmpzVmJibjBzUVNfVFk?oc=5",
+    "source": "WPXI",
+    "category": "CYBERCAB",
+    "published": "Fri, 18 Sep 2026 22:32:02 GMT",
+    "fetched_at": "2026-09-19T10:10:57.191117+00:00"
+  },
+  {
+    "title": "Waymo Targets Singapore Robotaxi Launch in 2028 - Briefs Finance",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTGNJam1vRnEtclVDRFAyeDQ0Unl2bkN5dDVWYmN5TVpHeExvSUVPcHBfd2EwakViZ2FRMEVFV3pzN1BlbmlUSVdmZW9fX1BBdUdtbng3WmFmUW9uLVZMQ1FBbGhLTTdwajc3T1ItOE04SWlBX2hXRTYxUVJRaUx6Zy1IWi00NnpwOFpGdkhYdWNNZw?oc=5",
+    "source": "Briefs Finance",
+    "category": "CYBERCAB",
+    "published": "Fri, 18 Sep 2026 23:01:00 GMT",
+    "fetched_at": "2026-09-19T10:10:57.191090+00:00"
+  },
+  {
+    "title": "Waymo Singapore Launch Targets 2028 Robotaxi Debut - Cybernews",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE14alJ6S1hhR2V1aGYzOFdWQjFJU1Y1S2EyM0pQRlZPSkNZWW1SUUNJZElkWHNwLU5VeHhOZ2xxR1p2am1zWHhiRzNLaXc2WVBqNDdGXy0yVWg4VC1SWVBGcFgxcmpxUVljekpmRVZuNkdpSk04TkE?oc=5",
+    "source": "Cybernews",
+    "category": "CYBERCAB",
+    "published": "Sat, 19 Sep 2026 03:00:39 GMT",
+    "fetched_at": "2026-09-19T10:10:57.191064+00:00"
+  },
+  {
+    "title": "Why Tesla's Robotaxi/Cybercab Bet Just Got Complicated. What It Means to Investors. - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLWNZOTlrcHhORVhfdGdyUklZTWc2dHZjejVmaHdETC1NWFJQcHBLMnE5Rzg0NVdiUGIwMmJtRVAwRlh1OWJiVzFqZzZST2NKU0ZUNnFiREY1RkVYaExwYVBtYUQ4THpiQm83YVh5NUdQMmdZUE92ZE52aGJIWUpxNEdaOFZMemJvWnpQNHNoRWpHMjN1UGpxMGN2SGxCUQ?oc=5",
+    "source": "Yahoo Finance",
+    "category": "CYBERCAB",
+    "published": "Sat, 19 Sep 2026 06:50:00 GMT",
+    "fetched_at": "2026-09-19T10:10:56.696610+00:00"
+  },
+  {
+    "title": "Tesla’s Robotaxi Nonevent & GPT-6 Is Here! - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaXF0T3lwd1YyUWdIeFhlTmdJNkpZUTRnXzhmZU5jdTdEUTFJTjIweEdQdG93N01VUXF4ckh1Z29RQjN1ODl3bzlNZ3pFNUNlRUdndUNleHhXc2hvWHpJMDRKaVpENHJRSUx2anZnNXJXcGtLLXB3MjctVjFyQXA2ekFZaENhOG5sZTczSlVhOA?oc=5",
+    "source": "The Motley Fool",
+    "category": "CYBERCAB",
+    "published": "Sat, 19 Sep 2026 04:18:26 GMT",
+    "fetched_at": "2026-09-19T10:10:56.696586+00:00"
+  },
+  {
+    "title": "Why Tesla's Robotaxi/Cybercab Bet Just Got Complicated. What It Means to Investors. - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQclBlV1Z2bEdxQVFuQnphWU9kUUVxaENwVnB1Qlc1UXNBVmMtLWZQWjhOelBaSUJOb3ppQ2ltQUhFWGVyRW1Bb0FnNnF6Ui1VUk9zNjhHcWZqazZQUkw0eTRwcXNVcWREb1RUNUtVV0NlX0d1Rk9pTUNqNFpMMF9RNE9CVk9wUkt2MXBYTTRqTU1sRk5NLUQ5QQ?oc=5",
+    "source": "The Motley Fool",
+    "category": "CYBERCAB",
+    "published": "Sat, 19 Sep 2026 07:30:00 GMT",
+    "fetched_at": "2026-09-19T10:10:56.696547+00:00"
+  },
+  {
+    "title": "Tesla's Cybercab Launch and Regulatory Challenges - Intellectia AI",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWV9XbGVRNW5rR1VDUFVITlhBWkliMkRDUXJMS3RfdndlU3RVTmdzaG9nbENQSFltX2owMVBsWmtzcUg2WmNMc3BQbkltZ3A2UVhya2NuVkxiM0ZSNmtaVFFFa0pqQnRWUXJ3eldyd0dOVFpLNW9lT0toMTJ2QkFqXzdSZ2JCbXFiakE?oc=5",
+    "source": "Intellectia AI",
+    "category": "CYBERCAB",
+    "published": "Sat, 19 Sep 2026 07:12:57 GMT",
+    "fetched_at": "2026-09-19T10:10:56.196713+00:00"
+  },
+  {
+    "title": "Tesla reaches major Cybercab milestone of 1 million unsupervised miles - The Cool Down",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNLTdqcUExMmgzM2hyeXlWVVlPQTh1cjQ1dnhzREotcmZwcnpBeFRCaGlrNVZGRDhjeWI2TEhBQk9fQlRuUk5YTnZHT2VxbnJNTXBNdkE3YWxxTnpWZjdhRWtnQzZiblVHb0dsSWE3V2QzRzhnTnhxNlBMbWFmby01dGhIQWtJZEE?oc=5",
+    "source": "The Cool Down",
+    "category": "CYBERCAB",
+    "published": "Sat, 19 Sep 2026 02:48:00 GMT",
+    "fetched_at": "2026-09-19T10:10:56.196655+00:00"
+  },
+  {
     "title": "Pony.ai’s permit to test driverless vehicles in California is suspended after crash - The Verge",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPemp2M1NOTFhnMXlEallRb2pOYTNMMllFeTZhN1pHZW81bkxOV3ZHdHdSWThySGFrYTY2OHVkSTQ5eXdhQXNTQjB5cjhFZVpiRWdSWUZ5U1Y4NW42bVp1RXoxOVdZdm43alM4dFBMbUpuZHNFMVdWYnQxX3ByaDAtQXh1c2tuTkk2cnNTX0pYa0YxbmU2aEktaVBWejQ?oc=5",
     "source": "The Verge",
@@ -134,109 +238,5 @@
     "category": "MONETIZATION",
     "published": "Fri, 18 Sep 2026 07:55:28 GMT",
     "fetched_at": "2026-09-18T20:17:59.995830+00:00"
-  },
-  {
-    "title": "Pony AI: Undeniable Robotaxi Momentum As It Enters More Markets (NASDAQ:PONY) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaTZjU2ZxOEtKMUJ0VEZNd0lxLXdQcDRoX1pReGhUX1BlMHN0QkNJMm9lRGJCSHROeGpEcjhXOG1EZ3N6UlY2a25lTFlWdnV5c0dtVnZyNHZMVWwtM3NOc3VfS2wwZ0xKTTQzSmVJb2M2N1Z1eXl6Q2VLYkQ5aGZfemNZQmhaZndPUE9haEVyZXY0enozQ1NiRkRfeGgwUURJRGxscl9R?oc=5",
-    "source": "Seeking Alpha",
-    "category": "MONETIZATION",
-    "published": "Fri, 18 Sep 2026 16:14:50 GMT",
-    "fetched_at": "2026-09-18T20:17:59.995754+00:00"
-  },
-  {
-    "title": "Waymo Robotaxi Blocks Fire Truck Responding To Austin Hotel Alarm - AOL.com",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQXzBlcVJFeE9xXzU5LU1XR3p6MkV5eTkzY0s1TEhqRUdEMEZOU1lrX2JCVVh6dWx3Z1JOcFFqVmZaVlFENkFjcUxxQUtObDlmYUVnVjBEY09oV3VHa09RUGV5ZjQwWEhuRHRLdlJROG1FSWxEWE5PdEJmeEdRZDlhaUJn?oc=5",
-    "source": "AOL.com",
-    "category": "CYBERCAB",
-    "published": "Thu, 17 Sep 2026 11:16:01 GMT",
-    "fetched_at": "2026-09-18T20:17:58.460044+00:00"
-  },
-  {
-    "title": "Waymo to Launch Robotaxi Service in Singapore by 2028 - ForkLog",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdWEtUTZWajNQVURuY1huWl85a0EwejRFQzBGRXBqWmVWMng1Qm1vTHZxMURyRFpLV1U3elpLNEtyZHBEMEhUSVZxejFNYlpPZTZtNUduZ2lRVFl6ODZFWlRiVUt1LW5tRjRVUWlDd3lidDJfS0JGc09UT201Yy00X2I4OA?oc=5",
-    "source": "ForkLog",
-    "category": "CYBERCAB",
-    "published": "Fri, 18 Sep 2026 10:00:00 GMT",
-    "fetched_at": "2026-09-18T20:17:58.460019+00:00"
-  },
-  {
-    "title": "Hyundai’s Georgia-Built Waymo Robotaxi Isn’t a Patriotism Story. It’s a Compliance Deadline. - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxORGVVWW1VWFdUOTloc29zbjdMTWFXZk9NSXIxTUxCOXRhbzg5UjlGem1GTm5LM05FQ3RyMVhkZThzWXNGcXNlYjMxV3lrREVQeEFKN3NYRGVNWjhuTTlzd2ZiUFU3TWtwN3hzQThOdmVVOGJscHlQQUIzN25sajdNTUlfU0l6dmRGdnVpV0c1QTFKRXVTVjNBYzZFQUh5QQ?oc=5",
-    "source": "Yahoo Finance",
-    "category": "CYBERCAB",
-    "published": "Thu, 17 Sep 2026 00:08:00 GMT",
-    "fetched_at": "2026-09-18T20:17:58.459980+00:00"
-  },
-  {
-    "title": "Waymo now testing fully autonomously in Pittsburgh with safety technician behind the wheel - WPXI",
-    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOQTFGR3RfOFo1SVktNWNhNi1OWUc4eUs3QXU1eEJiTnc0T1RCQXN3OEtEY0hMY1ZYaEpXSWpfX1BRQlRkMVNpVnFNN2U5aUtxYU9hNloxeUtRX0xHVHVCWUdoOWtDckZqMnhaYU9DS1ZKWWhtVzF1aGhtNDhkWFZPaVJlMjBlTUZHdjhZQkdEOWpXUENvMWFCVnJIbXFnc3VOeERtNFNOcjhmMlh5Smtia0pkbUpNOFZOcU0xS0tVSmVrZmpFTUNQbk9XMWhTMm4tX2Q1d2xtZ1lOYzDSAe8BQVVfeXFMTlBRNXhxWURtck9kZ3UwVXc1V2ZqbnR5ZWVONUtZekVQWHFvM1lqVUptNWY1YUk2Ukpsc3RucEp4OFI2bGI1QUt5THByNUxlVDVrZllmWVpFU01ENVFLUENacTMtZzZMRXhGS1VuVHVBNzFldm1Tck5aVU5FQWhYazBsVi1JWHB4elZIWTlqeml5VG9IUzRzRDB2QndielU5VFcxSzY5Z0EwRmVEalloaGFobUZIS2RWQmxmWGpmSWd1TzV2MmFRaXljemxsRFhxZVZFTTZJcVNSeEJxNGhyc3l1YlFyZEFwYlZ0NTc2NUE?oc=5",
-    "source": "WPXI",
-    "category": "CYBERCAB",
-    "published": "Fri, 18 Sep 2026 16:05:22 GMT",
-    "fetched_at": "2026-09-18T20:17:58.459965+00:00"
-  },
-  {
-    "title": "Waymo Is Doing So Much More Than Most Understand, Keeping Me Buying Alphabet Hand Over Fist - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMHZHYUJOWmZmY096ZmJSZ2hvVFlTNTIwZmZWalJCSEg3bkZVbld2OHR1TVRhUThoN0VFTUZ6SzRyTDlhY3B4Mk1NaDFzakRWTHNzNjZSMVhYU0ZOdHBSQ3ZPRVFFNFpyRmthRUxjeTZWeVUxTUd2OWRuYnZLMWFweHkyNWpXQWlrc2ZCSjlvVWxyWmJOSHc?oc=5",
-    "source": "Yahoo Finance",
-    "category": "CYBERCAB",
-    "published": "Fri, 18 Sep 2026 15:32:30 GMT",
-    "fetched_at": "2026-09-18T20:17:58.459957+00:00"
-  },
-  {
-    "title": "Singapore, Next Stop: Bringing Scalable, Safe Autonomous Mobility to the Lion City - Waymo",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE81dUlkcnBKcnBQVGlWdzhsMVloTlBQaEhlc0xoYXlyc1VTb1JFZVZ0UjltYnROc2tWd2ltN3BlZjZIT2RoSHpEazg2bE5UUm5kUWk4N1NRdS1XSVZoS1E?oc=5",
-    "source": "Waymo",
-    "category": "CYBERCAB",
-    "published": "Fri, 18 Sep 2026 02:56:43 GMT",
-    "fetched_at": "2026-09-18T20:17:58.459949+00:00"
-  },
-  {
-    "title": "An Austin Waymo robotaxi killed a cat named Tommy. His family wants answers - Yahoo",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORHQwZzFtbVJwaHdtQkVkQXl3WE9Qd0lBc0lwQ0ExZWtBZWN1TmduYmJQTzhQXzYxZXpFUzdEMzVUbzlzRXRUanZPN3BhbU1xbnFxVW9PeC1wNHNNU0NuWTR2T25peDZUak04dllqdHlEV19EQW0zU0JSX0VXR0diem1ySjdtVG10?oc=5",
-    "source": "Yahoo",
-    "category": "CYBERCAB",
-    "published": "Fri, 18 Sep 2026 11:35:41 GMT",
-    "fetched_at": "2026-09-18T20:17:58.459943+00:00"
-  },
-  {
-    "title": "Waymo Is Doing So Much More Than Most Understand, Keeping Me Buying Alphabet Hand Over Fist - 24/7 Wall St.",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWTdiNlRZenZDb1RyazRHdHNmTDdvZ2Z1X25NaTFTMG9EeXRYRDVZZUhGSEc4bXhMbzd0ZGNic3VuaV9sZTdOWlEzQjRvaW1kV3JJWEJod19xS2JISHdPbUcxODlHdzY2ZmRESy1CbWhfTGlUZkdIOFdFLWpYLU5HblBoWEs5LWRzY2p3WGxNWXhJYmxfdENVcFN6TWh2bkRBOEdVVndobzRMWnFUTXdwc0hNOUx1YlNFRjljclhnMHk2aER6cnlDRjRpYnJsLTg?oc=5",
-    "source": "24/7 Wall St.",
-    "category": "CYBERCAB",
-    "published": "Fri, 18 Sep 2026 15:32:00 GMT",
-    "fetched_at": "2026-09-18T20:17:58.459933+00:00"
-  },
-  {
-    "title": "'A badass cat': Austin family mourns Tommy after he was struck by a Waymo robotaxi - Yahoo",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSHh2SUI3b2VNUzk5M1J6M2JZVHpJcUw3YnhJRUkwMnQtaGc0bkxGU1JNWDcxdWtaMVVYRWVzX3R2ZGJudHVhNzZnUU44cXdReUcwVU5UNzR4Nk5yZ05tRkVBR1d5TFBDOTVYbnUwdTVIajN2U2tsZm02NWs0RHJhX3g1M2kzNW9rSHhxYWZ3?oc=5",
-    "source": "Yahoo",
-    "category": "CYBERCAB",
-    "published": "Fri, 18 Sep 2026 11:30:00 GMT",
-    "fetched_at": "2026-09-18T20:17:58.459909+00:00"
-  },
-  {
-    "title": "Waymo’s Next Target: Singapore - CleanTechnica",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5HeS1yaVZVMmdLRDRiWFdrU095Z3lBVldUb3VDM2wwX0kzVlh1d0NyeENrYUVmVzk3Rmkxa2hCRmRjMHNmc0JacjFIdjhWZGFMcGNVNTJXYktvRzlYVkEtYmhlV3pRcGxRcS1GUDk5am5ONzhP?oc=5",
-    "source": "CleanTechnica",
-    "category": "CYBERCAB",
-    "published": "Fri, 18 Sep 2026 14:01:00 GMT",
-    "fetched_at": "2026-09-18T20:17:58.459891+00:00"
-  },
-  {
-    "title": "Waymo Calls Cops on Passengers With Assault Rifle - Futurism",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcVVrak5OamlYWlIzS1B2NlF2ZmRCWE5ZalNEVmhQY0Z2X0NjbXR5TWV6eVJ4MUU0bnRNQWF6Z2x2bkxYOEpOVmMwc3NyU0Y3bWE3OGJuUmVySlZFbHpsX1pWZU96THRfNzZ1RFktSGZzNE5VSG5GeGkySU9wY3pBcQ?oc=5",
-    "source": "Futurism",
-    "category": "CYBERCAB",
-    "published": "Fri, 18 Sep 2026 13:35:39 GMT",
-    "fetched_at": "2026-09-18T20:17:58.459858+00:00"
-  },
-  {
-    "title": "Elon Musk Promised \"Over a Million Robotaxis\" by 2020. None Materialized, and a Dedicated Robotaxi Fleet Isn't Expected Until at Least 2027. Here's What That Track Record Means for Tesla's Valuation. - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNmVxMlF2cmkwQnpLX2trcE5rT2d6dzlCV3pkaEttZmhMUkVCZ3prMS1rSUtRRFZqcTc3ano4NGI3RjJuZWJTMGtHbW1idFhxempKeE5ZR2RjZjlVSE5tWkNNdUxqSDFkMldrOElfZkxXdWhMdDNYYk1mWEJ6OHZhelhodTctd0dQNkhGVTlxRjFOaWw1Y09NM25ZVHA?oc=5",
-    "source": "Yahoo Finance",
-    "category": "CYBERCAB",
-    "published": "Wed, 16 Sep 2026 06:57:00 GMT",
-    "fetched_at": "2026-09-18T20:17:57.956075+00:00"
   }
 ]
