@@ -1,5 +1,85 @@
 [
   {
+    "title": "U.S. DOT’s New Self-Driving Car Plan Promises National Standards for Autonomous Vehicles - Road & Track",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbncyWjc3WUN2cEJGNXA3bEtuUG5TT2xQeGdWUWxrXzAwSk5DUTNhWGR5Uk9Od0lxSlBSY3ZXa0l6TGZMNjlmU1I4WDl6ejRpdnp4dnRyUlFFYmVkQWswempJYU1sbXVzODRfREdGRENXcFFEN2dTcXJEQ2NZbnFXdDlLaVN2WUtCRWhUcF9JRFNhNEJqa3dldkwtblVxV1RCNktKNS1CcmxQdmoyUzhJaG1DMzN5dmV3cEo1dXpOVEFnZ0E?oc=5",
+    "source": "Road & Track",
+    "category": "REGULATION",
+    "published": "Fri, 04 Sep 2026 07:00:00 GMT",
+    "fetched_at": "2026-09-24T10:58:29.782398+00:00"
+  },
+  {
+    "title": "Waymo offers new incentives for commuters on public transit - Los Angeles Times",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQajN5OW9lYVJ5SGp6R1JCcUZKczZscUd4YWZod1NBcnJMNWc4ejhxSWFaT1FGTlJtSFRBTGRWMGs4SmpvcnVLcm50WUMzLVpWbXlUQktwVnRRdEpBWFMxZWhrbHJYUDQxU0R6c0J1SFNhUEVQVUFTanFldng2elBDNk9kdGlfZUJXa3Q5UnJpZG1oZFJ0ZWctTG1xZGs5VHMxcTZkSEtLQy1HeUViZ2c?oc=5",
+    "source": "Los Angeles Times",
+    "category": "CYBERCAB",
+    "published": "Thu, 24 Sep 2026 10:00:00 GMT",
+    "fetched_at": "2026-09-24T10:58:26.851992+00:00"
+  },
+  {
+    "title": "Why Tesla's Robotaxi/Cybercab Bet Just Got Complicated. What It Means to Investors. - The Globe and Mail",
+    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOaGJNX0ZTYjJQaVlZY3NIZHAtTFFxdm43VDgxQXd1VEU5QVBoYXBFY28zNU1aT0txZnM2cEV3R3pPSWpYZFVUVE5hY1hoLW50XzZJUmg3b0dxVm8zLW1iU0N4MVJzelJvUHZyQk82NXpzYXFhU051bG9tYy1Oa0dvMmIzaEFHNDBJVzVsVHJoMHBsdnhUQ0k4RUxTZ29mZThKWEhrbnppME14eXAzbF9hZmNjQU50blFDNllFTWtqbDdJX2drOW9uUDZwYWRDRlcyR1o3Ty1tZDdkV0pkTDdNdzVpVHhKMEhlZmwyZ3MxWDRpQQ?oc=5",
+    "source": "The Globe and Mail",
+    "category": "CYBERCAB",
+    "published": "Sat, 19 Sep 2026 07:04:00 GMT",
+    "fetched_at": "2026-09-24T10:58:26.309773+00:00"
+  },
+  {
+    "title": "Tesla Passes 500 Unsupervised Robotaxi, 479 Texas and 23 Florida - nextbigfuture.com",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYkl6dkZ0UG4xWE1LWThDZEx3aUE3dG5IX2ZYY01hSGZJZlRCSzlfRTNLQTljRk5iZjQtdE81Q0Z0el9tV2N2bUpYcVZWZWN2ckttZWZHdm05X09jM25QMnBOckhrYV9HWHhxT1NTZmdZWmNSMXR2NUtYUGZrQXdWbGdTOVpPT0MwTFc3QlAwSmhtNWY1bVZSQXYzZmhSYldmenI4bi00OXlWZw?oc=5",
+    "source": "nextbigfuture.com",
+    "category": "CYBERCAB",
+    "published": "Wed, 23 Sep 2026 16:06:58 GMT",
+    "fetched_at": "2026-09-24T10:58:26.309636+00:00"
+  },
+  {
+    "title": "Tesla’s Valuation Leaves the Auto Industry Behind as Cybercab Arrives - Tekedia",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMHVjUG5oOGhFaDM5M1R1bWtqMzdlS1FoQ21nRmpqVmU2RkFFQVh2VHJvVWtrYTk5SWZKTTQ3d3pkOFlhbFdzdEdiQ3N3UWhEc0txZ0Q5Wkg0ZTh4YTNrcERzbVlXNVpHN3NpRjBqcGJBT3hTUUdlT3Q4U3RqMWpEWlVGbkxiNHdzUkpURFpaWmxzSnMxZjg4Tw?oc=5",
+    "source": "Tekedia",
+    "category": "CYBERCAB",
+    "published": "Thu, 24 Sep 2026 06:29:08 GMT",
+    "fetched_at": "2026-09-24T10:58:25.739352+00:00"
+  },
+  {
+    "title": "Cybercab Spotted in Pennsylvania: 5 Details That Matter - basenor.com",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcFUwd3RLYkI3dDhWT01YM29pX1JxYzNmSlBoUjJPaEhDYmtaRHNQdXlVZmhNaTd4YmlrVnNGbmtwQVlQQ0pMd0hvRUhjdEZUZkxTSkM4NC1KT21PUkhDV0NkQ0djNFdtY2NVSDdPRzFIb19EcC1ZMHRJTzRpMUtueDFxNnRLeTVPaXlUX1lNVnF1eHc?oc=5",
+    "source": "basenor.com",
+    "category": "CYBERCAB",
+    "published": "Thu, 24 Sep 2026 03:04:37 GMT",
+    "fetched_at": "2026-09-24T10:58:25.739320+00:00"
+  },
+  {
+    "title": "Self-Driving Cars Are Getting Better. The Risks Are Getting Bigger. - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdkZHX09Ob2pjcE1iQW9VN1BRazdkVjc5VVU3UDVHTm9jMC1IT2ViWUR1OXAwek5KcEYyWEg2dFBsS3phajYzMllvZlNFX2FzVHJiNllxYjMtYkY2blFjWUliOGVJM3RmUDg1bldQYmFmbjBRSlVXeUdmbzdSZ0xLSlBB?oc=5",
+    "source": "The New York Times",
+    "category": "CYBERCAB",
+    "published": "Thu, 24 Sep 2026 10:56:33 GMT",
+    "fetched_at": "2026-09-24T10:58:25.739302+00:00"
+  },
+  {
+    "title": "Tesla Cybercab Goes Made in Texas as Elon Musk Highlights Locally Manufactured Nickel Cathode: ‘From the - Benzinga",
+    "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxPbER6aWdKMkNxb1Q1YWlReTh3Tmh1dC1GdS1ZUG95eVFtanRKT05yVjgySzRXbmxwRGNVRG9qM05rNGo3Njc1dzA1MldLVk9iWmo5ODZEWTVRVEE4dXFXMkM1RHRGUXNkU3M0N2JjZXNhMHJCNEhEZ0Q3SzA4YVkwMGozNXN2TGxKeXU4azVOQ09rRFJpdExOUmNJRVR3MEdHRzNkYXpYWVJHM1JqOVVzZVQyR1luMERyLXlzbjFxbS1VUkI5MDcwRGN6RmtMQXdsR0tnT3lRTmZ5dnlmSHhtZmx1Nk5EVGtlcnNmYkxocHQ4NnRJSmMtalNHcHVSMl9EdHpkM2kzRm5XTWR5Vm80anRnRV9UMV9XcWJj?oc=5",
+    "source": "Benzinga",
+    "category": "CYBERCAB",
+    "published": "Thu, 24 Sep 2026 06:30:09 GMT",
+    "fetched_at": "2026-09-24T10:58:25.739285+00:00"
+  },
+  {
+    "title": "Tesla Cybercab Enters Production: Key Suppliers Behind the Purpose-Built Robotaxi - Gasgoo",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNTGZmMXJTTC12emtCYlppWnh1WE1KRjhibXJscDNNU3Jtd3NPY3VzSlp1YWdSZUJ6SHBVaWFnVWRub04tZWRMRG1fbWxad2pGZEdqZGZob1piOFlnLXpucjBYdGNFLVNKUjRhcVZJZmNBOU1PaFlmbFdLVmxVSG9FbU5jLVBBNkV4a29jaEVzREZTajRYNGFmVFVVUERLNVdRcDRyR1BBNlpoZFZLRjhDUnFabGVWSWk5cy1TTExlWWU2Q2VYN3p0VEhQSHlBQUcxYnVudmFXNEtKZw?oc=5",
+    "source": "Gasgoo",
+    "category": "CYBERCAB",
+    "published": "Thu, 24 Sep 2026 05:58:58 GMT",
+    "fetched_at": "2026-09-24T10:58:25.739267+00:00"
+  },
+  {
+    "title": "Waiting for Tesla Cybercab and Robotaxi ? - nextbigfuture.com",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVGpuMU15bWYwZHpCWWFXbnJfeGlUM0hMSzVCbmw3LXQ0S3Z0Y0RUUDM2bXBHbTcyUzdIRHhhX3RvTnVxMDI4ZXRMWWtvVkZQU2dNc2pUeWtMUDNmS0c2Z0lZTmF6MU11S3BYMmYzaEVQQm9rYWxEdkVUNVpEQXhEXzNxNWtsN0YxbEE?oc=5",
+    "source": "nextbigfuture.com",
+    "category": "CYBERCAB",
+    "published": "Wed, 23 Sep 2026 18:51:57 GMT",
+    "fetched_at": "2026-09-24T10:58:25.739224+00:00"
+  },
+  {
     "title": "Zoox to ramp up production with up to 100 newly upgraded robotaxis per week - Business Insider",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQVTl4TFc0d0d6ZzFNMktTdHpDOTJFWV9oeDRZdk1DRGhaNEVmWVFONWVqWGYwcmJRUTk4SXpPYUJoWkZhMm9UTE95TEhqajlyUnRiQWpaVU9GLS1GUXhuczc0Yk1mc3VURjBFdXhhRndLNHYwRTZNOTkxSkg1emFyT1lQcEtCRUdVcDV1R1d1VklTNm5Tb2dDaDA2eG9oWVFWUGVfaFdwbXo1dEpwTTNaWE9xSjI?oc=5",
     "source": "Business Insider",
@@ -158,85 +238,5 @@
     "category": "CYBERCAB",
     "published": "Wed, 23 Sep 2026 17:12:43 GMT",
     "fetched_at": "2026-09-23T20:58:32.461146+00:00"
-  },
-  {
-    "title": "California DMV expands permitted areas for Waymo robotaxis - CBS News",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOams3ckNCMVdyNzFUT2pjOXdBeWZBRk9Jb005aEpQMG9QSTVNcVdnN1B5U2d3R1ZBSEJIRGpaMzlES20zUkhYQXRBR1VwYTgtSEZfWVhxR2ZZdXlkX0FmZEotdUxrenpjOHZabi1iZXktUGN4dVVWT3A5Z3hzWExuQzNKb3FZNHF3?oc=5",
-    "source": "CBS News",
-    "category": "REGULATION",
-    "published": "Fri, 21 Nov 2025 08:00:00 GMT",
-    "fetched_at": "2026-09-23T15:57:51.237506+00:00"
-  },
-  {
-    "title": "Driverless cars in California can now get traffic tickets under new DMV rules - CBS News",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdDBucnduOHBzRm1sNEZYVm83aUQwSVJvLWMwVi0wdVgzdlRQalNiVHFsN0luWHMwUUFCRkVzb0pFdVI5eVNseWU1VHNla1IxSldsSmZZcjhkVXBhbmlBVUwxMDRDUXFkcktQZmFuRGs1b3IycFN5RmdtQm5NdWZHNU1wZkRRd3NPZ2xXNi1uN3poY3ZyZGRHaERDR09yWkk?oc=5",
-    "source": "CBS News",
-    "category": "REGULATION",
-    "published": "Wed, 29 Apr 2026 07:00:00 GMT",
-    "fetched_at": "2026-09-23T15:57:49.980977+00:00"
-  },
-  {
-    "title": "UAE Cabinet Approves Federal Law Regulating Self-Driving Vehicles - CairoScene",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOaDRxaUdaMWh5U2tDNVlCT0xjRFhhS3lzdUlOSGZyeWRKTGNjdlRpTFdMNlZab1dmSElXZFp4TjF0a0hfRFdIMzdVbUlKX2QtWm5fOWFoWFd6cnpFWS1YUEF0LVEyd1VTZnJPQ3BTa1kycExJQk1SZWFQbHNGN3hIazA4MFdGamlobTJObFJ2dWVmY09GWTZzcw?oc=5",
-    "source": "CairoScene",
-    "category": "REGULATION",
-    "published": "Thu, 03 Sep 2026 07:00:00 GMT",
-    "fetched_at": "2026-09-23T15:57:49.980891+00:00"
-  },
-  {
-    "title": "MINNEAPOLIMEDIA EDITORIAL | Driverless Cars Are Arriving. Minnesota Needs Rules Before They Carry Passengers - MinneapoliMedia",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQN0VqR3hFUlBWdW1oQW9Ma0NyaHFkM2NHbTlpVjhWdG5ZelhXazd0TEYtbTYxUWkyU3JKUDdpYlk1bVp6T0dBRi1SUWRYVEpuMWxpUl9TRjZlUy1rOWFxM3B6dFBNLXAxWGliYVYwd0NjQ1dPV0tSOC1Kck16bWROVXBiQ29teEZXVl9jSGV2VXZGSDZRVU9Mc0RsRXlucDRrMFdlNV91a0hRa0Y4NU1RaGlDdGluaGMxV01wS2gzZXJjSnZlM2FRODZB?oc=5",
-    "source": "MinneapoliMedia",
-    "category": "REGULATION",
-    "published": "Wed, 23 Sep 2026 11:53:33 GMT",
-    "fetched_at": "2026-09-23T15:57:49.980831+00:00"
-  },
-  {
-    "title": "Amazon’s Zoox wins first U.S. approval for paid robotaxis without human controls - NBC News",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQYmNJUWp6VkplQUJDV041Q3lpeVVOWDIzR1ZveUhMVHV6U0tRRm53T2JnMWprNzBwdklReWVLbEo1aEk5aG0wOXROdVl3N1dtcUczcW9wUHVueEt1TjhwRkdhdTNJRnJjVExXX2I5NE1VUXZfN0xoeU84d3pGVEQ4aE91OFVzQ283ZWd5ZVdpbGZ2cjZNNjZTaGVaazZLbXZ2UnBUaEdFY1d3Nmt0MzlTc1pDT1MwQQ?oc=5",
-    "source": "NBC News",
-    "category": "CYBERCAB",
-    "published": "Thu, 30 Jul 2026 07:00:00 GMT",
-    "fetched_at": "2026-09-23T15:57:47.448796+00:00"
-  },
-  {
-    "title": "TechCrunch Mobility: How do we know when an AV is safe enough? - TechCrunch",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeVF4LWQzRUtvM1JWXzhuU05MMXVtOVZkZzQwUUd1aVRfRHV6M0tpaGdRN1FUbGhENUoyeEhCTU1ocHJvcE8wUWREX19HNU9rVkZGd2RFTjBTRGN1MG1YWGZfRjgtdzJpWHM4Y0xaeVNSelR3QXVub0gyOTNxMzJtcm5SVG5oamtnWEhnWUJGa3RXdjluS3dsMmU4WQ?oc=5",
-    "source": "TechCrunch",
-    "category": "CYBERCAB",
-    "published": "Sun, 20 Sep 2026 16:02:00 GMT",
-    "fetched_at": "2026-09-23T15:57:46.850164+00:00"
-  },
-  {
-    "title": "What should Minneapolis do about Waymo? - MinnPost",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPbjd2QXFzdFN2RnRoOFpEaDlWSUF6VDZyWTh5WThCMzVnYUdleWQ4TEtzM0hDN0hvZHVBUTFVNWlmVllReU1uT2pvWkV2WENrUFlKcFJDTU5SamZsV05kdFE0UTkxR2NnTG9pX3lnd19adExtU19kejdYSTZSYkl1a0t3OEk0TlBNUE8xM1NMeEQ?oc=5",
-    "source": "MinnPost",
-    "category": "CYBERCAB",
-    "published": "Tue, 22 Sep 2026 10:00:00 GMT",
-    "fetched_at": "2026-09-23T15:57:46.850138+00:00"
-  },
-  {
-    "title": "Waymo drives through Denver farmers market - KXAN Austin",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQd0NISVJXN3NxR3FnTmpWUjktSmFKR0lLVDY4R3phNXNqTkxVNGltQU1kdVRWZDhya21yUUxSYkJkQmhrelJCZ3RxTUVCSTRNbTNRMmV2aTRzSTVZa0xPbjE0TWdEY2toN2NiTzh2ajREYVZ3aTlHOHA4b0tkOG5MQWZlV3ItQQ?oc=5",
-    "source": "KXAN Austin",
-    "category": "CYBERCAB",
-    "published": "Tue, 22 Sep 2026 22:43:47 GMT",
-    "fetched_at": "2026-09-23T15:57:46.850118+00:00"
-  },
-  {
-    "title": "Farmers market staff members were able to guide the wayward Waymo back onto the street. - facebook.com",
-    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNMkhUaE5jbi1QNTZJbFVMYS0yQVMzYzVJdzlWVHROY3d5TW9wbnYwSHRycU1jRXZzejV0Y1g3SGprTlB6bDVScG00Nmh4c3hWMnA2WWRYYnh2Qk5EYWRSMGoxM3ZKVndHS3FWNndpMm8wakVRbnJidjZZeUw5eGJUYTRMZG9QTEdvNEFSUVR2WWlLSHV1dG1aTk1ZOHM2X0VwN2UzVWRNTkxZNGFab1hEbW5vSV9BWnZXb3dpa0NKTUJ2UkdNTFpFYkREMjVtWjVaZ3dpVmo0TURYQQ?oc=5",
-    "source": "facebook.com",
-    "category": "CYBERCAB",
-    "published": "Wed, 23 Sep 2026 14:55:34 GMT",
-    "fetched_at": "2026-09-23T15:57:46.850068+00:00"
-  },
-  {
-    "title": "SpaceX (SPCX) President Gwynne Shotwell files to sell $52M worth of the company's shares - Tesla Oracle",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdUxkY2REU2VmOUZUYUR4dkJSOWVUVjZ3Uk5IWFprblA1WDNqejh6Z1I1MDlRM0pzd0tWeXg0Z200NUE2NVNNY3BsV204SkR3cmwydEJJek5RRUFRLXRBVFFrYkpNd29xYXRXOHRYV1VFWVNDZWVoQ0FiLTNHUTlnQ2hkVm9ZRzRjeXU2MkRrUzJzbHlGS0VCRHpLamFidFJOSWh5VUFTd0VtX3prZDFTTjQ5VW5CNTJIa05ieWtEMjVEZw?oc=5",
-    "source": "Tesla Oracle",
-    "category": "CYBERCAB",
-    "published": "Wed, 23 Sep 2026 08:34:34 GMT",
-    "fetched_at": "2026-09-23T15:57:45.430188+00:00"
   }
 ]
