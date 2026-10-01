@@ -17,7 +17,7 @@
       "source": "Independent Robotaxi Tracker",
       "link": "https://betsports.it.com/a/2968.html",
       "disputed": true,
-      "disputeNote": "Other outlets reported anywhere from 20 to 700 vehicles the same week, depending on whether supervised units were counted \u2014 later coverage described the fleet as \"shrinking\" from this figure.",
+      "disputeNote": "Other outlets reported anywhere from 20 to 700 vehicles the same week, depending on whether supervised units were counted — later coverage described the fleet as \"shrinking\" from this figure.",
       "disputeLink": "https://basenor.com/blogs/news/teslas-unsupervised-robotaxi-fleet-is-shrinking-what-the-numbers-show"
     },
     {
@@ -36,7 +36,7 @@
       "source": "Texas TxDMV vehicle registrations (271 vs. 191 prior)",
       "link": "https://www.elektroquatsch.de/artikel/tesla-robotaxi-texas-flotte-waechst-um-79-model-y",
       "disputed": true,
-      "disputeNote": "This counts total TX robotaxi-program vehicle registrations, not necessarily active/unsupervised units. A separate tracker reported only 42 authorized and ~20 actively running driverless the same week \u2014 registered and operational fleet size are not the same number.",
+      "disputeNote": "This counts total TX robotaxi-program vehicle registrations, not necessarily active/unsupervised units. A separate tracker reported only 42 authorized and ~20 actively running driverless the same week — registered and operational fleet size are not the same number.",
       "disputeLink": "https://thechargeport.com/robotaxi-tracker"
     },
     {
@@ -47,8 +47,16 @@
       "source": "Tesla Oracle, citing TX vehicle registrations: 420 Model Y Robotaxi + 126 Cybercab",
       "link": "https://www.teslaoracle.com/",
       "disputed": true,
-      "disputeNote": "Teslarati separately described the fleet as having \"doubled to well over 100 units\" over the same Sep 26\u201328 weekend \u2014 likely referring to active/visible vehicles rather than total TX registrations. As with the Sep 2026 figure above, registered and actively-driverless counts are not the same number; this still points the same direction \u2014 fast growth \u2014 but the exact active count is unconfirmed.",
+      "disputeNote": "Teslarati separately described the fleet as having \"doubled to well over 100 units\" over the same Sep 26–28 weekend — likely referring to active/visible vehicles rather than total TX registrations. As with the Sep 2026 figure above, registered and actively-driverless counts are not the same number; this still points the same direction — fast growth — but the exact active count is unconfirmed.",
       "disputeLink": "https://www.teslarati.com/"
+    },
+    {
+      "date": "2026-10",
+      "label": "Oct 2026",
+      "count": 3,
+      "confirmed": false,
+      "source": "Tesla update 2026.38 improves car visuals and adds auto-leveling headlights for legacy HW3 cars (NHTSA recall, release notes) - Tesla Oracle",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNZXZZcXo0bzNPemJxNFBTOTRHam1rTWNlbHg0U3VOY0pzV1MwUlpkc2Rnd0U4cGtPZlpZUkhuSHhFMlhnSnhxYUdYMEdIN3VoTGdweXhaSWdVWm40MlAwb0RjRHBBV2Z4UlFZY0luOG8xbFNPdTB2RThhUlZNM1ZxV2h0UFVpX1dWejJmbk1IQVJqVldJYkVxS3Y0V1g4X1ZpdFVxMHdBZ250bExqbXRJVnJBR0ZCRjNDQ29GamdHNW55clZUTEg0RjN1VEJ4QzJJaEttbENrUG9ZR2lGOHJZUjVjcUFVUkhoRElOc3Bad1RrNmJU?oc=5"
     }
   ]
 }
