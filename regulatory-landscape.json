@@ -2,7 +2,7 @@
   {
     "state": "Texas",
     "framework": "Permit-based (formalized 2025)",
-    "detail": "SB 2807 took effect Sep 1, 2025; rules finalized Feb 2026, enforcement began May 28, 2026. Tesla holds a statewide TDLR transportation-network-company permit (valid to Aug 6, 2026), covering supervised and unsupervised operation.",
+    "detail": "SB 2807 took effect Sep 1, 2025; rules finalized Feb 2026, enforcement began May 28, 2026. Tesla received a statewide TDLR transportation-network-company permit in Aug 2025 (initial term to Aug 6, 2026) covering supervised and unsupervised operation; service has continued past that date.",
     "status": "live",
     "sources": [
       {
@@ -53,8 +53,8 @@
   },
   {
     "state": "Nevada",
-    "framework": "Two very different outcomes \u2014 Tesla capped hard, Zoox cleared federally",
-    "detail": "Tesla filed Jun 5, 2026 for an AVNC permit to run up to 5,000 vehicles across Clark County. The state granted it Jul 27 \u2014 but capped the fleet at just 10 vehicles, confined to the Strip, banned airport pickups, and set a 45 mph limit. Separately, on Jul 30, Zoox became the first company ever to win a federal NHTSA exemption for a robotaxi with no steering wheel or pedals \u2014 cleared to charge fares on up to 2,500 vehicles/year, starting in Las Vegas.",
+    "framework": "Capped at 10, then opened to 5,000 \u2014 plus Zoox's federal first",
+    "detail": "Tesla filed Jun 5, 2026 for an AVNC permit to run up to 5,000 vehicles across Clark County. The state first granted it Jul 27 with a 10-vehicle interim cap on the Strip \u2014 then on Aug 20 the Nevada Transportation Authority expanded it to up to 5,000 vehicles county-wide (airport still needs separate approval). Tesla has not yet launched public rides there. Waymo opened paid public service in Las Vegas Sep 14. Separately, on Jul 30, Zoox became the first company ever to win a federal NHTSA exemption for a robotaxi with no steering wheel or pedals \u2014 cleared to charge fares on up to 2,500 vehicles/year; paid rides began Aug 10.",
     "status": "live",
     "sources": [
       {
@@ -64,6 +64,10 @@
       {
         "label": "Zoox wins first federal no-controls exemption",
         "link": "https://www.aljazeera.com/economy/2026/7/30/amazons-zoox-secures-us-federal-approval-for-steering-wheel-free-robotaxis"
+      },
+      {
+        "label": "Nevada expands Tesla permit to 5,000 vehicles (Aug 20)",
+        "link": "https://techcrunch.com/2026/08/20/tesla-uber-and-waymo-all-get-the-ok-to-operate-thousands-of-robotaxis-in-nevada/"
       }
     ]
   }

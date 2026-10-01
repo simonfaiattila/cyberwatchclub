@@ -1,6 +1,6 @@
 {
-  "lastVerified": "September 17, 2026",
-  "euVoteContext": "A full EU-wide approval needs a Technical Committee on Motor Vehicles (TCMV) vote \u2014 passing requires member states representing 55% of countries and 65% of the EU population to say yes. Tesla has indicated a vote could happen as early as October 6, 2026. Until then, it's going country-by-country: once the Netherlands granted approval, other states can simply recognize it without re-testing.",
+  "lastVerified": "October 1, 2026",
+  "euVoteContext": "A full EU-wide approval needs a Technical Committee on Motor Vehicles (TCMV) vote \u2014 passing requires member states representing 55% of countries and 65% of the EU population to say yes. A vote had been expected Oct 6, 2026, but the agenda lists only 'continuation of discussions' \u2014 the vote is now pushed to December 2026 at the earliest. Until then, it's going country-by-country: once the Netherlands granted approval, other states can simply recognize it without re-testing. 8 of 27 states have done so (~12% of EU population).",
   "countries": [
     {
       "country": "Netherlands",
@@ -21,18 +21,6 @@
       "tier": "recognized"
     },
     {
-      "country": "Sweden",
-      "date": "May 22, 2026",
-      "status": "Subscription live \u2014 despite a Transport Agency investigator publicly flagging concern that FSD exceeds posted speed limits",
-      "tier": "recognized"
-    },
-    {
-      "country": "Germany",
-      "date": "May 22, 2026",
-      "status": "Subscription live via software update, in parallel with Sweden",
-      "tier": "recognized"
-    },
-    {
       "country": "Denmark",
       "date": "Jun 9, 2026",
       "status": "Approved after its own technical review \u2014 one of the more skeptical regulators going in",
@@ -40,26 +28,50 @@
     },
     {
       "country": "Belgium",
-      "date": "Jun 11, 2026",
+      "date": "Jun 10, 2026",
       "status": "Flanders' mobility minister accepted the provisional approval region-wide",
       "tier": "recognized"
     },
     {
-      "country": "Finland",
-      "date": "Not yet approved (as of late Jun 2026)",
-      "status": "~6,500 FSD-equipped cars already on Finnish roads in regulatory limbo; considering approval ahead of the EU's October vote",
+      "country": "Slovenia",
+      "date": "Sep 7, 2026",
+      "status": "Ended a two-month approval drought",
+      "tier": "recognized"
+    },
+    {
+      "country": "Czechia",
+      "date": "Sep 21, 2026",
+      "status": "Recognized the Dutch approval; OTA rollout reached customers in Prague by late September",
+      "tier": "recognized"
+    },
+    {
+      "country": "Croatia",
+      "date": "Sep 29, 2026",
+      "status": "Eighth country to approve \u2014 weeks after its regulator said it would wait for the EU vote",
+      "tier": "recognized"
+    },
+    {
+      "country": "Germany",
+      "date": "Not yet approved",
+      "status": "KBA still reviewing; Autobahn speeds are the sticking point. Among the states objecting at EU level",
       "tier": "pending"
     },
     {
-      "country": "Slovenia",
-      "date": "Sep 8, 2026",
-      "status": "Sixth country to approve \u2014 ended a two-month approval drought, same day Musk teased 'hopefully soon in Europe too'",
-      "tier": "recognized"
+      "country": "Sweden",
+      "date": "Not yet approved",
+      "status": "Transport Agency investigator publicly flagged concern that FSD exceeds posted speed limits; objecting at EU level",
+      "tier": "pending"
     },
     {
       "country": "France",
       "date": "Testing since Jul 2026",
-      "status": "Two FSD-equipped cars in active government testing after a 'constructive exchange' with Musk over earlier safety concerns \u2014 not yet approved",
+      "status": "FSD-equipped cars in government road testing after earlier safety reservations \u2014 not yet approved",
+      "tier": "pending"
+    },
+    {
+      "country": "Finland",
+      "date": "Not yet approved",
+      "status": "~6,500 FSD-equipped cars in regulatory limbo; still under evaluation",
       "tier": "pending"
     }
   ],
@@ -88,6 +100,14 @@
     {
       "label": "Slovenia approval + possible Oct 6 EU-wide vote",
       "link": "https://www.basenor.com/blogs/news/tesla-fsd-supervised-approved-in-slovenia-eu-rollout-builds"
+    },
+    {
+      "label": "EU delays FSD vote to December (Oct 6 agenda: discussion only)",
+      "link": "https://electrek.co/2026/09/25/eu-delays-tesla-fsd-vote-december-tcmv-agenda/"
+    },
+    {
+      "label": "Croatia becomes eighth approving country, Sep 29",
+      "link": "https://teslanorth.com/2026/09/29/tesla-fsd-croatia-approval/"
     }
   ]
 }
