@@ -45,6 +45,7 @@
     }
   ],
   "transparencyNote": "Waymo, Zoox, and Avride published detailed, multi-paragraph accounts of every incident from the start. Tesla argued disclosure would let competitors assess its progress, and kept narratives confidential \u2014 until May 2026, when it re-filed every report with the redactions removed.",
+  "auditQueryNote": "On September 3, 2026 \u2014 the same day as the Cybercab's public Austin launch \u2014 NHTSA opened Audit Query AQ26002 into whether the Cybercab's self-certification under Federal Motor Vehicle Safety Standards (FMVSS) was properly supported. An audit query is a request for records, not a finding of a defect or a recall; Tesla has not disclosed the outcome as of this writing.",
   "sources": [
     {
       "label": "Aggregate incident counts (825 total, by operator)",
@@ -65,7 +66,12 @@
       "label": "Full severity breakdown of Tesla's 19 incidents",
       "domain": "notateslaapp.com",
       "link": "https://notateslaapp.com/news/4165/tesla-releases-unredacted-robotaxi-crash-reports"
+    },
+    {
+      "label": "NHTSA opens Audit Query AQ26002 into Cybercab FMVSS compliance",
+      "domain": "Wikipedia / CNBC, Sep 2026",
+      "link": "https://en.wikipedia.org/wiki/Tesla_Robotaxi"
     }
   ],
-  "lastVerified": "September 7, 2026"
+  "lastVerified": "October 1, 2026"
 }

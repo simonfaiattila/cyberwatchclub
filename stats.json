@@ -4,12 +4,12 @@
     {
       "id": "stat-cities",
       "value": "6",
-      "label": "unsupervised US cities for Tesla \u2014 Austin, Dallas, Houston, Miami, Orlando, Tampa (+ SF Bay Area, supervised; Las Vegas permitted, not yet launched)"
+      "label": "unsupervised US cities for Tesla \u2014 Austin, Dallas, Houston, Miami, Orlando, Tampa (+ SF Bay Area, supervised)"
     },
     {
       "id": "stat-fleet",
-      "value": "476",
-      "label": "TX robotaxi vehicle registrations (409 Model Y + 67 Cybercab, Sep 22, 2026) \u2014 disputed: only ~265 spotted on roads in 30 days, ~8 seen carrying riders in Austin"
+      "value": "546",
+      "label": "TX robotaxi vehicle registrations (Sep 26, 2026): 420 Model Y Robotaxi + 126 Cybercab \u2014 up from 270 two weeks earlier; active/driverless count still unconfirmed"
     },
     {
       "id": "stat-monetization",
@@ -18,18 +18,18 @@
     },
     {
       "id": "stat-waymo",
-      "value": "15",
-      "label": "active Waymo US metros (Oct 1, 2026) \u2014 added Nashville (Sep 9, via Lyft) and Las Vegas (Sep 14)"
+      "value": "14",
+      "label": "active Waymo cities (Sep 10, 2026) \u2014 added Denver, San Diego, Tampa; still operating at a much larger scale"
     },
     {
       "id": "stat-rides",
       "value": "~500K",
-      "label": "Waymo paid rides / week (500K+, Sep 2026) \u2014 for comparison"
+      "label": "Waymo paid rides / week \u2014 for comparison"
     },
     {
       "id": "stat-zoox",
       "value": "2,500/yr",
-      "label": "Zoox's federal cap on paid vehicles \u2014 first-ever NHTSA exemption for a no-controls robotaxi (Jul 30, 2026); paid rides in Las Vegas since Aug 10"
+      "label": "Zoox's new federal cap on paid vehicles \u2014 first-ever NHTSA exemption for a no-controls robotaxi (Jul 30, 2026), fares starting in Las Vegas"
     },
     {
       "id": "stat-tsla",
