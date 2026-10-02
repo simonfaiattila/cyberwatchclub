@@ -1,5 +1,93 @@
 [
   {
+    "title": "Tesla Owes NHTSA 21 Cybercab Answers Today. Zoox’s Version Took Three Years. - The Auto Wire",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPc2RBaUpRT2xTNlFVaDhRX0NtdFRrTnhmVHBJQXlhM2pacFNuTzZiaXNUX3RmMUpQUWo2RWpIMmlHcDg5VkFINjR3eVNUSWNEZVN3V1oxRS1GWGFCRk51LWd6R1QwMDQ4OVk0OWxFdDdOWXAtbVNkZjE4UWRPY1h3Um8zVzRoTnhENUQyc2h0ZkpSa2hqNnh0VW41bm5wTU0?oc=5",
+    "source": "The Auto Wire",
+    "category": "SAFETY",
+    "published": "Wed, 30 Sep 2026 23:03:24 GMT",
+    "fetched_at": "2026-10-02T21:44:01.232572+00:00"
+  },
+  {
+    "title": "Waymo robotaxis show lower crash rates: IIHS - axios.com",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5XUkZadDRvRFNYN3ZhOWN0Zjd4UVZXZjVzTDJnTE43VFVoemVBUDBYUmJ4MHlCVjdaY2xRYjJIUEllMV9TcjA1UVF6ZzRYU2V6S01xbENGdTRMM3pMSHFMaGlBdERwcUNKQ1QteE95RXg?oc=5",
+    "source": "axios.com",
+    "category": "CYBERCAB",
+    "published": "Thu, 23 Jul 2026 07:00:00 GMT",
+    "fetched_at": "2026-10-02T21:43:58.722766+00:00"
+  },
+  {
+    "title": "Used Waymo robotaxi batteries become backup storage for power grids - Ars Technica",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMExfclNzWDBzNlBjX0xZWlBHNnRQSWIzUWQ1M1ZfVkpTdmR5ckQwbTB4bjR0NTM5ODBHU3hUSUEwWDVENWI5Nm1vSlZial94S0hhM2NMSkNQRFh6QV9waFRJek9sb1VZeXRzamVjdHlSYVZwX2FaT3dHTVpWXzBUbVJ0eWtFUzhjSHU0eUFCUGZCOTJqNmdJQjRiemVORU5feDRRXzJaaFAtdEo4?oc=5",
+    "source": "Ars Technica",
+    "category": "CYBERCAB",
+    "published": "Thu, 04 Jun 2026 07:00:00 GMT",
+    "fetched_at": "2026-10-02T21:43:58.722749+00:00"
+  },
+  {
+    "title": "Mayor Frey vetoes Minneapolis City Council Waymo regulation - FOX 9 Minneapolis-St. Paul",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxON1NqVXVOT3c0M2VjUGY2bUttXzZpT2lrVUM4VXJuMWZqUDctc21icU1DVnd6YkliR19HcWVaM2JKNTV3WVVIUWI0RUJFdmhYbE41akJVbGZYa0tYUk5NbnNJaWRmZ1JBbVo5aC1Wc3c1R1F0T3lnZ3NOTHVnRmo4NndCWUlaTEkxSnlVS3dZMWJ4eUliTzFBOW12MTJ4UdIBowFBVV95cUxNejZycUNnWXFWQVN1U2dxRjkwV2tCZVBGVEZlZl8zYm1YOFc3U2ZZQ2RnM3YzSjFWTVNob0psdlhQUXlYa3FxN1lJU0o3dFFoUzRfODRIbHRrWVBxeThWX0phSi0yWnQyZjBIRHJlbnozbXNaWlVJLV9PSWxxMnREM09scFl3aUNhVTlKWG9zT0xjckZoLUpHVFFnTnRLQzhlcVdR?oc=5",
+    "source": "FOX 9 Minneapolis-St. Paul",
+    "category": "CYBERCAB",
+    "published": "Fri, 02 Oct 2026 21:30:36 GMT",
+    "fetched_at": "2026-10-02T21:43:58.722643+00:00"
+  },
+  {
+    "title": "Watch out Waymo, Zoox is coming - Denverite",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9GT29JMVFXT3BuTEFtQThENmZSMGY2b2VEWmhBa2FERWtGS0Zrb0YxSExXN3ZWbHRlblBudTA0V0dQZy1tbDVDZ0MwQzM0U0hyRlBmdUc1RS0tOUlXdjl4RWhKWQ?oc=5",
+    "source": "Denverite",
+    "category": "CYBERCAB",
+    "published": "Fri, 02 Oct 2026 20:16:04 GMT",
+    "fetched_at": "2026-10-02T21:43:58.722621+00:00"
+  },
+  {
+    "title": "Tesla posts stronger-than-expected quarterly deliveries - straitstimes.com",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPb0l2QXJ6VXZZQ3EtZjRUYlRQbE9FUE1mMWJxUW5acWhCU0FFZEp3SGdKZDJERWNaM242UGpuSmRyYmc2QjJpOXA3MjJtZW1sMW83M3VxakVnUUhhcjZwRFRVczZOVUpieFdkRkR6UXRjMnM1UEJCSk02Y0hod0ZtamxDR3JTd0ZvVGVtU2RyRDhaMDMwWWwzOQ?oc=5",
+    "source": "straitstimes.com",
+    "category": "CYBERCAB",
+    "published": "Fri, 02 Oct 2026 13:39:00 GMT",
+    "fetched_at": "2026-10-02T21:43:58.189572+00:00"
+  },
+  {
+    "title": "Tesla posts stronger-than-expected quarterly deliveries - The Standard (HK)",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUXlPYkE2cS1QOHlseGFnR0pSeHBKcGt6Ym1DdW9XemxwdVBueEttTWVLdG4tQmZrbVB1N3JGR3hWSEtmbV9IYlcwOHFYZGVIZnRGdXlSaTJnM1kxQmRTSDk3UjIwMlUyZmJQa2lndFFfRTFMRnZDakR0ZV9nRTNOMUlCLV9BaW0xazRlYzZyT05KaEdzOEFxSWpCdk9VYXVvX2I0aUtEcmRQQy1fWWc?oc=5",
+    "source": "The Standard (HK)",
+    "category": "CYBERCAB",
+    "published": "Fri, 02 Oct 2026 14:24:05 GMT",
+    "fetched_at": "2026-10-02T21:43:58.189502+00:00"
+  },
+  {
+    "title": "Tesla ‘Robotaxi’ sold a 66-minute 2.3-mile ride and left a rider 3 miles from his destination - moomoo.com",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSzJRMk5Zdm1pLXBEWGxEcWpHRWhSNWhjUmVFVGNTeHktblNIdS1DcnE3cHdmR19UME5NdjlXUGhodnhxd0xvSWJfZnkyY3IwdjVwVVNHdWQ3RUF4MEhBT0k2T1JsOTQ2R09vcmVNbWlmb3lIcWhONTdKeFZfOU5YaExaYzM5Y0F6cXFwOEl5R2tLZjBueE9nXzV6aXd3dUU?oc=5",
+    "source": "moomoo.com",
+    "category": "CYBERCAB",
+    "published": "Tue, 29 Sep 2026 04:28:03 GMT",
+    "fetched_at": "2026-10-02T21:43:58.189479+00:00"
+  },
+  {
+    "title": "Tesla Stock Jumps After Deliveries Top Estimates - investopedia.com",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORWwtU19PVVJ0RUdCaGlRMVprUTZQaWRHMlE3SGQ5WjZCVmRCbmdWZDE1My03Yzdyc2c3T3h1d0JPVmhqNkVLNDExUXZnaDlTV3lvUDBSWmlVLUY3Z21DQ2tadnFWRDdBSjVPcF83ZkpZUWY3TXJrcmhWQW1oTUZyeFBXMmFudENjWDNZejBMclpLU0FMZlE3Z0JrYUNULXpsWjU5dF9nY18?oc=5",
+    "source": "investopedia.com",
+    "category": "CYBERCAB",
+    "published": "Fri, 02 Oct 2026 15:36:23 GMT",
+    "fetched_at": "2026-10-02T21:43:58.189464+00:00"
+  },
+  {
+    "title": "Tesla Robotaxi gets a massive upgrade in Nevada - Teslarati",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE13d2h1a09wbHl1MU5SdU90NTlQZm1FNDBYeTZ0dmFmSWdTdW9RVXpoaGVUWm03YVI1emM1VExiSTF2ZkxhSDNlLTZ2WTZhVko5U2RYQkNYX0tPYnQtLVBQNzBZZk9GYVpZRFRIWmtCQ3ZLZ21hUjRqdy1QbXhWWEk?oc=5",
+    "source": "Teslarati",
+    "category": "CYBERCAB",
+    "published": "Thu, 20 Aug 2026 07:00:00 GMT",
+    "fetched_at": "2026-10-02T21:43:58.189421+00:00"
+  },
+  {
+    "title": "Tesla Still Needs Cars to Fund Robotaxis, Former President Says - Tesla (NASDAQ:TSLA) - Benzinga",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeDlVQmVwYU11Wk1EV2tGZjB2ajBUdDF6TTdzMnJqbzdaZHpVWkMxZWpFak5rTXM0Ym9ha051SGJKVnNfNklJRnNnR3MwczhDOGc5TzY0MklRR3Yzd1oxdUlzWGNNNDFLWEh4UXdrbUNfTkFLTjdnX1RkLUxrWWp3ZnBCWHg3UEJQcXgxMnZWQW5pYnAyRzdqa2VPbHM4MWUtaVUtSG1Xaw?oc=5",
+    "source": "Benzinga",
+    "category": "CYBERCAB",
+    "published": "Fri, 02 Oct 2026 18:57:50 GMT",
+    "fetched_at": "2026-10-02T21:43:57.646410+00:00"
+  },
+  {
     "title": "Automated cars are popping up on Tampa streets. How does Florida regulate them? - Tampa Bay Times",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSklpOGljZHl6ejNkWC1HX3NSaFhHbHZjMDBaREczS2tfSlJvY25ZcExEa2ZhOXhGejhrNHYySHlhdml5RkVTdWJJdFcyb1N0NGNhY2g5R0Fxb2pKYlJaRnNBRUYtZnNIMms5ZXF0QTR4WkR2VjNxZ25CZHUzRUtDdzBDRmd3aTJVaFJNZS02aw?oc=5",
     "source": "Tampa Bay Times",
@@ -150,93 +238,5 @@
     "category": "CYBERCAB",
     "published": "Fri, 02 Oct 2026 00:57:57 GMT",
     "fetched_at": "2026-10-02T11:45:52.571941+00:00"
-  },
-  {
-    "title": "Tesla Expands Cybercab Fleet to Strengthen Robotaxi Operations - finance.yahoo.com",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPU0xHZlBmRDExVUFZYjRXY0xlYmRoUHpVZTBJdWR0eFNoakVMcGU4eWlsbl9UaUVBREp4UENRdWhIWGFMNmRHTXVIekpmLU5pWjBtNFdWRlE5TUtHc2dWVU5zZmd3Z1NQem1hSzY0eDVScmRVaVRQcnJqdlVWX2lkaUtoMzlReXY2dlVmMHc1TG5CLUtjbTk2enJPUTVHd3J0M0E?oc=5",
-    "source": "finance.yahoo.com",
-    "category": "CYBERCAB",
-    "published": "Wed, 30 Sep 2026 13:02:00 GMT",
-    "fetched_at": "2026-10-02T11:45:51.539104+00:00"
-  },
-  {
-    "title": "The Tesla Cybercab and the dystopian Hollywood horror show: Opinion - drive.com.au",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcjEzUVRVT1MwMG5vQWUwZVpjeTF4WFI2ei1tZHY5d0dLYW9GUkNNalk1QjNHN3hDUmtyRDV6RlBtQV9jbkpRSzAwN1M4VkJMZkhTZU9mUDNybDJjbl9DVk5iYXgwZm03WFBKU2JMSUIwdmo5dW5fSWtaaW1EX2M2SHhvMGswSEtPOEZtZ01UY3pKc2EzOGRKMHVjUUZNZWo1a3c?oc=5",
-    "source": "drive.com.au",
-    "category": "CYBERCAB",
-    "published": "Fri, 02 Oct 2026 04:06:24 GMT",
-    "fetched_at": "2026-10-02T11:45:51.539060+00:00"
-  },
-  {
-    "title": "Trump's DOT Introduces Changes to 'Accelerate' AV Deployment, Directs NHTSA to Grant Zoox Temporary Exemption - Benzinga",
-    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQOWw5SUNpVXlnczdYdTAwX01TUUhldnFVaTh6MzE0WHQxS0FXRkhXaDZQWFlxZVVCa1RHR1M2Wm1hYkpIZ0RUWHNyOXJBN0UzT2k3LUZyYXBBcUlidm0tcHc4ODk5UzV0a1lFOVRYVl9BZ2V3WU1odG5vVExNakNmd2hPUlVxT2plb3BEYTZYdG9iWUdJSzJfd01fUm44R1lndkp5bHg0X28wVWdsRk8yTFdoSG00cnlzMk1JcERIZVlEWWpIR2IxNzYwMkUyQjUyZkh3MVhUOXRhX205dHV0Zlh5SVlFRlhQeTd3MmFpUQ?oc=5",
-    "source": "Benzinga",
-    "category": "REGULATION",
-    "published": "Fri, 31 Jul 2026 07:00:00 GMT",
-    "fetched_at": "2026-10-02T03:43:03.713791+00:00"
-  },
-  {
-    "title": "Tesla Begins Cybercab Production: AI-Powered Robotaxi Service Set to Transform Autonomous Vehicle Market - blockchain.news",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMGpCN2lHcXdoeVF2cjdkaDZKRmtYMzZjNGhTS1RkUFo2a2FnOTlqcjlhZ1J0OXZEWldqOFZHcU9zSlJkZDdORG1zQ1Q5Q0hoQ3FjMDVlU1AzS1I4bjRkZGh1cUlOd2NuNkxrckJ6eWk1b29JY0hJZDhYS0pZRkFldVphZmYwdFdnT0I5NHBncFBjdmdoU08xcWVYY3g4VGQ5R19JWW1PRzVhMWUtSm9oZkFYREVWTHVXNHRucnZlY2c4QVRCM2QwVGpxS0tCckU?oc=5",
-    "source": "blockchain.news",
-    "category": "MONETIZATION",
-    "published": "Tue, 30 Dec 2025 08:00:00 GMT",
-    "fetched_at": "2026-10-02T03:43:02.201563+00:00"
-  },
-  {
-    "title": "Why Would Anyone Want to Use the Tesla Robo-Taxi? - Barron's",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA2WXVBSGE4Q0xQa0cwNUswenc4eFlKdFNEYTdMTTVaNnItSnVEcTRmd0hOSUJRUmJfWTdUSGFEbnVnZTQtRzdld2hLYjFTMEpUOVFsM1lzZzUwczI0cjEzcUZCQnV2ZktJOXYyVTVuc2xsSGNIQUdDbw?oc=5",
-    "source": "Barron's",
-    "category": "MONETIZATION",
-    "published": "Sat, 21 Jun 2025 07:00:00 GMT",
-    "fetched_at": "2026-10-02T03:43:01.787436+00:00"
-  },
-  {
-    "title": "Motional's Robotaxi Now Drives Smoother Than Waymo or Zoox, Field Test Finds - finance.biggo.com",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5yeFZJMGJOcWFfRXRfR2ZnZTJiUjB4TTV3eGI3NlRxcUlYdXFYVWliUGNtalU4LWFiSHN5OGZGV0ltWm9fN01LcFpmRjI2V1FtVVk1dzNhMklsQ3c?oc=5",
-    "source": "finance.biggo.com",
-    "category": "CYBERCAB",
-    "published": "Thu, 01 Oct 2026 19:08:00 GMT",
-    "fetched_at": "2026-10-02T03:43:01.327716+00:00"
-  },
-  {
-    "title": "DATA: Robotaxis in Phoenix have the lowest crash rate among major US cities - ABC15 Arizona",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTmlhZlhieUFJM2IxMFhGRFMxZFJXWlVndXRULTg1LTltSVd5Y1F6LWJXY1BrODNhbG1qUXk4cUc4XzBVY0Exal8xRkRwU2ZpclotVGNmUmNTQjN2cHdmT2FlelhWb0Jma1dXX2Jhd0cxZXowOEVpcjBqdmNWeHd2RC1GVkNYTGNuUHN2VVQyYUZJdURoM1gxdTdZczFZcUZ5N0lmQnRxU0pOb1l1VUFnZ01B?oc=5",
-    "source": "ABC15 Arizona",
-    "category": "CYBERCAB",
-    "published": "Fri, 02 Oct 2026 01:18:22 GMT",
-    "fetched_at": "2026-10-02T03:43:00.831993+00:00"
-  },
-  {
-    "title": "Tesla spins up robotaxi pilots in Orlando and Tampa ahead of Q2 earnings - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZVlZNDgteHRqdXRzRXEweEU4VVI3ZlFacUVnYlJvLTBsN0hGX1BqR3ZEa284ekFJUVAyTU5JUC1JYkt3akFUSkFhX3FOeWxWX2pBN0tYdTRyNS1YX2RCNVFoR09fNjZROXZUZW5GcVQ3QllJU2NRN3BrU2ZjS0U1MWVKY1RTTmtBZW40NHhyd2NOQm1mckFnY3VZVFM?oc=5",
-    "source": "Yahoo Finance",
-    "category": "CYBERCAB",
-    "published": "Tue, 21 Jul 2026 07:00:00 GMT",
-    "fetched_at": "2026-10-02T03:43:00.294898+00:00"
-  },
-  {
-    "title": "Tesla Supercharger Demand Climbs as Robotaxis Add to Charging Needs - driveteslacanada.ca",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVTNZMVhNTXVuNjBmMWpyT1c0Q2FoYXMzWXBPbi1VZmhSX0k1Rnk0V1pGM09zUU0wV2ZoNHJiTWthQ3h3UDd3ekg1dzNiODlJek9hNkpOckZVSjBabGtrbEU1SnhseUIzYXBRN2RfZEsxeG1wOWRwOWYtZXdaNnJtZnJ4MkVqT3YzQUdQbDRn?oc=5",
-    "source": "driveteslacanada.ca",
-    "category": "CYBERCAB",
-    "published": "Thu, 01 Oct 2026 21:13:11 GMT",
-    "fetched_at": "2026-10-02T03:42:59.769089+00:00"
-  },
-  {
-    "title": "Tesla Cybercab Fleet Hits 158 in Texas: Your Questions Answered - BASENOR",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcU02TkNDVnI2N3hWNHAtTlVBcjNUVWRBSmRScDhUaTdqVjdZRW95Xy0tTk9XWm5vWFBxNW42clY4Tk43MzdoRFhqZkhMbzBqOUxDcFRFYW1kZ1NhRUpsb0tUTkx2NnNnM2RTRmNhcDlSalpmVzJxd0swOUIwV1piTEdJX2VHc2xYWmFJd0ljcmJDemVZMlZzanloWEJXdw?oc=5",
-    "source": "BASENOR",
-    "category": "CYBERCAB",
-    "published": "Fri, 02 Oct 2026 03:03:38 GMT",
-    "fetched_at": "2026-10-02T03:42:59.768964+00:00"
-  },
-  {
-    "title": "Autonomous delivery vehicles to hit California roads in January - statescoop.com",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSDBzVUg0dmhlX01OaHdqazVTNEVhdm05aVRlRGd5NTVhSzJRWWdCTFZZNnVtdU9CbFZFbVZkenVJTTVWSlJNV25PMWdGWkRwSjZxTE45MEg3eWRVaWRLZ25iTXV1OUpTWVdVbmZfRElIUG1FdUNMZkE5OWFIdmlfVE04NnpGV2MzUGNiYjJrWk8?oc=5",
-    "source": "statescoop.com",
-    "category": "REGULATION",
-    "published": "Mon, 23 Dec 2019 08:00:00 GMT",
-    "fetched_at": "2026-10-01T22:15:17.360300+00:00"
   }
 ]
