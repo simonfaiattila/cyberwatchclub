@@ -1,5 +1,189 @@
 [
   {
+    "title": "Hong Kong Clarifies Liability and Insurance Rules for Autonomous Vehicles - OpenGov Asia",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRjhZZW94d1F0dVZvemw0Z2lMbHp2aWpiay1IVXVJSnZlckhlRHoxTS1mUEJ5RmI4aVoxY01weEY1VFRRUVNoUTlmdTVhVnI3YmFaSVVqU0FreDA0WGRQVmVVc2tkTzlxeW4tMnNjMkxlbWtsaFZMcFoyQV9BZU0xdEV2QTBNUUlpZl9LTVBrS1dxREo3T0lJWEdmeTd1ekk?oc=5",
+    "source": "OpenGov Asia",
+    "category": "REGULATION",
+    "published": "Wed, 07 Oct 2026 06:29:08 GMT",
+    "fetched_at": "2026-10-07T22:33:36.565163+00:00"
+  },
+  {
+    "title": "Denver police can’t ticket Waymos. State lawmakers may soon change that. - Westword",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZVNlRnp4RktzcjhiMnV4ZzdxVGVLQkZYaklNc3M1c3g0enloR0xldFE5V0NKeDR1SmRZNE9tTkJ5a2ZtdVJtaXFsU25vR0hRVjBmdUhRSHI2SlpFVC1sQ0JFSGRrYVJGS0dQNWl4UUpLUVdPUFlraGFBU3czUDNnZDlwRXlvNEZPc0NvQmlEVEYydFFBNXJxTWtxNA?oc=5",
+    "source": "Westword",
+    "category": "REGULATION",
+    "published": "Tue, 06 Oct 2026 12:30:00 GMT",
+    "fetched_at": "2026-10-07T22:33:36.565129+00:00"
+  },
+  {
+    "title": "Tesla Shares Rise By 4% After NHTSA Letter Could Lead To Cybercab Approval In “Months” - Wccftech",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQc1BKajJHSkJ0N3dZNmJVWG54dHZnWnZSSDhuRzd2cThMSVRLTTlzODJoUU8xMGRqdmZUUFhOb3hhM2ZheXU0eHBCNjBudTh3NFpZVDBiRWJGR1VVQVpfNGVHcmVwRnVlNWxFQzhtVEczMDFmaWVpU1kzVlk0NlVvUk9aWnk4NzdLREFWZEl2UE8tNjByT0tYTEJjNVk1ZVl0RWt3Y1o5QWbSAa4BQVVfeXFMT040V1hNQUlMVTdSaUFqaUF4Zl9mRkZ5WGYxamxqZzdsaEI3akszcG16d0s4Q3VUc2tfbTZ1c0h3b3U4VF9CdlVFSEN5UmVxUkcyTWpSMG1adWRkNVNSYjd0djV3YVJDcV90UkgwODlnQUVzckd5QV9GQ0tzRktESTVCMWtSSi1vWDA4RGFyeHZCTWQ4dllfc1RCWXowdWZ1Uy10cVkwM3J1MmstMmZn?oc=5",
+    "source": "Wccftech",
+    "category": "SAFETY",
+    "published": "Fri, 13 Jun 2025 07:00:00 GMT",
+    "fetched_at": "2026-10-07T22:33:35.878359+00:00"
+  },
+  {
+    "title": "What to watch for during Tesla’s highly anticipated robotaxi reveal - Tech Brew",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObWg0OGhkZlZBSlNBcGJHVWlCaXExVnZsUkhZTVZaUVR5XzhIdXNrWEFSTWNJZGIyYl9lWEZHUWJCR0NTQThxVmVFb1U4ek5WWkpQVHlrcVVCUTFkamhTT2QyS1Q0RFN1Q25scUQ4c3pnRGxod0ZPNm80TkFZLTQ3aWRJYUtrdw?oc=5",
+    "source": "Tech Brew",
+    "category": "MONETIZATION",
+    "published": "Wed, 02 Oct 2024 07:00:00 GMT",
+    "fetched_at": "2026-10-07T22:33:34.663263+00:00"
+  },
+  {
+    "title": "Waymo upsizes debut debt deal to $5B to fund global expansion - Dealroom",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPb05IVDVIZXNHczl6QnpwallkRXNHZ04xZjZaUm1rdDU5TlVpejRpNGE5VEpORFlPdnp5SEF6ck8xMFNMMmFVTU1ibTVrcDFuVnVKUjhNMGh1M0I3aGxGVlJ2RFRHNl9xWFY3X0Y0QnN4N3BCZEhJSzB5Vk5Fandadm5NN1FPV3VuNkU3T1AxYkMwOER2Y1JmMHZB?oc=5",
+    "source": "Dealroom",
+    "category": "CYBERCAB",
+    "published": "Wed, 07 Oct 2026 12:54:24 GMT",
+    "fetched_at": "2026-10-07T22:33:32.955722+00:00"
+  },
+  {
+    "title": "Waymo expands private debt raise to $5bn to fund robotaxi growth - Private Equity Wire",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUFlKZnNxWjd4czRtTmNkazZrSXhvanREbDdUSjJOQXJmZE1PS0VjVUtNYjNDNkRfTnF2Qk5RUWVSOEVsVzVISHNDcmkzZFJ5UFZQOHRIWDd6VDdqc1ZzcEJtTzFQRnRUcGhqa3dUSS1ITWp3RDVrNWJ2Zm0wUkt3RVltdjRka1lsUldGTXo3Y1VMZUNQREpsekpPbzRzeFNsaHc?oc=5",
+    "source": "Private Equity Wire",
+    "category": "CYBERCAB",
+    "published": "Wed, 07 Oct 2026 08:07:53 GMT",
+    "fetched_at": "2026-10-07T22:33:32.955705+00:00"
+  },
+  {
+    "title": "DC Robotaxi Debate Puts Drivers’ Jobs and Safety at Risk - WIBC 93.1 FM",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbktfTjgtVE9TZDd0dEVHa0tIdVVqWmNiTlE4a3BVN0pJVHYxWXFMdGZ6ZmU2d3hMS3hlTXpSQW5aWGJWS0I0LVFoLTV4MnQtNWVnUzgzeE1obV9Bc0o5cE02QWZtcWwycGx6SXJfU3FncjRQcEtYVno2ZEYxdmRCQXhjRHpJQVE?oc=5",
+    "source": "WIBC 93.1 FM",
+    "category": "CYBERCAB",
+    "published": "Wed, 07 Oct 2026 16:34:06 GMT",
+    "fetched_at": "2026-10-07T22:33:32.955691+00:00"
+  },
+  {
+    "title": "Waymo to Launch Robotaxi Service in Singapore by 2028 - Fuel Cells Works",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTDhrMWtYN2FSU2FiQVZQS2g1T202QjlUSWo5UUJjTnpLWW8zMkQ0VlVoV20zMU5MRzRsOThySU1aLUYyRTE4cDFBaU03YkQxT09vRktvUTRhU2VNSXJ0aWs5dXhVMC03LS1uV25qQkwzbjNDSmlVa3NYLXFXQjZhblJFTkVJQlZieW1fNVoxRFBoNGVidEJ3Z25TWTZTUmxNRy1NaEJzU0JTMmZ5bUtlMVZyZVVuMXZ4ZkxqYmhn?oc=5",
+    "source": "Fuel Cells Works",
+    "category": "CYBERCAB",
+    "published": "Wed, 07 Oct 2026 15:50:00 GMT",
+    "fetched_at": "2026-10-07T22:33:32.955676+00:00"
+  },
+  {
+    "title": "Waymo's Robotaxi Push Is Getting More Expensive - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNjRUNlhuTGVTN0Vaejl4MlFieU0wbElPeEQwUVdORGRHNUNCSWI3TnkyWkVFbl9fQ1FDNjZZUm43S0k1QzVDbFN6MEwxa1lUYUtHNjVpNlVDY3F2Ul9UYjU4MUV4d1RGNy1OcFdCVGhPZW44OW1RejFwRk92MWgyWVlBcVpBRTZIUWt6SDhvR3puS3l6cUoxQ1lGOWx2VmpBWTEzdmFtenVpUTQ?oc=5",
+    "source": "TradingView",
+    "category": "CYBERCAB",
+    "published": "Wed, 07 Oct 2026 15:08:01 GMT",
+    "fetched_at": "2026-10-07T22:33:32.955665+00:00"
+  },
+  {
+    "title": "Waymo Borrows $5 Billion To Fuel Its Global Robotaxi Expansion - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUjNSQ3dxUGltU2xaOEU2YXd5c3lvcXlqTU5xZVl6SmdGUGJXR3dEQkVIZnFfbXJTNkphdG56Mlo5QWRxRWVGWEtxOTctUnVjUVlrX0FmLWVXTkhTd3NHUEtOTTFqVU5IbVB1Y1V2c1NXSzR5ZFdFMnQwcFBFYnAxT1o3elBqQmVuM29oVkJvZ2dVcHc?oc=5",
+    "source": "Yahoo Finance",
+    "category": "CYBERCAB",
+    "published": "Wed, 07 Oct 2026 18:09:23 GMT",
+    "fetched_at": "2026-10-07T22:33:32.955655+00:00"
+  },
+  {
+    "title": "Waymo boosts first debt deal to $5 billion in robotaxi push - Transport Topics",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE54dWI5b2dLVjVsdDZtX29EZkNBaDUxbmhWci1OS3B1eldMa0VLY3pod0hWUlJ1bE5hcFU0enVvYzRpeWMyeGpzN21zc1NzcjhJTkwwdGNXWnB0ZkV1VWxzZ0NtMEVqZnV5RlhF?oc=5",
+    "source": "Transport Topics",
+    "category": "CYBERCAB",
+    "published": "Wed, 07 Oct 2026 17:50:27 GMT",
+    "fetched_at": "2026-10-07T22:33:32.955617+00:00"
+  },
+  {
+    "title": "Tesla’s Third-Quarter Deliveries Beat Expectations. Time to Buy the Stock? - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQTFMaEhqajk4bnhPMThTaWx2dV9PcnFNTVhkQ3llWmxBS0ZndE9feE5GclA1cVJ1Zi1nQzZOMlg4WHczX3Z4eWFCcy1FZnE2MVpWOUNBRi1nLVJqVW5uQVF3ZWhxNU1BSUJXOGdPM3NpQ3Nsd1dPR29LSnh1dy1GVS0zMl9oSmdkR2ZLUU9BTV93MEZLdjFKeWs4eFFvdzFFdVNQVzRIdHFxajdLdUluWXc0Q3lLUQ?oc=5",
+    "source": "The Motley Fool",
+    "category": "CYBERCAB",
+    "published": "Wed, 07 Oct 2026 14:00:00 GMT",
+    "fetched_at": "2026-10-07T22:33:32.120671+00:00"
+  },
+  {
+    "title": "Waymo Is Borrowing $5 Billion For Its Global Robotaxi Expansion - Tesla (NASDAQ:TSLA), Amazon.com (NASDAQ - Benzinga",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWXJnSUJ6QkVjYTZqWWZhaXNCdXZ5UWp6cEZqeHFIMjVBZmZ3eWJyN25ua2JieFFQU2VBTUQxNE96UlFDcUk3YWJCaXlhWWtUcmpETlZUS3dFS0dwMVFaVUxnRnZjOGFQSXQwbDRpcXZJX1phdXVMN2d5bHlpX3JqaWtHQmhhUktBbjZ0c1RBUnJ3MXJlZl9aajJJZG85d3V0Nkc2Xy0zX1N1ZjR0ZkVoTFBvT0RxdTlHOWJUZm9JdXctdVk?oc=5",
+    "source": "Benzinga",
+    "category": "CYBERCAB",
+    "published": "Wed, 07 Oct 2026 18:09:23 GMT",
+    "fetched_at": "2026-10-07T22:33:32.120648+00:00"
+  },
+  {
+    "title": "Tesla Robotaxis Hit The Brakes At 11 P.M. Over One Unusual Nighttime Problem - Yahoo Autos",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNR1ExTnpKSHFCTW1wa0d3QktNd0NfaDc5Ukc2bFZlY1hVQ0VNRVVETEhNZldadm9RYnBaZjRMeVdHTmdsV18yWks3Z3dUTEhQNE1CUWtxajFBX244dnpvX2RBeTdBNF9ocDBtdE5iaFVaVWliZjUxWEVTS1JQRFRid3lTY2dYSGgyV1lrSlB0Z3BzWjNXNXhoZGtlRGc?oc=5",
+    "source": "Yahoo Autos",
+    "category": "CYBERCAB",
+    "published": "Tue, 06 Oct 2026 12:00:00 GMT",
+    "fetched_at": "2026-10-07T22:33:32.120591+00:00"
+  },
+  {
+    "title": "Market Chatter: Tesla to Display Cybercab Robotaxi at Paris Show - Moomoo",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeFNqZ1MtUDhkZnM4Tmx1UEZ4V0N4VHF0YldYNk1VV1g5NnZsZEx3YzdITkZDRnVtMExFVm5rWms2NXhzYnVkc3BzV0Fpck9xOFRrWHhkR2hQSkotWGd6NXAtT3FQZGxVQ09Hb0ZHRzk0Y3FqX2pQQkVOMWlzQXNHckpRQVZqMGNsaF82eXNOQzZHc19ObXE4UHNkMExQS1hVV2FCdGhsMDdDQms?oc=5",
+    "source": "Moomoo",
+    "category": "CYBERCAB",
+    "published": "Tue, 06 Oct 2026 17:13:36 GMT",
+    "fetched_at": "2026-10-07T22:33:31.545186+00:00"
+  },
+  {
+    "title": "Self-Driving Tech Was Supposed To Be Safer, Experts Say It May Bring More Risks - Carscoops",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE54U0RKTzhMTTMzMFhCZmVLU3NHOFdDVkRKWUh5TGVpclVfVHpmUkt5bjd5elVTbFlhNWFrOFBxWHVRUU5VS2ZjZWFuQTNQLWVZbm9ld3piYndsRXNON3hqbmI1QkJfX0dZdHFsWXI4enNKTHpralUxZk1WVk55Zw?oc=5",
+    "source": "Carscoops",
+    "category": "CYBERCAB",
+    "published": "Wed, 07 Oct 2026 16:05:20 GMT",
+    "fetched_at": "2026-10-07T22:33:31.545120+00:00"
+  },
+  {
+    "title": "Tesla Bringing Cybercab and FSD to Paris Motor Show - Drive Tesla Canada",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9taXVkaUhfajZ6NGJOTDBsSU1FOWY3cnRObi16VEpMM3Z4M1Yxa2tDOGpENEUwUjdPWWQwai1qWWF4S2o4T0dhTzk0V2l0Sl83ZkdsR1d5V0JIcFJTVUk0b3p1S3VQYVFkeFVsNmhMSUgzY2NIaHNRSG9R?oc=5",
+    "source": "Drive Tesla Canada",
+    "category": "CYBERCAB",
+    "published": "Wed, 07 Oct 2026 17:01:00 GMT",
+    "fetched_at": "2026-10-07T22:33:31.545090+00:00"
+  },
+  {
+    "title": "Elon Musk Reveals the Surprising Reason Tesla’s Cybercab Service Shuts Down at Night - Yahoo Autos",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUUJhZFJEZFFudF9lYlJOanJnM2QtS3VQckozNEJHd25CYnp2aDRMZG5PQUtaYnpRdGZkX1F4YWpxVElvWjRsNXJUekJ6Vm93M3JrQUloUkZCMU50dTEzNnRCM2VTajY2WGhycjM3aXFzTV9CUGVHNlBBeVNKNHFrNjRqMkJJbmlvZkhaVFptTFB0dGIxZ3NBOFVSbHZMWWJkUUxtMQ?oc=5",
+    "source": "Yahoo Autos",
+    "category": "CYBERCAB",
+    "published": "Wed, 07 Oct 2026 20:35:17 GMT",
+    "fetched_at": "2026-10-07T22:33:31.545076+00:00"
+  },
+  {
+    "title": "Tesla’s ‘Electric Fan Car’ patent makes Roadster unveiling even more dramatic - Tesla Oracle",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNGhvVVhNZ0RtaTRCS0NnMXN3OWwzcU9YWjN2al8yUGgyQUstVU1RVkR3NUV6WmtoQUhrNElJMDdnc2JtRzVTcTVxclQtQU4yb2F0b05UdDdMSnFDMVJSNTRFZl85bnV1bHo1amxXU2lCbHJKSEkwY3ItclViUUl1QjBReHdvNFRsSmdoTHBUS2hWbWlmRDU4N3dIUkF5WWFIcTdZcDB3UF92Q0xnbzFMTnVGeDA?oc=5",
+    "source": "Tesla Oracle",
+    "category": "CYBERCAB",
+    "published": "Wed, 07 Oct 2026 19:02:20 GMT",
+    "fetched_at": "2026-10-07T22:33:31.545052+00:00"
+  },
+  {
+    "title": "Tesla Now Has Nearly 200 Cybercabs in Houston as Testing Ramps Up - Drive Tesla Canada",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZDlWTFFfbmhXY2JnSzRsNkdJNlNfT2ZkRmg2VkZTT1VadzFoZkp5YnQ2Y2xqRlY1TEFEa1pYbUE3ZHRMb1c2Q0NsR0tIQzVIcEdxd2xGbWVTV2VMWVFyZU42NE5odk9KMXQ3aE5FdENicXEyTmVsTmxNQlNVU1RJSw?oc=5",
+    "source": "Drive Tesla Canada",
+    "category": "CYBERCAB",
+    "published": "Wed, 07 Oct 2026 16:36:15 GMT",
+    "fetched_at": "2026-10-07T22:33:31.545039+00:00"
+  },
+  {
+    "title": "Tesla's Cybercab's Have To Stop at 11PM or They Might Run Over Your Pet - Yahoo Autos",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZElQeko2Z3ltTnUyaWJUXzk1SkxIY1k0ZFphUWQySEVJWUR0eWZpYWRYeUVpUGFldzFWZzFKOFZXa3BJd2hiWmhJNTA3cUZuS2R3V0R0VUpObUowVVZ0bUcwWWtLT0ZwLVdyaFE0VVExNEtRU2pWbEtmdlZOWHYtZkdwVGtENl9LeDUtVjRpSEtQUHFWS1h2aUQ1akh1Rzdl?oc=5",
+    "source": "Yahoo Autos",
+    "category": "CYBERCAB",
+    "published": "Wed, 07 Oct 2026 18:06:16 GMT",
+    "fetched_at": "2026-10-07T22:33:31.545023+00:00"
+  },
+  {
+    "title": "Tesla Cybercab Crash in Philadelphia Exposes Door Internals - Not a Tesla App",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSUdsVWdhQThjWmM2LUFCRDVnNzI1eWp0ZDFEeXNsb1AyNWZSeFhHRGJ6QlJRMEpfV3I4Q3dTZlUtcVlSZzZaZ1k2SFdQUUtTM01DOFF5bnpkaTNpYXdQSzBNcndkbXVGZE81d3NiMjRLa0JldnA3V1J1NTNfdDh2NG85TldFeHhrTDNSWTdGV3hiSGdNUDZjVzlHcmtCLUU?oc=5",
+    "source": "Not a Tesla App",
+    "category": "CYBERCAB",
+    "published": "Wed, 07 Oct 2026 18:40:00 GMT",
+    "fetched_at": "2026-10-07T22:33:31.545008+00:00"
+  },
+  {
+    "title": "Tesla Cybercab loses its entire door panel in a Philadelphia crash - Electrek",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOU2RWSUliUWtQNFBwLW16MC1nTXNBb2wwLWNOdFhvc05UbnJ1YVR3U1paNmhJS0l2Vm9wcUd6UUxieS1aa2owa0MzTFdIUFlLNEhqZ3gxem1yU09WUERQUXFGc2VBSlcwSl9ST2dtTXVVS0V3SWNOTlhoWTJ4UC14cEF3?oc=5",
+    "source": "Electrek",
+    "category": "CYBERCAB",
+    "published": "Wed, 07 Oct 2026 18:44:00 GMT",
+    "fetched_at": "2026-10-07T22:33:31.544943+00:00"
+  },
+  {
     "title": "Hong Kong clarifies liability amid unauthorized use of self-driving technology - MLex",
     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNd25PRG5NWjdjMWRhcVhvemJiQVBWWWs1eDRrRDB6bzRTTHR6eFJqVC1QSktLVnlrY1BxaFFNQzg1ZEtqbW5JZWtvN21SeThwM2N1ZFVkVmlaSHBSMHFQWDg3S2d6SWV2WkFyeWg2ZXFlcy14am5jaHViRmlXNXZkV0JTV2ZYcGhZVzBtU3BmSFNCMEhaaDE1anJjcV85MkRBOVFLbG5uc1pSTWVaT3FqdkJXVUhKUVV1LUJjZ2RZTEJDb0xOQXZtMDRlbkJYZmVjdzMxLUZJLWZVU3J3OFHSAVpBVV95cUxQZHBzd1RIN1RPclEtRFVNVW5MRFVvc2JDR0lMMW1LOGpOMjdrNmg0N0tmS21UYTk0bThuYzJzYnRSWDdRaExpMzY1WC04TTVZX2J1RlNXV1YtN2c?oc=5",
     "source": "MLex",
@@ -54,189 +238,5 @@
     "category": "CYBERCAB",
     "published": "Wed, 07 Oct 2026 11:57:21 GMT",
     "fetched_at": "2026-10-07T12:31:02.572773+00:00"
-  },
-  {
-    "title": "I Put Another Entire Day in Tesla Cybercab’s Hands - YouTube",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE11NGw0NE5NajlERmN6WFpnWC1YWU02MWNILXpZY3JpZTExckh2djZRQlJnYXNSeE92NmRiZllPVE5fYnNQMU1mb3NUQTFGbVhFQWk3QVJ3eHBzZXhx?oc=5",
-    "source": "YouTube",
-    "category": "CYBERCAB",
-    "published": "Tue, 06 Oct 2026 13:00:13 GMT",
-    "fetched_at": "2026-10-07T12:31:01.963612+00:00"
-  },
-  {
-    "title": "Cybercab Materials, Explained in 4 Key Points - BASENOR",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPT0JIWDV5MFVjRG16dVJtdGVhcTY0TU8zMTBZcFBxYVFBdjhpOFFsV0wxUEVDaE1SMGJGZnh6cU1mT2k4NUQ1RXY2SllueWI0d1pMT2hRa1lVdUVjcVNjRFdTYnZlak5vX3AwX0tlYTVuV0d5c0ZNbjNsZmZNb0dhcjJMOXZzZw?oc=5",
-    "source": "BASENOR",
-    "category": "CYBERCAB",
-    "published": "Wed, 07 Oct 2026 04:05:03 GMT",
-    "fetched_at": "2026-10-07T12:31:01.963569+00:00"
-  },
-  {
-    "title": "Tesla to showcase its Cybercab robotaxi at Paris auto show - Automotive News",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWThXQzB5OWw0LUpOcWZZN0pVdEZVdlBhZ0Y5ZFlYeDlkT1FOVDJPa0hsUWVadkNLa1d6LWo5ZVlzeko3Q09RRVR0UC1qYmhqc1NvWWtDOUpqaDhibHp5NWdwOWxJdW8xMGVwSkc5TzZGRng1Z2x6X3EzRlVTeTdVcVBzcU5FWFhrOS1mSFc2c3FmNmJyU3MwQWdtTFIwd0ROQUlYQW5R?oc=5",
-    "source": "Automotive News",
-    "category": "CYBERCAB",
-    "published": "Wed, 07 Oct 2026 07:02:00 GMT",
-    "fetched_at": "2026-10-07T12:31:01.963534+00:00"
-  },
-  {
-    "title": "Autonomous vehicle insurers fear nuclear verdicts despite safer roads - Insurance Business",
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaVBhdF9QYmFLVm5PcnBZUUFWdm41YWUwcWxidFpUYXRFOEhPX29uMmV3b3FkbEFuRG1MaXVYSk9YdzdaYnNKQUtweEJHSFJSd3VDMVRrU0Z0amNZcWR3Vlg4OGQ0NVBjYnFjMDlzMWxERWlNenlERmhqdElKWE1oRnpSa19qcHlWcWh0cy1HNWFubzFiX0dPRlRycHE2N1VpcmFMMkQyUjJLNGFCcnN0YndWeldCcDExQlpaSUY4ZVFpTjBzUGd1OWY4TDYtYUFIdFBj?oc=5",
-    "source": "Insurance Business",
-    "category": "REGULATION",
-    "published": "Wed, 07 Oct 2026 01:33:42 GMT",
-    "fetched_at": "2026-10-07T03:54:19.723298+00:00"
-  },
-  {
-    "title": "Waymo Launches New Ojai - CleanTechnica",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ubU1lUVB3ck16ZU4wY09QM293aERUZ1FWeG5KSF9yZUQ4QmZJbUJTZ1RzZEc1djFPVi1iRE1zNXF1Mk1fMDN4UU1GWHJmNnJWNGVQcnAyakFteVBUN1dwTVM2WVAwQ09uQi10MkRn?oc=5",
-    "source": "CleanTechnica",
-    "category": "CYBERCAB",
-    "published": "Wed, 07 Oct 2026 03:02:15 GMT",
-    "fetched_at": "2026-10-07T03:54:16.833872+00:00"
-  },
-  {
-    "title": "Dozens rally urging DC Council not to allow driverless robotaxis - WJLA",
-    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQS3RRQ3laRlRDMkZYQTU5OGpENnViZUdYMHNyZkdHTWhHczZYb3dhNjhOOU5FMW9FbkVQcDJsMzJCNnd2M1NoT2JVenNkVHhPU2Y5WXY5SzdEM2huOW1uN2FuM0NuUEhCb2UxSDloaEJwM18xM2IyYmRTZjQxeDhGVHRFTmdZWjdOWGVNWkJHRnUySWFZd3dGUEFlZkU0ay0wMTN4SjM3c09laXF0NGdrQ21GWXRRLXFxZzIteWZ1VEZ6WWJRN1NXSGFlZndBMXZJZXpyMS1DMEwtUlRpZnZqWFQxcXd4cnNwUDY2Zg?oc=5",
-    "source": "WJLA",
-    "category": "CYBERCAB",
-    "published": "Tue, 06 Oct 2026 23:57:10 GMT",
-    "fetched_at": "2026-10-07T03:54:16.833864+00:00"
-  },
-  {
-    "title": "Waymo Robotaxi — Safety Concerns Rise Amid 210+ LA Collisions - The Korea Daily",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9BUUpkbmRHeHhYdmllc3B2Nklxdkx2cjQ2RUtXX2cwM21JNFhTMXM5YWxNRWVEMWJXZXRrNnNsclQ2VkNFc0lLWTFkSE1CVV8ta0VCY2VCODlhX2loTk8tOFRxLU5CMENFaTdndkpUeDBhMk9FOWZsVWNjdw?oc=5",
-    "source": "The Korea Daily",
-    "category": "CYBERCAB",
-    "published": "Wed, 07 Oct 2026 01:00:03 GMT",
-    "fetched_at": "2026-10-07T03:54:16.833847+00:00"
-  },
-  {
-    "title": "App drivers rally against Robotaxi expansion in DC - WTOP News",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeXd2OG5sV0xneXY3dk5jTzVDbXlqUjBxRW5OUnBUWUxwTk1SZFlkZ0N4dko1YUV4R1ZKZ29NUkFVeTJxZHdDTG42Q1hsTHdocnFvemVuVmhad091UkJBMktEQUVTZWR0MUtTUUxEWmhtWG94Yi05Z3p2bXlqdExJazctQlpfQQ?oc=5",
-    "source": "WTOP News",
-    "category": "CYBERCAB",
-    "published": "Tue, 06 Oct 2026 23:59:48 GMT",
-    "fetched_at": "2026-10-07T03:54:16.833814+00:00"
-  },
-  {
-    "title": "My Verdict on a Robotaxi Airport Ride: Relaxing, but Really Slow - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNFFERWVlTV8wWTFDcGFUMFBlbkxqTnQ4WTRlZnZsdlVqNXVOT0tqRDVWUnhRaXk5VW9mbGRUMFRpODBOTXk0M1RRaXBEbU5EaGhfMjRmS3pBaHJLN21EWTF4dEU2aUs3Wk0tQW5TTC14T1NnMGN4aWFkMUNzd3N5eHYzeDZYR0E1d0tjNjJZM0VqZUFOQXVuWTAxcFBxOFdhZ2p0dHQ5U0tCQ1la?oc=5",
-    "source": "WSJ",
-    "category": "CYBERCAB",
-    "published": "Wed, 07 Oct 2026 01:00:00 GMT",
-    "fetched_at": "2026-10-07T03:54:16.833791+00:00"
-  },
-  {
-    "title": "Black headliner for the Tesla Model 3 Performance, larger screen for the entire lineup, better 0-60 for AWD - Tesla Oracle",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORUt1M0JibmxVZWZsSnJUVUVsYjdlRHBSQXdtcXl2dElDVHRWd3pFZFN6Vm5nVFdPT0NzaE1UODNndVBnVUtQaFJLeXA2YWlwM0tNN1RVLURSNk5Na2xYR3RfQ2dJOXJPLUdTeDBpeEdpcXFHd3N3ZWdVNXNMVTNPcjIzRFRDV0RaODdPWlF0Q3RVbk12OHBrLS1sYjRXbmhvczJNN2pEX25VVWhPWFBLT2pOYzRMUQ?oc=5",
-    "source": "Tesla Oracle",
-    "category": "CYBERCAB",
-    "published": "Tue, 06 Oct 2026 20:07:16 GMT",
-    "fetched_at": "2026-10-07T03:54:15.757658+00:00"
-  },
-  {
-    "title": "Tesla Cybercab Debuts at Paris Motor Show - Briefs Finance",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMU1jM2l5UDRNaFdDdFR5RlIwSHNxM0tNM25ka3Y0UGpWOEJObWRkUTYzbGozX3oyVnFZWW9jLVZLNXFhZ202UDdiWjBCbjd6bFBzQnA0bmdweVZTckFWQ0FhS2hzelFhZDBfelR3bWowME5WZjhKR0ZDVkxWZVJDZ2ZkNVgyejQwN2g1cVBuNVRXQQ?oc=5",
-    "source": "Briefs Finance",
-    "category": "CYBERCAB",
-    "published": "Tue, 06 Oct 2026 23:35:42 GMT",
-    "fetched_at": "2026-10-07T03:54:15.757614+00:00"
-  },
-  {
-    "title": "Autonomous-driving rules, global coordination to take center stage at Beijing conference - China Daily",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1BTmNJNE1nUDRTa2tNeDNFZW1lUm1iX0cwZjB2di16WUNPYzlUdHpuTUdkREV0aGd4dWtOOW1HWlZUX2M1TWlHalJBUU5pOGozc2VkMkp1dnZBUE9nYmZpTWtBQUF1aTJmdHZLUEJOQkQ3S0szYWdFSDNNeU9qdw?oc=5",
-    "source": "China Daily",
-    "category": "REGULATION",
-    "published": "Tue, 29 Sep 2026 01:54:49 GMT",
-    "fetched_at": "2026-10-06T22:11:42.977794+00:00"
-  },
-  {
-    "title": "Autonomous vehicles in Germany: Regulatory framework and key developments - Herbert Smith Freehills Kramer",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZmtDNUloOFZmZWVTUXcyVFd5WFBMdmh5S3lnaVNnbFRUbVptZHNseFNETFNfczcweHpjVFdrcTcyZTNmTF82MlVCeTFVZmo3X3lEQ1B3V0xKZ3JfZ1piV0NFQlh0dWsyTDViaWxaZDl4dEdPa0FUYUFIM3ZnT2JVei1xRC10ZEV5R0lEb3l3RTdnellxQlUyYURUMjBpNkkxZ0JMUW9XUnk5QjdYZW5QSDl3dTdjUQ?oc=5",
-    "source": "Herbert Smith Freehills Kramer",
-    "category": "REGULATION",
-    "published": "Tue, 06 Oct 2026 16:09:02 GMT",
-    "fetched_at": "2026-10-06T22:11:42.977724+00:00"
-  },
-  {
-    "title": "Robotaxis are scaling now, fixing problems later - Yahoo Autos",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRnl1MEJGLXNnVlE5N09XZ3pmR18yTFhWTF9ubW9uS0thSWJDYjZlVUpNSDJxT0h2X0pPSDY2UlkyZ0ZoSHl4SExCNXZyb04wbGRqUmsyZElBbGJ2N2k4NHItejJCS1o4VkVubDlYdUdYRmhNeXV1WnIwcE5NS004b0ZRaGlMMVhkaEpyX3BXaG11cmhaa2J1cmRiVmVua3ZON0lCbkxkWQ?oc=5",
-    "source": "Yahoo Autos",
-    "category": "MONETIZATION",
-    "published": "Sat, 08 Aug 2026 07:00:00 GMT",
-    "fetched_at": "2026-10-06T22:11:40.731127+00:00"
-  },
-  {
-    "title": "Robotaxis acquire a business case - Electronics Weekly",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdW9ncFVPWGlEZ0l1czRFWHRLWHBrbWFSTGFuQUJOZUotdDJlYWJoLVdvUWd3amxlcjRkb2M3V2kwOWZLMVBfbTlIb1pDN0NvYnJJOXNkUWhJb0dtR05WbW9oeEhaZ2kzOFZpWXByVXJ2cEZ1TUxaTld6WXNyWEgtakNnZ0JBMmZLb3NiSkRmV3hjZTlH?oc=5",
-    "source": "Electronics Weekly",
-    "category": "CYBERCAB",
-    "published": "Mon, 05 Oct 2026 17:04:48 GMT",
-    "fetched_at": "2026-10-06T22:11:39.590636+00:00"
-  },
-  {
-    "title": "Waymo Asks Riders to Lobby Los Angeles Officials for LAX Access - Electric Vehicles",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPT1o3MFcySWxsX0dsY05ld3hueW01X29oNnlxQ0xQLV9zRHFuLU81RDJJUXhWcUJBNTlOQmZQR1JDbXF3Q3NIWm9tZnE0MlRhSnFPdnBrdzJiV25wdmhzUzZ0WWtIQTYzR3hxZHZzT3lkZDZFZFRrdUxpZ1dNQl9vUF85bGxjVnYwUnh3U0o5Q2tZVzY1NHgwNVY4bGFYYTB3?oc=5",
-    "source": "Electric Vehicles",
-    "category": "CYBERCAB",
-    "published": "Tue, 06 Oct 2026 17:29:13 GMT",
-    "fetched_at": "2026-10-06T22:11:39.590591+00:00"
-  },
-  {
-    "title": "Waymo ditches drivers as fully-autonomous Detroit testing is underway - The Detroit News",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPc1pYb0VvU3kzTUsyRTFDZ3RnT0U3aDFSelJ6d1VRemxTa1FIYU1KM01QQWJyTVFaZHE2NVBoQ09vN1VGU25uVjhpSkxSWmE4M1lLTW1HZ2luMktTWjRYQi00VHZRbUJidjR2a2JDekkyYTVLTC0zckJZQ1otbUIweG9aWXFHY3oyM09QUXVPcjBvMS1zaWVoNlc4RS1CRFYtSExyWVRCRHl2OUR3bVdMbkM1NldBbU5nQklrYVp3SmlhZU5NOHAwRi1WN2FJZw?oc=5",
-    "source": "The Detroit News",
-    "category": "CYBERCAB",
-    "published": "Tue, 06 Oct 2026 21:21:00 GMT",
-    "fetched_at": "2026-10-06T22:11:39.590582+00:00"
-  },
-  {
-    "title": "Waymo begins full autonomous driving in Detroit – what to know - ClickOnDetroit | WDIV Local 4",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYkNGWU4xODBFTW9OWXJUbzNvSG1QNW5vS0htX0RxTlBKYTUyOWh2V293X1N6Y0xfLXZOaFRUaFU0V0ZEZzdqS3VyOWVKRm5Lb2xYY2I1d2pSS0hpWW1fTVFXaV9JdW92clNlckl5NmlyYkQ0SThfcDZJV3lZV0VNTWlJMDRYMlgydVBYSWVuT3R4dGVKb3c0V3JMSnhYbjE3dGJCVnVaV2hRLUZtS1I5eV9KZDc?oc=5",
-    "source": "ClickOnDetroit | WDIV Local 4",
-    "category": "CYBERCAB",
-    "published": "Tue, 06 Oct 2026 18:55:22 GMT",
-    "fetched_at": "2026-10-06T22:11:39.590572+00:00"
-  },
-  {
-    "title": "Never Mind Peace, Give Waymo A Chance 10/05/2026 - MediaPost",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQnU2WU8tTVkzbUVFVDVrUlhiZHk5NlNneU9FOTNKWWRNUXE0eDFaZ0VGZkd2d2FkNnV0d0g3VF9uOXhBYzlveTBpeDRYVHhJVWtaTzRTdUVDME1EMmNaOEE3a1ZudmlTdkNiU0dQRlV6Z05PY3BRRXR4bWR5WVVWcmVlWWowUVh1NDlsUzhKUVZsOWt6Q0oxeVA0dVEzRW0xLUJsdElaZExoMGpBSXRZ?oc=5",
-    "source": "MediaPost",
-    "category": "CYBERCAB",
-    "published": "Mon, 05 Oct 2026 18:53:53 GMT",
-    "fetched_at": "2026-10-06T22:11:39.590565+00:00"
-  },
-  {
-    "title": "Hundreds of self-driving cars coming to Nashville with new Waymo, Lyft facility - WSMV",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZlZ2T2VjUlZhWHczM0xJQlNxS0VBMzdSdm5WQW4xTlBGUC1PWWRuQ00yczZYOXRna3IwTFhxOHFyRjdYQ1lZOUI1SVZFb000ZlV6WFNaY1N6ZnBJRjU0ZW9kVkg2QkdzMnlyUGJZcWlSTmUzbFNSbUN0QmRGVkdyZDhrNmtfSEdNNHdIaWt0TmJlOEtwMUgyMUx4S2dJSWlWNlE3WFUyajg?oc=5",
-    "source": "WSMV",
-    "category": "CYBERCAB",
-    "published": "Fri, 02 Oct 2026 20:47:00 GMT",
-    "fetched_at": "2026-10-06T22:11:39.590557+00:00"
-  },
-  {
-    "title": "Are Robotaxis Safer Than Human Drivers in Los Angeles? - LAmag",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOc3F1cjdadV9PUHoxdW05RzBQZEpGSmFodVhPVW5JMXlFTEVNYUc0VXpFOTVPcDd0RE1OUXZJVXAxNldvaHp3aG5IaDliWUwtV0pqSDZzX1NneHB2S05jWUtaREpBbkJZRWpjTFczVFhxa2hTMDZPa001UzFvSi1NNHhDa3kxcHhq?oc=5",
-    "source": "LAmag",
-    "category": "CYBERCAB",
-    "published": "Tue, 06 Oct 2026 15:44:01 GMT",
-    "fetched_at": "2026-10-06T22:11:39.590549+00:00"
-  },
-  {
-    "title": "Waymo starts driverless rides in Detroit; public service planned - Detroit Free Press",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNGJMVHo5dEpzODdEeEVjQ3dNYWdnYWpMeC0zMjJ5RzcyUHBWU2ZvdkJWX2xWUHlZclpLaFZQa1pGYm80MU5adFVDMGNmWF94MU04QWs5SWV1dHJUTzYteGo4YzNZZ3F4c05sQXNpc3pka05mc1ZXU2EtUUhocE9CQ2FHbGpxYnpTOXNtS18wQlEwa2FJei13VnRn?oc=5",
-    "source": "Detroit Free Press",
-    "category": "CYBERCAB",
-    "published": "Tue, 06 Oct 2026 19:27:00 GMT",
-    "fetched_at": "2026-10-06T22:11:39.590539+00:00"
-  },
-  {
-    "title": "Waymo Unveils Silver Ojai With Improved Interior as China-Built Fleet Grows - Electric Vehicles",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMUtmOTJDbGc3UG03cmVVd0VFMlR1Y3QzV3g3WHRSc2NZRkpTTWFNUGVwMzlFeW5NWFpUQlJRVkk1cS1helhaRGNzVHkwNXJ2Zy15Q2RXVWt1UmYxN21hYmM0N1BnMG9NdGZDS3kwaDdwb29mclZnRERLMkhZYWpZMnk2VDhjOWFkQnRwdTM2eWNBeXlCQTl6b1NLZ2VocE04SlhzRWhwTDZCY2I5T01SMw?oc=5",
-    "source": "Electric Vehicles",
-    "category": "CYBERCAB",
-    "published": "Tue, 06 Oct 2026 16:09:49 GMT",
-    "fetched_at": "2026-10-06T22:11:39.590531+00:00"
   }
 ]
