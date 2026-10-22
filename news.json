@@ -1,5 +1,173 @@
 [
   {
+    "title": "Uber Backs Down, Pulls Self-Driving Cars Off Calif. Roads - CBS News",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVWFMMm5Pc3FxaXd5emx1eG83eU5iTFQ2aldURWltbkdCeWg3OGVaaXN3Z0RoV1VkWTAtRWZ4Q3I4QWtwTGl0Znd2M0tORmpVbmlpeFZmQUgwdGJqWktHczRtc2dOY1N2WVJ1c05IdkYxcHBpVWVFVG1SNWQzaFRMQnkxNEZuWXJaN3pyRlhkaElpUFB4YmF4UEtVQk8?oc=5",
+    "source": "CBS News",
+    "category": "REGULATION",
+    "published": "Wed, 21 Dec 2016 08:00:00 GMT",
+    "fetched_at": "2026-10-22T21:07:29.532928+00:00"
+  },
+  {
+    "title": "DC’s Robotaxi Bill Never Says the Word “Wheelchair” - The Weekly Driver",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVXBYWlZJLVJXcFpKbzNKMlNIV0dIUkJHdmhFbnBoUV9YeFpHTF8zMlBBTXlQWmlCRzduZzRPQjNRb1BQYkhVSkgwX2tVa19kRUtyb3ZhU215aC1xbWFFUVczN2RHa0xQcks2VlJTUk4zMjd5d2c0cVI0bVZjYXBvekRNQUE?oc=5",
+    "source": "The Weekly Driver",
+    "category": "REGULATION",
+    "published": "Fri, 17 Jul 2026 07:00:00 GMT",
+    "fetched_at": "2026-10-22T21:07:28.626713+00:00"
+  },
+  {
+    "title": "Commentary: Colorado is way behind on Waymo rules - Colorado Newsline",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5tNXFSOXpUR0U0SnZ3S01pUUtKYnpPaWlxQ3UwRmlwakoxeFlvdV8wakpSaTZZbHFKZWxGZ0ZUcDdWQmh2cFFsSHRycDRnOFBpbjNsT0JPN0lQbUVlMDlrc3dubS16akZ5dDE2QTlrcTlwOUtkVVdWRzdBTXQ?oc=5",
+    "source": "Colorado Newsline",
+    "category": "REGULATION",
+    "published": "Thu, 22 Oct 2026 16:56:26 GMT",
+    "fetched_at": "2026-10-22T21:07:28.102629+00:00"
+  },
+  {
+    "title": "Google's Waymo Goldmine: Mini Google Ecosystems On Wheels (NASDAQ:GOOG) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbFFuMFlTVFpqMng1Sndob3FoOTNGbVhVTXNOOFk4Y2VSdGwwRGpCaVpZV2V6VC1FV1hXZlltWjlLdlZSbzdJWTFMakFoZnZOMmNaNGI1ek85aHNFTmdQQ0Uzb2JwdzNzb3BqajFpWEsxakJfdk1wZVdteGdKMnpNdm9uNWZiSUhWVUlXcXdsY3p0UV9tT211UWlFQ0M?oc=5",
+    "source": "Seeking Alpha",
+    "category": "MONETIZATION",
+    "published": "Wed, 12 Mar 2025 07:00:00 GMT",
+    "fetched_at": "2026-10-22T21:07:25.692564+00:00"
+  },
+  {
+    "title": "People Keep Egging Waymo Robotaxis in Denver And It's Getting Out of Hand - AOL.com",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQlJOc3Q5b3JXcmJhQkdydkd6RG1XYVJwQ1g3WXA1cTdtYTJ1VnlCaTNlaXJuSFY2dElJZlhkNU53cWN6V0tqWnRhNDcwcnBRbE95MTNzMDdpTkstMDZ4Nlg4dzFkc0ZMYVIwT3dka1ZqbjBuYV8xR2NPZWNQeVgyMUZZaGM?oc=5",
+    "source": "AOL.com",
+    "category": "CYBERCAB",
+    "published": "Thu, 22 Oct 2026 16:56:48 GMT",
+    "fetched_at": "2026-10-22T21:07:24.193329+00:00"
+  },
+  {
+    "title": "Waymo to launch its robotaxi service in Spain - WardsAuto",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOejA1aXhfY1NQcHp6MldxY2w0TlcwRVZzVjZJbU42YmtDdUNsWUNQMUNUZGdkY0puOGFpbXlOaXhhZ1RJZFYycGd1N2p1aVJlU1d1QURBaVUxOWpTOF9DR2kxRXNZQWhUVHAzeHJOd3Q0b3lGelJ6aWFFTlRucDdwS3VMcEQ2QVIyMWtnTQ?oc=5",
+    "source": "WardsAuto",
+    "category": "CYBERCAB",
+    "published": "Thu, 22 Oct 2026 16:18:46 GMT",
+    "fetched_at": "2026-10-22T21:07:24.193292+00:00"
+  },
+  {
+    "title": "Tesla profits fall on higher spending as 'Elon Inc.' talk builds - eNCA",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeXpCd25pblJsNUZra1NWQlhvYlRVX1ZFX1VyMHhfUVJnUlhhYzUtamJnT09HVXIwMjczUmNMazlZOU9qWnBTLVhjRk5wT0ExZXV1bVZXQmM0T0xYWWYzNXpRMndUZ1Y3QUlnM0JQUHJmbXhCNlJ2d1ZrUDR6SDRCMklGejNrN1J3LUJ4Nkdn?oc=5",
+    "source": "eNCA",
+    "category": "CYBERCAB",
+    "published": "Thu, 22 Oct 2026 10:34:24 GMT",
+    "fetched_at": "2026-10-22T21:07:23.657808+00:00"
+  },
+  {
+    "title": "Elon Musk Says Tesla Cars' Value Lies in FSD Service: 'People Are Buying FSD With a Car Attached, Not the - Benzinga",
+    "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPX245dHVHTDdWNWIxT2o0VkFWUE9hTFgtaEF1UVgyaXVEZm9fdWx2WkFfcDhPNHJwMVNkZnd4VWZuaHc2TzRlUTZpcThJcGo3aWdXU2M2VXJ5TEd0bTN3WjJnbUVzYWZNbWg0dWVTbEYwZEJRYndiSllVdl8taG1uYnFMSDVnb3Fzc1FNNy1aVlZTWnoybWpVZFowcUZBWjJsc1VHV0E4WHdYbFdCUUdtRHR3cHBGM3dJVl8xRTRVQnoyRVYxOWVBOVBwNWV1bmdNd0pkSGZmWFpnZ3NrdXdlVUpfUGJrczM4OXFsQ0hPN1RZVkxLb0p1MVZObW5xR3B1?oc=5",
+    "source": "Benzinga",
+    "category": "CYBERCAB",
+    "published": "Thu, 22 Oct 2026 12:00:26 GMT",
+    "fetched_at": "2026-10-22T21:07:23.657783+00:00"
+  },
+  {
+    "title": "Tesla Q3 Results Overshadowed by SpaceX Merger Talk: Analysts Struggle to See ‘Meaningful Upside’ From Deal - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNR1JGYXJ0V0IzQW53NzFCaGhVNkFtOEYxRGFFY0pCc2NxTi0zczREWjA3Z21RVTV0cmN6S3Vrelg4NDVTWEVfTF9vTVBZcXdmQW5BLVFpZ2JqQnFVU1RjTWlTdFRReHdZMXVEcGF2MjVuR3kxT3FnWTdlNUo0ZTlVTFc2WXFIalBBZmNoSFhtc1ZFZGFmTWg0X2s4OWJlWVNUcG5qSFBpRmpRV3Frb1JsaFBYUlZtbDc0Z1NFLWlDbHMxNThkQzlBNldDYUlQV1Q5VjRIdXlZZm1JalpWOTd5REZYdFJLRmtXNzZrUXJWZFlWRWhmM0E?oc=5",
+    "source": "TradingView",
+    "category": "CYBERCAB",
+    "published": "Thu, 22 Oct 2026 17:49:29 GMT",
+    "fetched_at": "2026-10-22T21:07:23.657738+00:00"
+  },
+  {
+    "title": "Tesla lists Jacksonville robotaxi service as ‘coming soon’; no launch date announced - Yahoo",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQN2xKVmhvTUEzYktCQk51MzFOYlNGLUViVC1jN0p1MTk0Y3FlOHR2NHBoUy1FQVJ5QUx5em5WNncxT3ZsOG84MHlhWWFSNmZYV1NrWlhrOEFLTGc3cXA0Y1NoczZtVndGdXNsTU5fSm1Vd1BVSl95QU1xVUZhcXpOUUc2aFM4RndpUFlXQ0N0M3dGQ2ZiZzNNbFpB?oc=5",
+    "source": "Yahoo",
+    "category": "CYBERCAB",
+    "published": "Thu, 22 Oct 2026 20:23:43 GMT",
+    "fetched_at": "2026-10-22T21:07:23.657702+00:00"
+  },
+  {
+    "title": "Turn Your Model Y Into a Cash-Cow Robotaxi: Tesla’s New 2027 Deadline Is Bold - But Will It Ever Actually Happen? - Gadget Review",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPbGdQNkN3NjNrMTh0NUpnejlKVVUta2VzS0x5UjRBS1U5aEljUjVjSEZvM0R5R1Y5Wm5Tc0I0U284c3BGX1ladXNFX0JhYXJXWFB6SF9tT3ZJck96NFcyb3lVaUxiS290RGFDM3lfU1VTQTBRWjRJNTZwdjhpdnphYnRLQ3dtbTU1QWJueWxXakxTWFRPaFBoTklZcUNpNE1XUVpIbFpPRGs0SjljblE5SmJoMnVtRWRKbGdrX3Z5dDNWdFZMSDFzdUdrM3hpZmJLcFlv?oc=5",
+    "source": "Gadget Review",
+    "category": "CYBERCAB",
+    "published": "Thu, 22 Oct 2026 19:01:32 GMT",
+    "fetched_at": "2026-10-22T21:07:23.657678+00:00"
+  },
+  {
+    "title": "Tesla Outlook Supported by Self-Driving Software, Robotaxi Growth, RBC Says - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPeGYzTEYzYkhWX3Utdm9WQnduTERIZEZ1Q1c5Mm5aT1R0WE80NkJsYThUa3h4OTFVSGJIcHFWTVhLXzBWWF9ncUd0U1FDTFVTZXNnWUhMUHc5Nk43UWpoZDZLbE4xbDNCOWFzckQyREprS1BfdUJYSm5XaVo0SXRMaEZtVzZZelQ3cXRIMDVibmphNU82d0E2d0ZocndyMF8tV01Z?oc=5",
+    "source": "Yahoo Finance",
+    "category": "CYBERCAB",
+    "published": "Thu, 22 Oct 2026 15:46:58 GMT",
+    "fetched_at": "2026-10-22T21:07:23.657648+00:00"
+  },
+  {
+    "title": "Those Gold Teslas in Dallas Could Be a Sign of What's Next in ETX - Kicker 102.5",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5oemZVOGliWUVWUDlTQy01c280QUk1VDJhZU13N0NDOGZ3OE91ODlkSms0NFVfclMyTFBFaW0tMFltVlExZHNHM1lQSWFhTzhDZnM4eFRZNVQxaUpGNFE?oc=5",
+    "source": "Kicker 102.5",
+    "category": "CYBERCAB",
+    "published": "Wed, 21 Oct 2026 20:23:53 GMT",
+    "fetched_at": "2026-10-22T21:07:23.075139+00:00"
+  },
+  {
+    "title": "Tesla's Profit Drops 43% as Musk Starts Building Robots and Plans to Sell Driverless Cabs - Decrypt",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBHcTZuN3Vjc3JSSGZkMFlBNm9JYU1oYUpUS2pHbWhIQVpqMnpQTFR1dl9DVDdYdnA3eUo2a2pKQ3R1X285dzhUNUhJRjVHd3RQc2w4ZGJmWF9yLWduUVFkMm42NWQ4X2MweGJ1RzlXRzFtR0kycGlKRU9IYXlEdw?oc=5",
+    "source": "Decrypt",
+    "category": "CYBERCAB",
+    "published": "Thu, 22 Oct 2026 18:06:02 GMT",
+    "fetched_at": "2026-10-22T21:07:23.075121+00:00"
+  },
+  {
+    "title": "Tesla: 3 Key Takeaways for Long-Term Investors [2026] - shattered.io",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBCVnJXbHZzMHhEV2RCQnpTZ3V4WWhLNzU5ZXQ5WEZFeHFiX0tVemFWQ2s5bHRMdGZYTnZTU2JXTllJTVU4TXZNZjF3UTljbWFUSWQ0QjFLN3Azb25ET3VLbDFRaFd6S2hrRko2Y1U2R3dEaUFHR0Fv?oc=5",
+    "source": "shattered.io",
+    "category": "CYBERCAB",
+    "published": "Thu, 22 Oct 2026 17:16:19 GMT",
+    "fetched_at": "2026-10-22T21:07:23.075093+00:00"
+  },
+  {
+    "title": "Tesla Q3 2026 Earnings Call Recap: Everything You Need to Know - Not a Tesla App",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNVlzM3FJS0VZcDJTbzFUcFZGTUw2dXhhbjRiYUg2SFN4bEFaa3hwbV8wRzBZZXRramxfb2p6eHYxVzhPWER1MU5ZSE5mQ1BTQm5DRjFTOW0zTjltd3lLMzBNU3piYmJIdnM2UXNjQ0hYbGJkRncxdW80R05USlRZTWF1all4ZGNCSklSNlFya1laZW1nWl9GbGdDQXRaTkRwWHc?oc=5",
+    "source": "Not a Tesla App",
+    "category": "CYBERCAB",
+    "published": "Thu, 22 Oct 2026 17:20:00 GMT",
+    "fetched_at": "2026-10-22T21:07:23.075082+00:00"
+  },
+  {
+    "title": "Tesla just laid out its transportation mission: World domination - Business Insider",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOUJscnFPNU5JZW1IeUhQU2gwNW9tQlB2TzBSU0JldDBsdGtVa1ozUTZFQ21BcTFjNmJaWTZxaXVvaEZGWTJERzBLMDV6Z1pWU01Sb1RVM2h4WTdvbXlUQmtHVFcwc1JDM3JnMTgtY0drbXpnN052VjU0ZV9BeWdtV2pVNjJBbkIteGJaVXNnMA?oc=5",
+    "source": "Business Insider",
+    "category": "CYBERCAB",
+    "published": "Thu, 22 Oct 2026 17:14:00 GMT",
+    "fetched_at": "2026-10-22T21:07:23.075058+00:00"
+  },
+  {
+    "title": "Elon Musk says Tesla will sell 5 million cars by 2030 — math says otherwise - The Verge",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQa2ZBdU9PdDlrZkhKNDdGU1RPbExfb2RSVFdwM2VwRXhrcjlMcTJHZ0NTaGJfZ3VaR1pqbHpJOFhvTE54ekNSRFJ5aWlfY2c3NFgxVWYzcmFOdUpGMkgzbXd4SkxHeFp3bmM2dGtyUnFFaDJ6ZmFacEJaNkpTTElNY2dfbjlRa0UxQkhsOWxBM1RxaTd6Q2dpcmdIbTdfdw?oc=5",
+    "source": "The Verge",
+    "category": "CYBERCAB",
+    "published": "Thu, 22 Oct 2026 17:42:52 GMT",
+    "fetched_at": "2026-10-22T21:07:23.075042+00:00"
+  },
+  {
+    "title": "Tesla Targets Dallas Cybercab Launch as Regulators Probe Safety - Gadget Review",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTDBqTVBjblVicXNFeGlMdU1EVG13R08tMUlYd1g5dS1KV1lqOTRkZVdRWGxoRjBKMnpfbnRZaTZOQWxaT1ZVcUZDUHU2QklUSFpPOWlJZVZWMG9lMG9LMV93YUVjZlBWbHNaVUpaVFBCMGtZSnFOQlM4REZLVXVsYWpUcjFmeWJmM0tkdS1MQlpsN0xxRk5B?oc=5",
+    "source": "Gadget Review",
+    "category": "CYBERCAB",
+    "published": "Thu, 22 Oct 2026 19:03:13 GMT",
+    "fetched_at": "2026-10-22T21:07:23.075020+00:00"
+  },
+  {
+    "title": "Did Wall Street forget about Tesla's Cybercab? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRnozbHRlSDlpeGJnc2VKYUJYSFhkQUpPQk1pZi1oeGotNktzRzBXY1FCVEVZWXU5YTItVnREXy1janMwN1NMbDlzR3lpVU1OQ0xSbzZScUI4ZE4tbFExNlh4bFM0di1RaU1kLTFNdGR2Y3I3UzdrSTA3d1E0NkZmcXpn?oc=5",
+    "source": "Yahoo Finance",
+    "category": "CYBERCAB",
+    "published": "Thu, 22 Oct 2026 15:00:00 GMT",
+    "fetched_at": "2026-10-22T21:07:23.075002+00:00"
+  },
+  {
+    "title": "This level-headed Tesla bull still expects 5 million Cybercabs by 2040 - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQT19XMjY2cXQ3RHFwS3JJUTVIVjhtbEZkeVlHTXBIOXg2cUJIWkFnNEhDZ2JxSzZJVXZ2RndXT1N6Y3dQSFZMSGU3ck5mdXg4d0Y3RlFiekJUZUJvd0ZjTUFJYmlBX1ZwNnB0d0RoQ2x6RVUzNkdsUTkwSVJvVTFDWVR1MHpWLVBxd3RJRTR0NW1MUDlSUE1SempMU19KQjc2aTFvQzQ2OUVpQXdLeW5wQ0QyWmFRcEdGOXY2czUydTNkUXJWQlE?oc=5",
+    "source": "Yahoo Finance",
+    "category": "CYBERCAB",
+    "published": "Thu, 22 Oct 2026 19:36:23 GMT",
+    "fetched_at": "2026-10-22T21:07:23.074958+00:00"
+  },
+  {
     "title": "Uber fights self-driving law developed precisely for its situation - MarketWatch",
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVGVDM0JaMmg3TFdfNEFHU2tiSXF6OUprUWxLeC15dF9TaDhpMS05SlVxck9YMVVzRVJxN2RBUlVhX1dVenVkVXp1eE9oM0JJdk1FYmFocGNWWVhQZ0JRQVVwTW1xaFE5NjZfN3dBY2dlUGtLaHVRYUkyQXNmeXlRY2F6U2VOZ0dld0pQTXFObThoVXREbTM0aEFicHd4blpJSGRNOUJ0azBxRnAzWFVjaQ?oc=5",
     "source": "MarketWatch",
@@ -70,173 +238,5 @@
     "category": "MONETIZATION",
     "published": "Mon, 27 Jul 2026 07:00:00 GMT",
     "fetched_at": "2026-10-22T16:29:08.406885+00:00"
-  },
-  {
-    "title": "Driverless taxis to hit Madrid’s streets in 2027 as Google’s Waymo confirms Spain launch - Olive Press News Spain",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPR0xoZm91TWFZQVdybXdPNldrX0kwOTVyYVlhekdDOUhwZlZsdHh6UHFNVGFobmRFQXJ1ZktiVjRxTFdndl8zNUlnclJGSzFyUXN3Nk50SUN1OF9GM1FKU2RSMDJUSkRVOExKaEZPZ1c4SjRhNFVuQlJTa21WQjJGbU9wRXVxSVg3YldMam9GU1QzV3pvVEN2bVUwOE8?oc=5",
-    "source": "Olive Press News Spain",
-    "category": "CYBERCAB",
-    "published": "Thu, 22 Oct 2026 13:00:00 GMT",
-    "fetched_at": "2026-10-22T16:29:06.786751+00:00"
-  },
-  {
-    "title": "Waymo Announces First Canadian Robotaxi Service With Toronto Launch Planned for 2028 - Rus Tourism News",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQd0trRjdjaHFfT01XZ0RQTHRiWTJuUU8xZV9TTUVaUzh0U0NpV2cyUXJsdGxIUmJmLU1PY2dsRlZyRm9HZVlCWW14eE5BNDdwblVlR2tub1lXdld4QnVOZXAzNEZROVhQTEpEU3JLcVVlcE9odzlycnFzLURmREVuMlY4NWZuX3BOYlRuc1hXd1Q3VTlaNzFTbl94dTdIelowcFNxSG5KR2VacExGRHo1WUJ2U2ptb25KS1FfcHNKNHVRamNHUUE?oc=5",
-    "source": "Rus Tourism News",
-    "category": "CYBERCAB",
-    "published": "Sun, 18 Oct 2026 09:21:57 GMT",
-    "fetched_at": "2026-10-22T16:29:06.786701+00:00"
-  },
-  {
-    "title": "Zoox Las Vegas Airport Field Report｜Road to Autonomy - finance.biggo.com",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBuM3U0cTFKZHF4ZjhlSVhzY1k4dlVoMDhWVy1PaWUtcUJKWF9jeEtEczdXbm0zbjhTUXBiVFBpdWplUm1NNHBTbndsdzM5TTZYM1ZJSjVJNXBQM09iRkJJ?oc=5",
-    "source": "finance.biggo.com",
-    "category": "CYBERCAB",
-    "published": "Thu, 22 Oct 2026 14:39:14 GMT",
-    "fetched_at": "2026-10-22T16:29:06.786672+00:00"
-  },
-  {
-    "title": "Bolt picks Nvidia Alpamayo for European robotaxi rollout - Automotive World",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUDlQQWxUa2I3c2E1UTVhNTkxMjlES2xWX2RaSGlmU0ZfZGRkb2J3SjdJLXVReGg3RTAwMHY0TVNPbmhWRFZYbTh2MmJiQVdTcmNNTzlJeVFBZHkyN2hnQUo0X1M5NkEtXzllMTNYX1c2RHUzODRhUExJRmtOcGxBSXJXMFhfSFIzdmxqS0syRDNPSzRpOHQzUHVRazM1blhsTTVNbQ?oc=5",
-    "source": "Automotive World",
-    "category": "CYBERCAB",
-    "published": "Thu, 22 Oct 2026 12:14:25 GMT",
-    "fetched_at": "2026-10-22T16:29:06.786645+00:00"
-  },
-  {
-    "title": "Waymo Is Bringing Robotaxis to Canada in 2028 — Toronto’s Winter Weather Will Put Them to the Test - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPemVMYmFKei0temVTcGlqdE41WTVIUV9JUHJDdmhxcDhnX1g4TTUwR2s0RW5zRXljYUUxWVVFNUlNSnJtaW5xM2MwM1U1WHV3MmVnZFB0aDlGNGFhWUtPa0pnWTFTS0N2Rkp0cFVBVmZlVHhVT1hUc1BMZXROdTBCZHhCZ0Zvc1VlRTlFT0djeVJ6UFllZmxXbFZfTXJ0MGRVN3c?oc=5",
-    "source": "Yahoo Finance",
-    "category": "CYBERCAB",
-    "published": "Thu, 22 Oct 2026 10:17:21 GMT",
-    "fetched_at": "2026-10-22T16:29:06.786629+00:00"
-  },
-  {
-    "title": "Waymo Expands Driverless Robotaxi Service to Las Vegas Airport - Travel Market Report",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVDlMYmdOZ3hPd2ltbUlSRzhJODJueFdpbjR4dkwxRldIdUNXbFVRdTROZzFBb080LXpuYnlDeVIxRmQ3U1hrU2tGdnYzeWtuUlJMUDdzQmg1MXRuR3JYdkI2VGZQWG5VZHB1eG1aUU5mb2VzQjB3RVktT3czSy1DV0xacmlwVUQ3NlhEc2dSMUt2ZExuZnBieXFzOWE0YTRKVUpHTXkyU1l0WDZjNlJB?oc=5",
-    "source": "Travel Market Report",
-    "category": "CYBERCAB",
-    "published": "Thu, 22 Oct 2026 12:26:56 GMT",
-    "fetched_at": "2026-10-22T16:29:06.786621+00:00"
-  },
-  {
-    "title": "Waymo to launch its robotaxi service in Spain - WardsAuto",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVU5JWnYzejRTUnFvMFl1UUNSb2QxWElSeFF5cGxNYXJFN2NOcGg1bkVTVm5FXzlQa2hNSzBVWkNCeVFGSjdGbW94M2dKa0tSamM3VHdCTDN2aDdfa3FIaXN6TXJzWjc2azFWekt0V0Z0WDktR2k1ZmcwQWViTTJpYklpTkdZdElpekQw?oc=5",
-    "source": "WardsAuto",
-    "category": "CYBERCAB",
-    "published": "Thu, 22 Oct 2026 16:15:59 GMT",
-    "fetched_at": "2026-10-22T16:29:06.786613+00:00"
-  },
-  {
-    "title": "Waymo Robotaxis Begin Pickups, Drop-Offs at Las Vegas Airport - PCMag",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSVlOalNuck9ha1FkaDdVUWw5eWFmYXEtOWplSEpPdTRsUVpaYTdpYkpjYktxU0M5YWhhN0FXRXJyTEpSOGE1dkk2aFVwZXBtanhCVERYdVlTQXhfSTkzNFZueGpCY2tWcS1QbWhiQkl3bVR1Rl9jRDhmVm5nZ1FQaUtaLTVQd2pjSG42VERKUlY?oc=5",
-    "source": "PCMag",
-    "category": "CYBERCAB",
-    "published": "Thu, 22 Oct 2026 13:43:44 GMT",
-    "fetched_at": "2026-10-22T16:29:06.786565+00:00"
-  },
-  {
-    "title": "Tesla Outlook Supported by Self-Driving Software, Robotaxi Growth, RBC Says - marketscreener.com",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbmhrbk55QWlNTWpTd1lyLW13SGZ6eW9HanZhY2g3ZmctMlpreV9aUjdGX3FPRDQyT0ZiRThkRHUzMEt2ajVJdXg4bkIyT2w1a29JT3hFZHpGeldqeHJHZTBZVmVVTXFISFVCcmMwZ3dJS2pCYlp4MUYtc0h2SnpqSXB2anFjcVpta0d1b3lwazlFdDl0NkdIWTdfcXZMcmp5NDFqNHJ1X3R4a1VlMVQxeFZJalRER05xaFUyS1ZiU21fV3Bw?oc=5",
-    "source": "marketscreener.com",
-    "category": "CYBERCAB",
-    "published": "Thu, 22 Oct 2026 16:19:45 GMT",
-    "fetched_at": "2026-10-22T16:29:06.299803+00:00"
-  },
-  {
-    "title": "Tesla claims privately owned Model Ys can join its Robotaxi fleet in Q2 2027 – a deadline it will likely miss - TechSpot",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcHd0cjRaMTM2WjE2TGJNOEY5UHNCV1JQNFpZdTByM05YODJULUJjZXhOZElIcUlPWXNMcUtscllTRUxiMjdKZGw4MVdVd3lzaldiT2ZhR3NxajVtVHExSllJOXg1eWNLLTQ4YnQtZ2ZqblRNNjlUTkpxamZ5VElka21udjdVRmtFN2dEY1dvTXEtQQ?oc=5",
-    "source": "TechSpot",
-    "category": "CYBERCAB",
-    "published": "Thu, 22 Oct 2026 11:33:00 GMT",
-    "fetched_at": "2026-10-22T16:29:06.299783+00:00"
-  },
-  {
-    "title": "Tesla earnings beat puts SpaceX merger speculation back in focus - Proactive financial news",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQX0lDemhvMm1WSnA3NkNJWWdkR3ZRcTVDaDRqWTRoRkhiN21pamk2azFmYlNHaTNXbFBwbzNJLURhMHVJN2ZYME1IZ0pZVVd2b3dVN295dG4tb3VFYTJka2N6bXVyb3VOSzVxOE9lRGEzWkM0dnZYd3EwLXUyRkNCc2l5WjJDM2Q3ck4xRTZSWFhsX2h1YUJmTzVzM1RtSFJoaFU0MkVmalRqanRZZDV3RWxiTVVGaEo5bkNXbG9YQjVyZ0JBWHJDUU1RS2g5enN0?oc=5",
-    "source": "Proactive financial news",
-    "category": "CYBERCAB",
-    "published": "Thu, 22 Oct 2026 15:55:00 GMT",
-    "fetched_at": "2026-10-22T16:29:06.299767+00:00"
-  },
-  {
-    "title": "Tesla targets Q2 2027 for first unsupervised FSD in customer cars, but only inside Robotaxi zones - Drive Tesla Canada",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcnpZLTQyUHRFbzB0VEFPQlRFMzJWaHZhNmpZQThJM3hMZ1lRNU0yV0wydGJZN0x3TXVpUWFMdkh2SnZ3dkpaRjc2NVktQWFiVndYbTB6dTBQalpCWnd0V2pYWGxIMVNpVm95R1lDeVJiRUdCV3JORU1DaVpiN081SUlxellZUHF3dXc?oc=5",
-    "source": "Drive Tesla Canada",
-    "category": "CYBERCAB",
-    "published": "Thu, 22 Oct 2026 12:36:00 GMT",
-    "fetched_at": "2026-10-22T16:29:06.299755+00:00"
-  },
-  {
-    "title": "Gene Munster Says Tesla FSD Is at an ‘Inflection Point’ as TSLA AI Lead Says Rivals Can’t 'Match It' for - Benzinga",
-    "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNekZpWmhEV0hEOGhEcEhZbXhtaC1sQURwOHF2bER6YVZrWXhYbVFyUVRuTGlVcDhOMUZWUEhWdlp2YnExUE5lYW1XQTM2cmFZT0VfaW9jVWJHc1pSU0RIeEktcF9QOEVDODU0eXlmVDRLdWQzeFRCeWpZTlQwUzBYQU8wLU9Ib1ZiOVVScDVJTzU0dWxKSUIzSzNDb1hERzRnTXhmdEFKOWlrNWhEaDNObmFrc1dBSkxHUUNXWnFoRVlfWTVnTjJuY2xPMkVnc2twMWx5ZFNwMnBPM0Q2VEx0UFhPUXVkSWp0d0NSOXQwTEV5dS1xNjcyM3JraFNqaG8xYmpra2VVSUNCN2VYcElhTF9YYWxGeTI4clNpQQ?oc=5",
-    "source": "Benzinga",
-    "category": "CYBERCAB",
-    "published": "Thu, 22 Oct 2026 07:24:41 GMT",
-    "fetched_at": "2026-10-22T16:29:06.299738+00:00"
-  },
-  {
-    "title": "Tesla app code hints owners could add their own cars to the Robotaxi network - Drive Tesla Canada",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOa21iZC1QUWpBZUdBVzA3NHpzZzlVUTJHcWJCSlVTZUhNb19aLVcwcWxKSGk4WUdyUkhVcXU3WXNBcHVVaWdFYXNlc1VQblRkZk9mRjhmWDNwMHVmQUJ3ZllNU1Q2ckozSnRBSU1xZWU0LUpOaF9LZGVDeVBGNHZFSUt1eXQ4NjdWUFE?oc=5",
-    "source": "Drive Tesla Canada",
-    "category": "CYBERCAB",
-    "published": "Thu, 22 Oct 2026 16:17:00 GMT",
-    "fetched_at": "2026-10-22T16:29:06.299726+00:00"
-  },
-  {
-    "title": "Tesla Outlook Supported by Self-Driving Software, Robotaxi Growth, RBC Says - Moomoo",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOY2MyazhyLVU2WWlnbDYwNWFjRFFaT2lwd3R5dHVOblZEOHlTa2Z3YS16NnBfU24zaDZBcVhKTVRFcnJyNjJmOVRzUEdsbDYtVVl2VWVVQ3hqR2otRlJWOG5hZWxXU2I5bHZiM3RWVjMybGlLNlA0UUV1aVF0eVpzb29iTWFtWFl5RVUyd0FDYWk3dHA5OHNPOUNwN2VfTlBKSzVKTGJwWnhvNTVGN2ZfVkJ3?oc=5",
-    "source": "Moomoo",
-    "category": "CYBERCAB",
-    "published": "Thu, 22 Oct 2026 15:56:33 GMT",
-    "fetched_at": "2026-10-22T16:29:06.299708+00:00"
-  },
-  {
-    "title": "Tesla posted a highlight reel of its robotaxi avoiding collisions with rivals Waymo and Avride - شبكة تواصل الإخبارية",
-    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBEQVZjTVhtVHJPUV8ycDhfMkFRT2RlTU5Ua1lUaElqX0c1djllVEgtbjBtdnZqWDB4MlMzN3l0ZFFZSGY4TTVfbEZSelRJMTFXcF80?oc=5",
-    "source": "شبكة تواصل الإخبارية",
-    "category": "CYBERCAB",
-    "published": "Thu, 22 Oct 2026 11:21:02 GMT",
-    "fetched_at": "2026-10-22T16:29:06.299693+00:00"
-  },
-  {
-    "title": "Tesla is prepping a Cybercab onslaught - TechCrunch",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1QcHJLZmFtYXo2VlVySUR2SGZtX0RDMkd2bzBtN3JTdkx3SmVjYlhlMGtmWFlDMmx2NExVWXMtekxyTjBZcExJUUZXUktfRmtfejEySU9jOGowOXM2aWtzdjBRODZLbmU3d2U3dERfWVh0SmY3Y3VMZk5lWWZ1Zw?oc=5",
-    "source": "TechCrunch",
-    "category": "CYBERCAB",
-    "published": "Thu, 22 Oct 2026 15:44:39 GMT",
-    "fetched_at": "2026-10-22T16:29:06.299670+00:00"
-  },
-  {
-    "title": "Elon Musk: Tesla Will End Up With \"a Majority of All Passenger Miles on Earth\" - 24/7 Wall St.",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQR2hxVlJ2VWhxei1uMlVvZklTWVZycVdvLUpLdDNjTmd3cGtxWG5JYUhzWnI4QXk0V2FrWk1DYmM1ZVFwcGJBYlVka1FMbFN1dVNQYUg3bW9vaGd1emlQV2pTWHZiQVREemptQ1hkQ2RjOHMyRTJoenNVdDJ2c1BrZW95Y0QzdDNhTllnbTJidlJ2MHFfc1JjZkpCWkttZ2JiUWZuQ2pialBJRWFsa3RUYjNzWUZvdlFuQXpj?oc=5",
-    "source": "24/7 Wall St.",
-    "category": "CYBERCAB",
-    "published": "Thu, 22 Oct 2026 14:33:00 GMT",
-    "fetched_at": "2026-10-22T16:29:06.299658+00:00"
-  },
-  {
-    "title": "Tesla Says Robotaxi Will Lift Results Starting in 2027 - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZjJNcFF6bGU2TUdoZmZnQkZWVlZoZ1VvYVdzLW1kdFBoeFdfRmVDWFl5elVPSXB2dEVmUlFwUjNyUXhZeE9BQ1BuSndHS21ZemJxRnY0aHEtbXZLYzVwLTlzSXB1c2p1NHNlV0xWd2k1ZUg5Zy14MDR2V1NkTUhPQWhsRHdvREEzYk9nbjV6T3h5LXdXNmM4Q1NyU19sZw?oc=5",
-    "source": "Yahoo Finance",
-    "category": "CYBERCAB",
-    "published": "Thu, 22 Oct 2026 12:37:25 GMT",
-    "fetched_at": "2026-10-22T16:29:06.299642+00:00"
-  },
-  {
-    "title": "Analysts Hike Tesla Price Targets; SpaceX Merger, AI 'In Full Control' - Investor's Business Daily",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNN2dUeU9DWnlUN1VlYVFYRDhrUkpIQWpwN0NFWmlzRExSc3haTHdkZkFyZHhyN2NBOWVBdGw4OV9VQkE0OER4Q2VaeWIxakN6M1dHSU9STGoyd01EZUJ4MDhpNnJKZFhGbDhwV2k1cFpjLThrVk8zbmpReEI3SnJ0NmQwY1VaaEt2ZVFPWUVoTHA?oc=5",
-    "source": "Investor's Business Daily",
-    "category": "CYBERCAB",
-    "published": "Thu, 22 Oct 2026 13:45:00 GMT",
-    "fetched_at": "2026-10-22T16:29:06.299609+00:00"
-  },
-  {
-    "title": "Tesla posts middling Q3 results amidst positive developments - ArenaEV - ArenaEV",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWnRLdlMyNHd1WEIwNFpjUmFLdzF5R2VtdUJTM3JHT1FnZ1JVRWJ3RDBKa3NmekN3ZjRKaG9pMk1RUkhjT3hYS19UcHI3RHRSd2FzSWRYbndKQml1bnJoR0w2NVlETjF1UFlFeG00RGhsMERVQ0xRN0o5ODkwTmFrVnBSdUpkejdHMDctemoxZ1A3R0l6NXVfRHlfZVZtTDDSAZsBQVVfeXFMT2wxMVhvVk9PdWwtRnMwMWNFeVZtZDNqX0VTaHpmNkNzNVRZRWVYYldGRWtSaEJFZURWOEc0WUpYTTZDSEpaSjV6TzNobDdpUnVBeGpZbzFrcGFpTE0wZjg1SHF1VW91ZWJGREFKZlZWWW04NHpwVHZhM0NWNGplNlJRMUlvR3JhWk1SNGVCNG9uMWhHYU5hV29fOGc?oc=5",
-    "source": "ArenaEV",
-    "category": "CYBERCAB",
-    "published": "Thu, 22 Oct 2026 12:36:01 GMT",
-    "fetched_at": "2026-10-22T16:29:05.776431+00:00"
   }
 ]
