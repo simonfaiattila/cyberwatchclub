@@ -1,5 +1,85 @@
 [
   {
+    "title": "UNECE advances global road safety and autonomous vehicle regulations during high-level week in China - UNECE",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPYkUzRTFLZ21UUGZ5YnlkS0pjcjY2eEhseVlwbEtKdVJZVnZPdjRBeWFlUmt4cjZjNWthbjY0OHBiMkszSmtqNlJvb0FIbm5uZWRObEpIMFJRMHhndUZROTlzcC1Nc0JVaGx4ODBZcnBOU1BvNlFrX01TRXJXMXM2SjJidDBDM3hmTFc2OEk3YVBUWmVkNnhWbkt6em4xT3RBYmMzcmdscllBZm1VQURpVE5fNmo?oc=5",
+    "source": "UNECE",
+    "category": "REGULATION",
+    "published": "Mon, 26 Oct 2026 12:00:00 GMT",
+    "fetched_at": "2026-11-01T03:55:10.533156+00:00"
+  },
+  {
+    "title": "Facing roadblocks, China’s robotaxi darlings apply the brakes - TechCrunch",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5wczVvNjRoRzF2djBBX3JXeDlIajcxbDRmVXV5R1p0ZnZ2dlhiR3JndDBnaElUNnRiVnVJZVY0bXJ6bzBmbU91YlZyWHdBVVZFdzN0Nk1URzBOZzdrRmVQVFFBVGZIRmxGV1lGc09IbS1vbzV6?oc=5",
+    "source": "TechCrunch",
+    "category": "MONETIZATION",
+    "published": "Fri, 29 Dec 2023 08:00:00 GMT",
+    "fetched_at": "2026-11-01T03:55:09.203601+00:00"
+  },
+  {
+    "title": "Toyota and Waymo to Test Autonomous bZ4X Fleet in Japan in 2027 - Electric Cars Report",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUGU4cFM0OVU2ZS11N2xNVXhLaUhZaVlqSFRQSml1NVRUeHRTd3QyR0VHeDMtNVFhNy0zZmx2bFRtbEMxX2NwVGl3RlNES0I5ZThBNERCck5EVURBMlFsMnZ2bWQ1UWZWMXRjbkxRUFZIaTNlYTBrNkpxZ1RPTXFiejFLZDRKdw?oc=5",
+    "source": "Electric Cars Report",
+    "category": "CYBERCAB",
+    "published": "Fri, 30 Oct 2026 12:42:53 GMT",
+    "fetched_at": "2026-11-01T03:55:07.831282+00:00"
+  },
+  {
+    "title": "Toyota and Waymo Plan Initial bZ4X Robotaxi Operations in Japan in 2027 - XenoSpectrum",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Gc2VZTVg5SmcwTk0wekMwbWlCX3YzYnRpUmh2WXRRWmQwVlRBOU91djJXY01Uc2J0X242R044T2lOOGhGNXZiRnlfZVN1MGltWS1MZ3cyRmRNZ0c2UU5sYThvZUdURVJl?oc=5",
+    "source": "XenoSpectrum",
+    "category": "CYBERCAB",
+    "published": "Sat, 31 Oct 2026 06:44:35 GMT",
+    "fetched_at": "2026-11-01T03:55:07.831270+00:00"
+  },
+  {
+    "title": "After Uber Destroyed Taxi Cabs, Drivers Now Face the Existential Threat of Self-Driving Cars - Futurism",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE95STc3NHhBcm5yUkh6UWFzSGhNU2dQQkJEeU0tS3VMeV9qRnZER0JyNl9pSTdPdWVxN2huVG1UMkZkVW95OHBtQm4tNFlZLVZ5QmpjVE9NVGN1QXA2NTBvRUhoZnFzYmRiYnBldVZnRnJFTGEzaGZEY1FnZE0?oc=5",
+    "source": "Futurism",
+    "category": "CYBERCAB",
+    "published": "Sat, 31 Oct 2026 11:47:00 GMT",
+    "fetched_at": "2026-11-01T03:55:07.831168+00:00"
+  },
+  {
+    "title": "Waymo-Toyota Deal Ends Vehicle Shortage, Piecyk Says [2026] - shattered.io",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNd2JHcWxwS2ZhbGtkSmktaDg1R2o2T0hkOVNCRkxoVm56X0NFakcwbXpWZjJnVnhkbXJxWV81S1gxYkNaNWRYejR4ck9iclgxWk5LT3BYdW5Vc053UDdlRzZoS1FlRnRUeElnOG53YkZaZ2x4WTdxaVZXS0Z2YkotUVhvNEhHZTF3?oc=5",
+    "source": "shattered.io",
+    "category": "CYBERCAB",
+    "published": "Sun, 01 Nov 2026 02:31:12 GMT",
+    "fetched_at": "2026-11-01T03:55:07.831145+00:00"
+  },
+  {
+    "title": "Feds open probe into Musk's steering-wheel-free taxis a day after he began offering rides in them - AP News",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbTlDMGVOaWF4b2h4LWNydXEyZ0ZYZEN6NklCcG5BZEpGYnRNN1pPSGtLU0xxTXkzMWRrN1dfSm13QUEza1VFS2Z0Wk5Jc3paODMwZXF6am0ybGRiQ2g0RzJmTDM1WHRNOU5pNWxQMUt3ZHRHZHU1UWMxMS02WU9iU3BKUVRMZF9SaXZQYVFJY1FPTTZwTVpvd0xkVTU0UHk0bmFUQnV2MlozUVZfNWtuXzAydnVpWUtsQ2kzcVJOcURCM3hw?oc=5",
+    "source": "AP News",
+    "category": "CYBERCAB",
+    "published": "Fri, 04 Sep 2026 07:00:00 GMT",
+    "fetched_at": "2026-11-01T03:55:06.895906+00:00"
+  },
+  {
+    "title": "Tesla Cybercab Specs: 418 Miles, 293 Adjusted [2026] - shattered.io",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWmJqbDh0YVhBbmsxM1JmZm83ZWxaM0RlSWMyR3AxcjdnWktrLXUtYjlEXzJGVjhyaThvOVZEUElUTXQzUHk3UFFfeHNSRkVGS2IwLUZtVDd6NElGUWc2MWhqR2Y0X1NCNS05Y1IxRkpyT3dIdDhSUVlWNk1laDBvZTd3?oc=5",
+    "source": "shattered.io",
+    "category": "CYBERCAB",
+    "published": "Wed, 28 Oct 2026 04:12:07 GMT",
+    "fetched_at": "2026-11-01T03:55:06.895816+00:00"
+  },
+  {
+    "title": "Tesla's Cybercab Reaches Dallas in November, and Nevada Just Cleared 5,000 Robotaxis in Las Vegas. Here's the Number That Makes the Bulls Right. - The Globe and Mail",
+    "link": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxQaXFPMXp1Wld1a1VHejlZTk43LWtqeUtJNXBCak1ESXJaYkJ2bWFGdXVqV08zWmgxYzU4U01xeDE2UUI2ZFZBanBQUXRSMTJ2dXp4Rk0yWUthQ3BGTGFNQ2hNdXBNR1Q4X2szZVBwcHBoaFRIZ1lBdURZeVpTZWJaeC1QcXNrOUVSWGw5Q29aM0JTbThtdlBPYUotSFZaUHZwWDRuQUVzX0FwWTlpTUIzY2NrOXFlWl91empZSDhpdXoyTDg3cFlFbjhnX3dlRU1EVl9mYUVTMW9ucWZtSzdtUEhDb2ttS3hwcUtDZW8wVF9ORDRJb0NOTXhHaUZqdUlaMjlwcnhNQ3plMFFhS0RxanVnVGREWXZlZmh1eGVmcjFyNW1UVmY5Ukd2TUlCNll2THFSclhfRmV6YVF1VkVFQ2NB?oc=5",
+    "source": "The Globe and Mail",
+    "category": "CYBERCAB",
+    "published": "Sun, 01 Nov 2026 01:21:47 GMT",
+    "fetched_at": "2026-11-01T03:55:06.895773+00:00"
+  },
+  {
+    "title": "Tesla's Cybercab Reaches Dallas in November, and Nevada Just Cleared 5,000 Robotaxis in Las Vegas. Here's the Number That Makes the Bulls Right. - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMDB5ZHdVMmFjenVVSUdDd1VlU0ZHTDBtbkJibWJMVGV4aDFNWGdjQVNBMkx4OC1EYzFQajliM0RrSGxBeDJqNGVYUnhxVTdKNG11SE1BN195ZFhyNkx3U2UxVElCLUc2enVTaGJXeV9DcmVSazNnZVRxcTdjbm5JcFNKUk5HWi1ra0lRTXBGNUNKRjZGYWFtTg?oc=5",
+    "source": "The Motley Fool",
+    "category": "CYBERCAB",
+    "published": "Sun, 01 Nov 2026 01:09:06 GMT",
+    "fetched_at": "2026-11-01T03:55:06.895710+00:00"
+  },
+  {
     "title": "Tesla has 42 robotaxis in Texas. Waymo has 577. The gap is now public record. - The Next Web",
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWGltQm9kYUQ1R3RVTElQY19ISk5oZl9HQlo3MGtBMEI0cmlYc3RFZS1UOEpGdmdLUEpQWE1kZGRqeGR4cm1SS1JlajJkUGV6d08xc0NvYTVkNklQMURNTHFLcXJFd1FZZG9aVFVGRTNnNWJqOXpHaE1BTGJINndNUUJR?oc=5",
     "source": "The Next Web",
@@ -158,85 +238,5 @@
     "category": "CYBERCAB",
     "published": "Fri, 30 Oct 2026 15:33:37 GMT",
     "fetched_at": "2026-10-31T03:46:04.534201+00:00"
-  },
-  {
-    "title": "Waymo sets a hard number on the robotaxi race: 1 million rides a week - Startup Fortune",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTGhtMTRjMnVtQWI1cjhzR0RDeVpYNG80Zm9aSWI5anhmTWNvRkZVZmNCWlktaS1oTUlZSXlBNF9fWmJCUm56c213Q3lObS1jWDJENWZkX05rcWlQeHJlT25pakFrZG5pVHQ3b0xWejVaUjAwYkcyNlFDaVd2NU5xUDdrSjVkekRwRnFtd21MazFVTDhRbER4ZEItcjY?oc=5",
-    "source": "Startup Fortune",
-    "category": "CYBERCAB",
-    "published": "Fri, 30 Oct 2026 22:50:15 GMT",
-    "fetched_at": "2026-10-31T03:46:04.534192+00:00"
-  },
-  {
-    "title": "Waymo Is Turning Toyota’s Electric SUV Into A Driverless Robotaxi - Autoblog",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcHBST3ZDdTBXcktXVk5nSG1YS3dQVHNaRllRU2d5V2NRa2lzWVpkdVMwYkhjaFBGM2hsOUltRDVqc3hnU1ByTHhtOERXUGxzN282cVFYRVNVRHNKQklwMTlQM1NEYmdvSE5mcG1SN21GdF8xb2U0R09oRGM3MHpxaFFCMWFYeE1zZG9MYm9XOVRFRjZPR2kzaFBn?oc=5",
-    "source": "Autoblog",
-    "category": "CYBERCAB",
-    "published": "Fri, 30 Oct 2026 22:30:00 GMT",
-    "fetched_at": "2026-10-31T03:46:04.534167+00:00"
-  },
-  {
-    "title": "Tesla Could Be About to Unlock a Brand-New Revenue Stream. Time to Buy the Stock? - AOL.com",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQeWRkNHFUcHhNMnRSeV9zakJFU2FqWU11ZUllb19QaExTS2Zqd0ZOa2FjYzFhMWxkaUVJOTZPSnVOTnB2QWNRMDZRQXVsUmtQaFJtX081WjdDZ2pocGpWY2dtZ3lVeU1TcmRQQmpxX3ZXc29nXzdKa3c4ald4NXhOS0xR?oc=5",
-    "source": "AOL.com",
-    "category": "CYBERCAB",
-    "published": "Fri, 30 Oct 2026 17:09:01 GMT",
-    "fetched_at": "2026-10-31T03:46:03.847441+00:00"
-  },
-  {
-    "title": "Rivian Raises Delivery Guidance to 67K-70K: Why [2026] - https://tech-insider.org/",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZGdVa0RiNE04OGZ1S3pKQ0hDS2E4R2loZEZpbUlhQzdLY1Uwb1hhSkNuMmNSZ3daeHdUUkk5NmxDRTBlemoyYmY5c1ZIMlFFa2l1eGpLR2ZhUk5DQS16Y0QyNVpUZkRFQWdhMHJPTjlvQzBBbmhDVGVNTzNOUlhId2g3Q0RSempVU2xHQlp6MEFSeHZ5aFQwS3Zn?oc=5",
-    "source": "https://tech-insider.org/",
-    "category": "CYBERCAB",
-    "published": "Sat, 31 Oct 2026 01:20:53 GMT",
-    "fetched_at": "2026-10-31T03:46:03.847415+00:00"
-  },
-  {
-    "title": "Stocktwits Zero To Sixty: Rivian Raises Delivery Guidance On R2 Demand, Tesla Expands Robotaxi Fleet, And Ford Advances Low-Cost EV Plans - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPLXhSVXdhZ1RNRVdGbWFtSFN4dWtMWTFHS1FqYlRGZFVVSDFpc3lYTFRXZy1WV0Z3MzdockdxVi1ndDJTLXpoZjlSMXI5Yl9vRkl5blp0cDVuUF9kWmx2RkVBWDVreXo5UnhNUGR0T0NLWHo0UmNvV2hXQmh5WjI1SG5LSEwwbzNZZnlocTh6YV9uTGpYY3ctb0RrRktWTjJoQWc?oc=5",
-    "source": "Yahoo Finance",
-    "category": "CYBERCAB",
-    "published": "Sat, 31 Oct 2026 00:10:00 GMT",
-    "fetched_at": "2026-10-31T03:46:03.847391+00:00"
-  },
-  {
-    "title": "F1 champion Nico Rosberg praises Tesla FSD as \"life changing\" - Drive Tesla Canada",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONzRhWVo3dFdrTGg4a29oRWkwR2k5SkJWaTBPZE94aVdpX1lrbWJTOXR5OTlnZm44YXB4Q3h2VU9wVnhYZE1MbjJBb0djd3dFLUJEb1JBcXg2eDBBOGo0WEVFU3NDTFh6SlBpdFpwdElZbW9MbVMyYS1weWVmQ2d4dUNjb1VQc1Q2?oc=5",
-    "source": "Drive Tesla Canada",
-    "category": "CYBERCAB",
-    "published": "Fri, 30 Oct 2026 16:54:22 GMT",
-    "fetched_at": "2026-10-31T03:46:03.381947+00:00"
-  },
-  {
-    "title": "Tesla Stocks Move Lower With Cybercab Certification Response Due Today - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWTg3d2xFc3ZQLXVBdVM4eHdmY1NidDBrREFGMjJ3eUd6dlhUSi1OLXRtWWZOVUNOc2ROTmdQaEg0eHE2eDZwUmF4eVFLR1pZWWNSa0x2eVB1MWlfbjJITEowRU9KaWpCTWphdmFMNEVyLWtaelpRRU1Ta3RGZ2FMTDhkeUdwVlRsd19NNmRGWDNWb1JDS2V0SWNubnBWZw?oc=5",
-    "source": "Yahoo Finance",
-    "category": "CYBERCAB",
-    "published": "Fri, 30 Oct 2026 19:06:52 GMT",
-    "fetched_at": "2026-10-31T03:46:03.381869+00:00"
-  },
-  {
-    "title": "California Lawmakers and Drivers Pressure Regulators to Reign In Autonomous Vehicles - KQED",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZDdpcUlWY0pFNUlhd25tdDc5d3lIdjNuTkR5eGE1WGVxTmQ3NW16T3B1RlJucEV0UGw0Y285OWxvYUxvMGNVcHBuenpTNWZ4ZzU4VE9FUmE1Wjl1X2Zzc0U1ZzZWaTZjZk1Sb2lIcmJScXRXSFVUdDh4OFctTk5HbjJUZzdSZDBiQUJmaVRiVzdaeEJTUTZyNXN4ZGwtMWtNN0poWmQ4WGltcWhvY1hlQ1FrMWNXOWpoTWNzOE5VYw?oc=5",
-    "source": "KQED",
-    "category": "REGULATION",
-    "published": "Fri, 30 Oct 2026 21:39:44 GMT",
-    "fetched_at": "2026-10-30T21:53:04.467829+00:00"
-  },
-  {
-    "title": "NHTSA Proposes Optional Cyan Lamps for Driverless Vehicles - teslahubs.com",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMkNqVlFFMS1POVB2QzI1V1BJNjdJQlU1cGRhcE9OM2FqMFdTVmpoS1JJd3VBa0VXY09hSjEtQnljVS0wQUlYdy1sYzFNMkRhVDFEWHJkd0xDTVlUUXdDb24tdk15OEFvUlFJZ04xbGJ4bWQ4cFA5eGUtWnVXNDlDWW5WRV92TVMxMkhMNk50aUwtdThqVUE?oc=5",
-    "source": "teslahubs.com",
-    "category": "SAFETY",
-    "published": "Sun, 25 Oct 2026 17:01:14 GMT",
-    "fetched_at": "2026-10-30T21:53:03.909708+00:00"
-  },
-  {
-    "title": "NHTSA Proposes an Optional Cyan ADS Marker Lamp in FMVSS 108 - The Weekly Driver",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB6bVZwZm5pNElTWDJ5UENyWlBlS2ZpU3JQYVlTdGlpdEpSVk85dThBcGVsVUF3UGJ5b05xeXpQeXppTVNIemVjcEVzTjRsLWpZWXBva2huRVU2c2xKM1pod050eHNseVhGTFljSW9TWEIyVWF0U3E0NUp4YldIQXc?oc=5",
-    "source": "The Weekly Driver",
-    "category": "SAFETY",
-    "published": "Mon, 26 Oct 2026 07:00:00 GMT",
-    "fetched_at": "2026-10-30T21:53:03.909642+00:00"
   }
 ]
